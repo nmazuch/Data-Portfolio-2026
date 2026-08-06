@@ -1,2 +1,12 @@
-# Data-Portfolio-2026
-My journey from ETL Developer to Data Engineer / BI Developer. Projects built with SQL, Microsoft Fabric, Power BI, Python and AI.
+# Data Portfolio 2026
+
+## Goal
+
+Become a Data Engineer / BI Developer by building practical projects.
+
+Technologies:
+- SQL
+- Microsoft Fabric
+- Power BI
+- Python
+- AI

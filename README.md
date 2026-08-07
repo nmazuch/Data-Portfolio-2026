@@ -17,8 +17,6 @@ Here I share selected projects covering data analysis, business intelligence, SQ
 - SQL
 - Python
 - Power BI
-- Microsoft Fabric
-- Metabase
 - Docker
 - n8n
 - Supabase

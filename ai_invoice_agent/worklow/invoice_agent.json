@@ -115,12 +115,12 @@
     {
       "parameters": {
         "fromEmail": "natalia_projekt@test-zkq340erdw3gd796.mlsender.net",
-        "toEmail": "nmazuch@gmail.com",
+        "toEmail": "your-email@example.com",
         "subject": "=Raport FinSight ",
         "html": "={{ $('Code in JavaScript').item.json.html_report }}",
         "options": {
           "appendAttribution": false,
-          "replyTo": "nmazuch@gmail.com"
+          "replyTo": "your-email@example.com"
         }
       },
       "type": "n8n-nodes-base.emailSend",
@@ -184,7 +184,7 @@
     {
       "parameters": {
         "fromEmail": "checkReport@test-zkq340erdw3gd796.mlsender.net",
-        "toEmail": "nmazuch@gmail.com",
+        "toEmail": "your-email@example.com",
         "subject": "=[DO WERYFIKACJI] Raport FinSight - {{ $json.generated_at }}",
         "html": "=<p style=\"font-family:Arial;font-size:14px;color:#1e3a5f;\">\nRaport został wygenerowany i oczekuje na Twoją akceptację.\n</p>\n<p style=\"font-family:Arial;font-size:13px;color:#555;\">\nPrzejdź do chatu n8n i wpisz <strong>zatwierdź</strong> lub <strong>odrzuć</strong>.\n</p>\n<hr style=\"border:1px solid #d4af37;margin:20px 0;\">\n{{ $json.html_report }}",
         "options": {}

@@ -1,0 +1,7352 @@
+[
+  {
+    "event_id": "H_JFK26_OVERALL",
+    "sex": "W",
+    "idp": "LR3MS4JI5260FF_JFK",
+    "detail_url": "https://results.hyrox.com/season-8/?content=detail&fpid=list&pid=list&idp=LR3MS4JI5260FF_JFK&lang=EN_CAP&event=H_JFK26_OVERALL&pidp=ranking_nav&ranking=time_finish_netto&search%5Bsex%5D=W&search%5Bage_class%5D=%25&search_event=H_JFK26_OVERALL",
+    "rank": 1,
+    "age_group": "25-29",
+    "member": "Seeland, Esther",
+    "total": "01:01:24",
+    "individual_details": [
+      {
+        "title": "Participant",
+        "items": {
+          "Name": "Seeland, Esther",
+          "Bib Number": "154026",
+          "Age Group": "25-29",
+          "Nat": "USA"
+        }
+      },
+      {
+        "title": "Race Details",
+        "items": {
+          "Race": "2026 New York",
+          "Division": "HYROX - Overall"
+        }
+      },
+      {
+        "title": "Judging Decision",
+        "items": {
+          "*Bonus": null,
+          "*Penalty": null,
+          "Disqual Reason": null,
+          "Info": null
+        }
+      },
+      {
+        "title": "Overall Time",
+        "items": {
+          "Rank (M/W)": "1",
+          "Rank (AG)": "1",
+          "Overall Time": "01:01:24"
+        }
+      }
+    ],
+    "workout_summary": [
+      {
+        "Split": "Running 1",
+        "Time": "00:04:17",
+        "Place": null
+      },
+      {
+        "Split": "1000m SkiErg",
+        "Time": "00:04:23",
+        "Place": "8"
+      },
+      {
+        "Split": "Running 2",
+        "Time": "00:03:37",
+        "Place": null
+      },
+      {
+        "Split": "50m Sled Push",
+        "Time": "00:01:53",
+        "Place": "20"
+      },
+      {
+        "Split": "Running 3",
+        "Time": "00:03:43",
+        "Place": null
+      },
+      {
+        "Split": "50m Sled Pull",
+        "Time": "00:03:44",
+        "Place": "12"
+      },
+      {
+        "Split": "Running 4",
+        "Time": "00:03:39",
+        "Place": null
+      },
+      {
+        "Split": "80m Burpee Broad Jump",
+        "Time": "00:04:02",
+        "Place": "20"
+      },
+      {
+        "Split": "Running 5",
+        "Time": "00:03:45",
+        "Place": null
+      },
+      {
+        "Split": "1000m Row",
+        "Time": "00:04:24",
+        "Place": "2"
+      },
+      {
+        "Split": "Running 6",
+        "Time": "00:03:40",
+        "Place": null
+      },
+      {
+        "Split": "200m Farmers Carry",
+        "Time": "00:01:50",
+        "Place": "24"
+      },
+      {
+        "Split": "Running 7",
+        "Time": "00:03:39",
+        "Place": null
+      },
+      {
+        "Split": "100m Sandbag Lunges",
+        "Time": "00:02:55",
+        "Place": "16"
+      },
+      {
+        "Split": "Running 8",
+        "Time": "00:04:37",
+        "Place": null
+      },
+      {
+        "Split": "Wall Balls",
+        "Time": "00:04:01",
+        "Place": "13"
+      },
+      {
+        "Split": "Roxzone Time",
+        "Time": "00:03:25",
+        "Place": null
+      },
+      {
+        "Split": "Run Total",
+        "Time": "00:30:53",
+        "Place": "1"
+      },
+      {
+        "Split": "Best Run Lap",
+        "Time": "00:03:37",
+        "Place": "4"
+      }
+    ],
+    "race_replay": [
+      {
+        "Split": "Rox In",
+        "Time": "00:04:17",
+        "Diff": "04:17"
+      },
+      {
+        "Split": "1000m SkiErg In",
+        "Time": "00:04:21",
+        "Diff": "00:04"
+      },
+      {
+        "Split": "1000m SkiErg Out",
+        "Time": "00:08:43",
+        "Diff": "04:22"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:08:46",
+        "Diff": "00:03"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:12:23",
+        "Diff": "03:37"
+      },
+      {
+        "Split": "50m Sled Push In",
+        "Time": "00:12:40",
+        "Diff": "00:17"
+      },
+      {
+        "Split": "50m Sled Push Out",
+        "Time": "00:14:32",
+        "Diff": "01:52"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:14:50",
+        "Diff": "00:18"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:18:32",
+        "Diff": "03:42"
+      },
+      {
+        "Split": "50m Sled Pull In",
+        "Time": "00:18:46",
+        "Diff": "00:14"
+      },
+      {
+        "Split": "50m Sled Pull Out",
+        "Time": "00:22:29",
+        "Diff": "03:43"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:22:45",
+        "Diff": "00:16"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:26:24",
+        "Diff": "03:39"
+      },
+      {
+        "Split": "80m Burpee Broad Jump In",
+        "Time": "00:26:51",
+        "Diff": "00:27"
+      },
+      {
+        "Split": "80m Burpee Broad Jump Out",
+        "Time": "00:30:52",
+        "Diff": "04:01"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:31:02",
+        "Diff": "00:10"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:34:46",
+        "Diff": "03:44"
+      },
+      {
+        "Split": "1000m Row In",
+        "Time": "00:34:50",
+        "Diff": "00:04"
+      },
+      {
+        "Split": "1000m Row Out",
+        "Time": "00:39:14",
+        "Diff": "04:24"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:39:33",
+        "Diff": "00:19"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:43:12",
+        "Diff": "03:39"
+      },
+      {
+        "Split": "200m Farmers Carry In",
+        "Time": "00:43:29",
+        "Diff": "00:17"
+      },
+      {
+        "Split": "200m Farmers Carry Out",
+        "Time": "00:45:18",
+        "Diff": "01:49"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:45:41",
+        "Diff": "00:23"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:49:19",
+        "Diff": "03:38"
+      },
+      {
+        "Split": "100m Sandbag Lunges In",
+        "Time": "00:49:33",
+        "Diff": "00:14"
+      },
+      {
+        "Split": "100m Sandbag Lunges Out",
+        "Time": "00:52:27",
+        "Diff": "02:54"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:52:48",
+        "Diff": "00:21"
+      },
+      {
+        "Split": "Wall Balls In",
+        "Time": "00:57:24",
+        "Diff": "04:36"
+      },
+      {
+        "Split": "Total",
+        "Time": "01:01:24",
+        "Diff": "04:00"
+      }
+    ]
+  },
+  {
+    "event_id": "H_JFK26_OVERALL",
+    "sex": "W",
+    "idp": "LR3MS4JI5296B8_JFK",
+    "detail_url": "https://results.hyrox.com/season-8/?content=detail&fpid=list&pid=list&idp=LR3MS4JI5296B8_JFK&lang=EN_CAP&event=H_JFK26_OVERALL&pidp=ranking_nav&ranking=time_finish_netto&search%5Bsex%5D=W&search%5Bage_class%5D=%25&search_event=H_JFK26_OVERALL",
+    "rank": 2,
+    "age_group": "16-24",
+    "member": "Abbonizio, Grace",
+    "total": "01:05:28",
+    "individual_details": [
+      {
+        "title": "Participant",
+        "items": {
+          "Name": "Abbonizio, Grace",
+          "Bib Number": "124014",
+          "Age Group": "16-24",
+          "Nat": "USA"
+        }
+      },
+      {
+        "title": "Race Details",
+        "items": {
+          "Race": "2026 New York",
+          "Division": "HYROX - Overall"
+        }
+      },
+      {
+        "title": "Judging Decision",
+        "items": {
+          "*Bonus": null,
+          "*Penalty": null,
+          "Disqual Reason": null,
+          "Info": null
+        }
+      },
+      {
+        "title": "Overall Time",
+        "items": {
+          "Rank (M/W)": "2",
+          "Rank (AG)": "1",
+          "Overall Time": "01:05:28"
+        }
+      }
+    ],
+    "workout_summary": [
+      {
+        "Split": "Running 1",
+        "Time": "00:04:29",
+        "Place": null
+      },
+      {
+        "Split": "1000m SkiErg",
+        "Time": "00:04:50",
+        "Place": "61"
+      },
+      {
+        "Split": "Running 2",
+        "Time": "00:04:01",
+        "Place": null
+      },
+      {
+        "Split": "50m Sled Push",
+        "Time": "00:02:06",
+        "Place": "35"
+      },
+      {
+        "Split": "Running 3",
+        "Time": "00:04:02",
+        "Place": null
+      },
+      {
+        "Split": "50m Sled Pull",
+        "Time": "00:03:19",
+        "Place": "1"
+      },
+      {
+        "Split": "Running 4",
+        "Time": "00:04:11",
+        "Place": null
+      },
+      {
+        "Split": "80m Burpee Broad Jump",
+        "Time": "00:03:25",
+        "Place": "4"
+      },
+      {
+        "Split": "Running 5",
+        "Time": "00:04:13",
+        "Place": null
+      },
+      {
+        "Split": "1000m Row",
+        "Time": "00:04:48",
+        "Place": "13"
+      },
+      {
+        "Split": "Running 6",
+        "Time": "00:04:06",
+        "Place": null
+      },
+      {
+        "Split": "200m Farmers Carry",
+        "Time": "00:01:31",
+        "Place": "3"
+      },
+      {
+        "Split": "Running 7",
+        "Time": "00:04:12",
+        "Place": null
+      },
+      {
+        "Split": "100m Sandbag Lunges",
+        "Time": "00:03:07",
+        "Place": "4"
+      },
+      {
+        "Split": "Running 8",
+        "Time": "00:05:10",
+        "Place": null
+      },
+      {
+        "Split": "Wall Balls",
+        "Time": "00:04:13",
+        "Place": "9"
+      },
+      {
+        "Split": "Roxzone Time",
+        "Time": "00:03:52",
+        "Place": null
+      },
+      {
+        "Split": "Run Total",
+        "Time": "00:34:21",
+        "Place": "3"
+      },
+      {
+        "Split": "Best Run Lap",
+        "Time": "00:04:01",
+        "Place": "5"
+      }
+    ],
+    "race_replay": [
+      {
+        "Split": "Rox In",
+        "Time": "00:04:29",
+        "Diff": "04:29"
+      },
+      {
+        "Split": "1000m SkiErg In",
+        "Time": "00:04:34",
+        "Diff": "00:05"
+      },
+      {
+        "Split": "1000m SkiErg Out",
+        "Time": "00:09:23",
+        "Diff": "04:49"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:09:27",
+        "Diff": "00:04"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:13:28",
+        "Diff": "04:01"
+      },
+      {
+        "Split": "50m Sled Push In",
+        "Time": "00:13:46",
+        "Diff": "00:18"
+      },
+      {
+        "Split": "50m Sled Push Out",
+        "Time": "00:15:51",
+        "Diff": "02:05"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:16:09",
+        "Diff": "00:18"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:20:11",
+        "Diff": "04:02"
+      },
+      {
+        "Split": "50m Sled Pull In",
+        "Time": "00:20:25",
+        "Diff": "00:14"
+      },
+      {
+        "Split": "50m Sled Pull Out",
+        "Time": "00:23:43",
+        "Diff": "03:18"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:24:04",
+        "Diff": "00:21"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:28:14",
+        "Diff": "04:10"
+      },
+      {
+        "Split": "80m Burpee Broad Jump In",
+        "Time": "00:28:43",
+        "Diff": "00:29"
+      },
+      {
+        "Split": "80m Burpee Broad Jump Out",
+        "Time": "00:32:08",
+        "Diff": "03:25"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:32:21",
+        "Diff": "00:13"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:36:34",
+        "Diff": "04:13"
+      },
+      {
+        "Split": "1000m Row In",
+        "Time": "00:36:38",
+        "Diff": "00:04"
+      },
+      {
+        "Split": "1000m Row Out",
+        "Time": "00:41:26",
+        "Diff": "04:48"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:41:47",
+        "Diff": "00:21"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:45:52",
+        "Diff": "04:05"
+      },
+      {
+        "Split": "200m Farmers Carry In",
+        "Time": "00:46:10",
+        "Diff": "00:18"
+      },
+      {
+        "Split": "200m Farmers Carry Out",
+        "Time": "00:47:41",
+        "Diff": "01:31"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:48:08",
+        "Diff": "00:27"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:52:20",
+        "Diff": "04:12"
+      },
+      {
+        "Split": "100m Sandbag Lunges In",
+        "Time": "00:52:39",
+        "Diff": "00:19"
+      },
+      {
+        "Split": "100m Sandbag Lunges Out",
+        "Time": "00:55:46",
+        "Diff": "03:07"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:56:06",
+        "Diff": "00:20"
+      },
+      {
+        "Split": "Wall Balls In",
+        "Time": "01:01:15",
+        "Diff": "05:09"
+      },
+      {
+        "Split": "Total",
+        "Time": "01:05:28",
+        "Diff": "04:13"
+      }
+    ]
+  },
+  {
+    "event_id": "H_JFK26_OVERALL",
+    "sex": "W",
+    "idp": "LR3MS4JI5266ED_JFK",
+    "detail_url": "https://results.hyrox.com/season-8/?content=detail&fpid=list&pid=list&idp=LR3MS4JI5266ED_JFK&lang=EN_CAP&event=H_JFK26_OVERALL&pidp=ranking_nav&ranking=time_finish_netto&search%5Bsex%5D=W&search%5Bage_class%5D=%25&search_event=H_JFK26_OVERALL",
+    "rank": 3,
+    "age_group": "30-34",
+    "member": "Royer, Kaylee",
+    "total": "01:05:39",
+    "individual_details": [
+      {
+        "title": "Participant",
+        "items": {
+          "Name": "Royer, Kaylee",
+          "Bib Number": "125005",
+          "Age Group": "30-34",
+          "Nat": "USA"
+        }
+      },
+      {
+        "title": "Race Details",
+        "items": {
+          "Race": "2026 New York",
+          "Division": "HYROX - Overall"
+        }
+      },
+      {
+        "title": "Judging Decision",
+        "items": {
+          "*Bonus": null,
+          "*Penalty": null,
+          "Disqual Reason": null,
+          "Info": null
+        }
+      },
+      {
+        "title": "Overall Time",
+        "items": {
+          "Rank (M/W)": "3",
+          "Rank (AG)": "1",
+          "Overall Time": "01:05:39"
+        }
+      }
+    ],
+    "workout_summary": [
+      {
+        "Split": "Running 1",
+        "Time": "00:04:00",
+        "Place": null
+      },
+      {
+        "Split": "1000m SkiErg",
+        "Time": "00:04:30",
+        "Place": "17"
+      },
+      {
+        "Split": "Running 2",
+        "Time": "00:03:48",
+        "Place": null
+      },
+      {
+        "Split": "50m Sled Push",
+        "Time": "00:02:21",
+        "Place": "189"
+      },
+      {
+        "Split": "Running 3",
+        "Time": "00:03:47",
+        "Place": null
+      },
+      {
+        "Split": "50m Sled Pull",
+        "Time": "00:04:05",
+        "Place": "66"
+      },
+      {
+        "Split": "Running 4",
+        "Time": "00:03:49",
+        "Place": null
+      },
+      {
+        "Split": "80m Burpee Broad Jump",
+        "Time": "00:04:32",
+        "Place": "58"
+      },
+      {
+        "Split": "Running 5",
+        "Time": "00:04:00",
+        "Place": null
+      },
+      {
+        "Split": "1000m Row",
+        "Time": "00:04:41",
+        "Place": "9"
+      },
+      {
+        "Split": "Running 6",
+        "Time": "00:03:52",
+        "Place": null
+      },
+      {
+        "Split": "200m Farmers Carry",
+        "Time": "00:01:56",
+        "Place": "40"
+      },
+      {
+        "Split": "Running 7",
+        "Time": "00:03:55",
+        "Place": null
+      },
+      {
+        "Split": "100m Sandbag Lunges",
+        "Time": "00:03:33",
+        "Place": "28"
+      },
+      {
+        "Split": "Running 8",
+        "Time": "00:04:43",
+        "Place": null
+      },
+      {
+        "Split": "Wall Balls",
+        "Time": "00:04:55",
+        "Place": "66"
+      },
+      {
+        "Split": "Roxzone Time",
+        "Time": "00:03:20",
+        "Place": null
+      },
+      {
+        "Split": "Run Total",
+        "Time": "00:31:50",
+        "Place": "1"
+      },
+      {
+        "Split": "Best Run Lap",
+        "Time": "00:03:47",
+        "Place": "3"
+      }
+    ],
+    "race_replay": [
+      {
+        "Split": "Rox In",
+        "Time": "00:04:00",
+        "Diff": "04:00"
+      },
+      {
+        "Split": "1000m SkiErg In",
+        "Time": "00:04:04",
+        "Diff": "00:04"
+      },
+      {
+        "Split": "1000m SkiErg Out",
+        "Time": "00:08:33",
+        "Diff": "04:29"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:08:37",
+        "Diff": "00:04"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:12:24",
+        "Diff": "03:47"
+      },
+      {
+        "Split": "50m Sled Push In",
+        "Time": "00:12:41",
+        "Diff": "00:17"
+      },
+      {
+        "Split": "50m Sled Push Out",
+        "Time": "00:15:02",
+        "Diff": "02:21"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:15:19",
+        "Diff": "00:17"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:19:06",
+        "Diff": "03:47"
+      },
+      {
+        "Split": "50m Sled Pull In",
+        "Time": "00:19:19",
+        "Diff": "00:13"
+      },
+      {
+        "Split": "50m Sled Pull Out",
+        "Time": "00:23:24",
+        "Diff": "04:05"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:23:39",
+        "Diff": "00:15"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:27:27",
+        "Diff": "03:48"
+      },
+      {
+        "Split": "80m Burpee Broad Jump In",
+        "Time": "00:27:47",
+        "Diff": "00:20"
+      },
+      {
+        "Split": "80m Burpee Broad Jump Out",
+        "Time": "00:32:18",
+        "Diff": "04:31"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:32:29",
+        "Diff": "00:11"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:36:29",
+        "Diff": "04:00"
+      },
+      {
+        "Split": "1000m Row In",
+        "Time": "00:36:33",
+        "Diff": "00:04"
+      },
+      {
+        "Split": "1000m Row Out",
+        "Time": "00:41:14",
+        "Diff": "04:41"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:41:31",
+        "Diff": "00:17"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:45:23",
+        "Diff": "03:52"
+      },
+      {
+        "Split": "200m Farmers Carry In",
+        "Time": "00:45:41",
+        "Diff": "00:18"
+      },
+      {
+        "Split": "200m Farmers Carry Out",
+        "Time": "00:47:36",
+        "Diff": "01:55"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:47:58",
+        "Diff": "00:22"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:51:53",
+        "Diff": "03:55"
+      },
+      {
+        "Split": "100m Sandbag Lunges In",
+        "Time": "00:52:10",
+        "Diff": "00:17"
+      },
+      {
+        "Split": "100m Sandbag Lunges Out",
+        "Time": "00:55:43",
+        "Diff": "03:33"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:56:02",
+        "Diff": "00:19"
+      },
+      {
+        "Split": "Wall Balls In",
+        "Time": "01:00:45",
+        "Diff": "04:43"
+      },
+      {
+        "Split": "Total",
+        "Time": "01:05:39",
+        "Diff": "04:54"
+      }
+    ]
+  },
+  {
+    "event_id": "H_JFK26_OVERALL",
+    "sex": "W",
+    "idp": "LR3MS4JI528192_JFK",
+    "detail_url": "https://results.hyrox.com/season-8/?content=detail&fpid=list&pid=list&idp=LR3MS4JI528192_JFK&lang=EN_CAP&event=H_JFK26_OVERALL&pidp=ranking_nav&ranking=time_finish_netto&search%5Bsex%5D=W&search%5Bage_class%5D=%25&search_event=H_JFK26_OVERALL",
+    "rank": 4,
+    "age_group": "25-29",
+    "member": "Bartosh, Grace",
+    "total": "01:05:52",
+    "individual_details": [
+      {
+        "title": "Participant",
+        "items": {
+          "Name": "Bartosh, Grace",
+          "Bib Number": "123005",
+          "Age Group": "25-29",
+          "Nat": "USA"
+        }
+      },
+      {
+        "title": "Race Details",
+        "items": {
+          "Race": "2026 New York",
+          "Division": "HYROX - Overall"
+        }
+      },
+      {
+        "title": "Judging Decision",
+        "items": {
+          "*Bonus": null,
+          "*Penalty": null,
+          "Disqual Reason": null,
+          "Info": null
+        }
+      },
+      {
+        "title": "Overall Time",
+        "items": {
+          "Rank (M/W)": "4",
+          "Rank (AG)": "2",
+          "Overall Time": "01:05:52"
+        }
+      }
+    ],
+    "workout_summary": [
+      {
+        "Split": "Running 1",
+        "Time": "00:03:56",
+        "Place": null
+      },
+      {
+        "Split": "1000m SkiErg",
+        "Time": "00:04:31",
+        "Place": "26"
+      },
+      {
+        "Split": "Running 2",
+        "Time": "00:03:46",
+        "Place": null
+      },
+      {
+        "Split": "50m Sled Push",
+        "Time": "00:02:05",
+        "Place": "65"
+      },
+      {
+        "Split": "Running 3",
+        "Time": "00:04:08",
+        "Place": null
+      },
+      {
+        "Split": "50m Sled Pull",
+        "Time": "00:04:06",
+        "Place": "65"
+      },
+      {
+        "Split": "Running 4",
+        "Time": "00:04:04",
+        "Place": null
+      },
+      {
+        "Split": "80m Burpee Broad Jump",
+        "Time": "00:03:51",
+        "Place": "11"
+      },
+      {
+        "Split": "Running 5",
+        "Time": "00:04:11",
+        "Place": null
+      },
+      {
+        "Split": "1000m Row",
+        "Time": "00:04:47",
+        "Place": "21"
+      },
+      {
+        "Split": "Running 6",
+        "Time": "00:04:11",
+        "Place": null
+      },
+      {
+        "Split": "200m Farmers Carry",
+        "Time": "00:01:36",
+        "Place": "3"
+      },
+      {
+        "Split": "Running 7",
+        "Time": "00:04:20",
+        "Place": null
+      },
+      {
+        "Split": "100m Sandbag Lunges",
+        "Time": "00:02:55",
+        "Place": "18"
+      },
+      {
+        "Split": "Running 8",
+        "Time": "00:05:08",
+        "Place": null
+      },
+      {
+        "Split": "Wall Balls",
+        "Time": "00:04:19",
+        "Place": "31"
+      },
+      {
+        "Split": "Roxzone Time",
+        "Time": "00:04:06",
+        "Place": null
+      },
+      {
+        "Split": "Run Total",
+        "Time": "00:33:41",
+        "Place": "2"
+      },
+      {
+        "Split": "Best Run Lap",
+        "Time": "00:03:46",
+        "Place": "5"
+      }
+    ],
+    "race_replay": [
+      {
+        "Split": "Rox In",
+        "Time": "00:03:56",
+        "Diff": "03:56"
+      },
+      {
+        "Split": "1000m SkiErg In",
+        "Time": "00:03:59",
+        "Diff": "00:03"
+      },
+      {
+        "Split": "1000m SkiErg Out",
+        "Time": "00:08:29",
+        "Diff": "04:30"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:08:33",
+        "Diff": "00:04"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:12:18",
+        "Diff": "03:45"
+      },
+      {
+        "Split": "50m Sled Push In",
+        "Time": "00:12:53",
+        "Diff": "00:35"
+      },
+      {
+        "Split": "50m Sled Push Out",
+        "Time": "00:14:57",
+        "Diff": "02:04"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:15:16",
+        "Diff": "00:19"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:19:23",
+        "Diff": "04:07"
+      },
+      {
+        "Split": "50m Sled Pull In",
+        "Time": "00:19:38",
+        "Diff": "00:15"
+      },
+      {
+        "Split": "50m Sled Pull Out",
+        "Time": "00:23:44",
+        "Diff": "04:06"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:24:02",
+        "Diff": "00:18"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:28:05",
+        "Diff": "04:03"
+      },
+      {
+        "Split": "80m Burpee Broad Jump In",
+        "Time": "00:28:32",
+        "Diff": "00:27"
+      },
+      {
+        "Split": "80m Burpee Broad Jump Out",
+        "Time": "00:32:23",
+        "Diff": "03:51"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:32:32",
+        "Diff": "00:09"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:36:43",
+        "Diff": "04:11"
+      },
+      {
+        "Split": "1000m Row In",
+        "Time": "00:36:47",
+        "Diff": "00:04"
+      },
+      {
+        "Split": "1000m Row Out",
+        "Time": "00:41:34",
+        "Diff": "04:47"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:42:01",
+        "Diff": "00:27"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:46:11",
+        "Diff": "04:10"
+      },
+      {
+        "Split": "200m Farmers Carry In",
+        "Time": "00:46:28",
+        "Diff": "00:17"
+      },
+      {
+        "Split": "200m Farmers Carry Out",
+        "Time": "00:48:03",
+        "Diff": "01:35"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:48:33",
+        "Diff": "00:30"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:52:52",
+        "Diff": "04:19"
+      },
+      {
+        "Split": "100m Sandbag Lunges In",
+        "Time": "00:53:10",
+        "Diff": "00:18"
+      },
+      {
+        "Split": "100m Sandbag Lunges Out",
+        "Time": "00:56:05",
+        "Diff": "02:55"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:56:26",
+        "Diff": "00:21"
+      },
+      {
+        "Split": "Wall Balls In",
+        "Time": "01:01:34",
+        "Diff": "05:08"
+      },
+      {
+        "Split": "Total",
+        "Time": "01:05:52",
+        "Diff": "04:18"
+      }
+    ]
+  },
+  {
+    "event_id": "H_JFK26_OVERALL",
+    "sex": "W",
+    "idp": "LR3MS4JI5250D0_JFK",
+    "detail_url": "https://results.hyrox.com/season-8/?content=detail&fpid=list&pid=list&idp=LR3MS4JI5250D0_JFK&lang=EN_CAP&event=H_JFK26_OVERALL&pidp=ranking_nav&ranking=time_finish_netto&search%5Bsex%5D=W&search%5Bage_class%5D=%25&search_event=H_JFK26_OVERALL",
+    "rank": 5,
+    "age_group": "30-34",
+    "member": "Cymerman, Amy",
+    "total": "01:07:23",
+    "individual_details": [
+      {
+        "title": "Participant",
+        "items": {
+          "Name": "Cymerman, Amy",
+          "Bib Number": "152001",
+          "Age Group": "30-34",
+          "Nat": "USA"
+        }
+      },
+      {
+        "title": "Race Details",
+        "items": {
+          "Race": "2026 New York",
+          "Division": "HYROX - Overall"
+        }
+      },
+      {
+        "title": "Judging Decision",
+        "items": {
+          "*Bonus": null,
+          "*Penalty": null,
+          "Disqual Reason": null,
+          "Info": null
+        }
+      },
+      {
+        "title": "Overall Time",
+        "items": {
+          "Rank (M/W)": "5",
+          "Rank (AG)": "2",
+          "Overall Time": "01:07:23"
+        }
+      }
+    ],
+    "workout_summary": [
+      {
+        "Split": "Running 1",
+        "Time": "00:04:09",
+        "Place": null
+      },
+      {
+        "Split": "1000m SkiErg",
+        "Time": "00:04:40",
+        "Place": "51"
+      },
+      {
+        "Split": "Running 2",
+        "Time": "00:03:53",
+        "Place": null
+      },
+      {
+        "Split": "50m Sled Push",
+        "Time": "00:02:00",
+        "Place": "39"
+      },
+      {
+        "Split": "Running 3",
+        "Time": "00:03:49",
+        "Place": null
+      },
+      {
+        "Split": "50m Sled Pull",
+        "Time": "00:03:35",
+        "Place": "12"
+      },
+      {
+        "Split": "Running 4",
+        "Time": "00:03:59",
+        "Place": null
+      },
+      {
+        "Split": "80m Burpee Broad Jump",
+        "Time": "00:04:11",
+        "Place": "26"
+      },
+      {
+        "Split": "Running 5",
+        "Time": "00:04:07",
+        "Place": null
+      },
+      {
+        "Split": "1000m Row",
+        "Time": "00:04:36",
+        "Place": "2"
+      },
+      {
+        "Split": "Running 6",
+        "Time": "00:04:02",
+        "Place": null
+      },
+      {
+        "Split": "200m Farmers Carry",
+        "Time": "00:02:04",
+        "Place": "89"
+      },
+      {
+        "Split": "Running 7",
+        "Time": "00:03:55",
+        "Place": null
+      },
+      {
+        "Split": "100m Sandbag Lunges",
+        "Time": "00:03:13",
+        "Place": "16"
+      },
+      {
+        "Split": "Running 8",
+        "Time": "00:04:55",
+        "Place": null
+      },
+      {
+        "Split": "Wall Balls",
+        "Time": "00:05:37",
+        "Place": "185"
+      },
+      {
+        "Split": "Roxzone Time",
+        "Time": "00:04:47",
+        "Place": null
+      },
+      {
+        "Split": "Run Total",
+        "Time": "00:32:45",
+        "Place": "2"
+      },
+      {
+        "Split": "Best Run Lap",
+        "Time": "00:03:49",
+        "Place": "4"
+      }
+    ],
+    "race_replay": [
+      {
+        "Split": "Rox In",
+        "Time": "00:04:09",
+        "Diff": "04:09"
+      },
+      {
+        "Split": "1000m SkiErg In",
+        "Time": "00:04:12",
+        "Diff": "00:03"
+      },
+      {
+        "Split": "1000m SkiErg Out",
+        "Time": "00:08:52",
+        "Diff": "04:40"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:08:56",
+        "Diff": "00:04"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:12:48",
+        "Diff": "03:52"
+      },
+      {
+        "Split": "50m Sled Push In",
+        "Time": "00:13:15",
+        "Diff": "00:27"
+      },
+      {
+        "Split": "50m Sled Push Out",
+        "Time": "00:15:14",
+        "Diff": "01:59"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:15:39",
+        "Diff": "00:25"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:19:27",
+        "Diff": "03:48"
+      },
+      {
+        "Split": "50m Sled Pull In",
+        "Time": "00:19:41",
+        "Diff": "00:14"
+      },
+      {
+        "Split": "50m Sled Pull Out",
+        "Time": "00:23:16",
+        "Diff": "03:35"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:23:44",
+        "Diff": "00:28"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:27:42",
+        "Diff": "03:58"
+      },
+      {
+        "Split": "80m Burpee Broad Jump In",
+        "Time": "00:28:07",
+        "Diff": "00:25"
+      },
+      {
+        "Split": "80m Burpee Broad Jump Out",
+        "Time": "00:32:18",
+        "Diff": "04:11"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:32:36",
+        "Diff": "00:18"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:36:42",
+        "Diff": "04:06"
+      },
+      {
+        "Split": "1000m Row In",
+        "Time": "00:36:46",
+        "Diff": "00:04"
+      },
+      {
+        "Split": "1000m Row Out",
+        "Time": "00:41:22",
+        "Diff": "04:36"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:41:56",
+        "Diff": "00:34"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:45:57",
+        "Diff": "04:01"
+      },
+      {
+        "Split": "200m Farmers Carry In",
+        "Time": "00:46:16",
+        "Diff": "00:19"
+      },
+      {
+        "Split": "200m Farmers Carry Out",
+        "Time": "00:48:20",
+        "Diff": "02:04"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:48:52",
+        "Diff": "00:32"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:52:47",
+        "Diff": "03:55"
+      },
+      {
+        "Split": "100m Sandbag Lunges In",
+        "Time": "00:53:09",
+        "Diff": "00:22"
+      },
+      {
+        "Split": "100m Sandbag Lunges Out",
+        "Time": "00:56:21",
+        "Diff": "03:12"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:56:52",
+        "Diff": "00:31"
+      },
+      {
+        "Split": "Wall Balls In",
+        "Time": "01:01:47",
+        "Diff": "04:55"
+      },
+      {
+        "Split": "Total",
+        "Time": "01:07:23",
+        "Diff": "05:36"
+      }
+    ]
+  },
+  {
+    "event_id": "H_JFK26_OVERALL",
+    "sex": "W",
+    "idp": "LR3MS4JI528FEE_JFK",
+    "detail_url": "https://results.hyrox.com/season-8/?content=detail&fpid=list&pid=list&idp=LR3MS4JI528FEE_JFK&lang=EN_CAP&event=H_JFK26_OVERALL&pidp=ranking_nav&ranking=time_finish_netto&search%5Bsex%5D=W&search%5Bage_class%5D=%25&search_event=H_JFK26_OVERALL",
+    "rank": 6,
+    "age_group": "16-24",
+    "member": "Turesson, Charlotte",
+    "total": "01:07:26",
+    "individual_details": [
+      {
+        "title": "Participant",
+        "items": {
+          "Name": "Turesson, Charlotte",
+          "Bib Number": "154029",
+          "Age Group": "16-24",
+          "Nat": "USA"
+        }
+      },
+      {
+        "title": "Race Details",
+        "items": {
+          "Race": "2026 New York",
+          "Division": "HYROX - Overall"
+        }
+      },
+      {
+        "title": "Judging Decision",
+        "items": {
+          "*Bonus": null,
+          "*Penalty": null,
+          "Disqual Reason": null,
+          "Info": null
+        }
+      },
+      {
+        "title": "Overall Time",
+        "items": {
+          "Rank (M/W)": "6",
+          "Rank (AG)": "2",
+          "Overall Time": "01:07:26"
+        }
+      }
+    ],
+    "workout_summary": [
+      {
+        "Split": "Running 1",
+        "Time": "00:04:23",
+        "Place": null
+      },
+      {
+        "Split": "1000m SkiErg",
+        "Time": "00:04:26",
+        "Place": "5"
+      },
+      {
+        "Split": "Running 2",
+        "Time": "00:03:51",
+        "Place": null
+      },
+      {
+        "Split": "50m Sled Push",
+        "Time": "00:01:49",
+        "Place": "5"
+      },
+      {
+        "Split": "Running 3",
+        "Time": "00:03:55",
+        "Place": null
+      },
+      {
+        "Split": "50m Sled Pull",
+        "Time": "00:04:31",
+        "Place": "72"
+      },
+      {
+        "Split": "Running 4",
+        "Time": "00:03:55",
+        "Place": null
+      },
+      {
+        "Split": "80m Burpee Broad Jump",
+        "Time": "00:03:48",
+        "Place": "8"
+      },
+      {
+        "Split": "Running 5",
+        "Time": "00:04:11",
+        "Place": null
+      },
+      {
+        "Split": "1000m Row",
+        "Time": "00:04:37",
+        "Place": "4"
+      },
+      {
+        "Split": "Running 6",
+        "Time": "00:04:04",
+        "Place": null
+      },
+      {
+        "Split": "200m Farmers Carry",
+        "Time": "00:01:45",
+        "Place": "11"
+      },
+      {
+        "Split": "Running 7",
+        "Time": "00:04:00",
+        "Place": null
+      },
+      {
+        "Split": "100m Sandbag Lunges",
+        "Time": "00:03:52",
+        "Place": "35"
+      },
+      {
+        "Split": "Running 8",
+        "Time": "00:05:07",
+        "Place": null
+      },
+      {
+        "Split": "Wall Balls",
+        "Time": "00:05:22",
+        "Place": "71"
+      },
+      {
+        "Split": "Roxzone Time",
+        "Time": "00:03:59",
+        "Place": null
+      },
+      {
+        "Split": "Run Total",
+        "Time": "00:33:23",
+        "Place": "1"
+      },
+      {
+        "Split": "Best Run Lap",
+        "Time": "00:03:51",
+        "Place": "2"
+      }
+    ],
+    "race_replay": [
+      {
+        "Split": "Rox In",
+        "Time": "00:04:23",
+        "Diff": "04:23"
+      },
+      {
+        "Split": "1000m SkiErg In",
+        "Time": "00:04:28",
+        "Diff": "00:05"
+      },
+      {
+        "Split": "1000m SkiErg Out",
+        "Time": "00:08:53",
+        "Diff": "04:25"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:08:57",
+        "Diff": "00:04"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:12:47",
+        "Diff": "03:50"
+      },
+      {
+        "Split": "50m Sled Push In",
+        "Time": "00:13:09",
+        "Diff": "00:22"
+      },
+      {
+        "Split": "50m Sled Push Out",
+        "Time": "00:14:57",
+        "Diff": "01:48"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:15:16",
+        "Diff": "00:19"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:19:11",
+        "Diff": "03:55"
+      },
+      {
+        "Split": "50m Sled Pull In",
+        "Time": "00:19:25",
+        "Diff": "00:14"
+      },
+      {
+        "Split": "50m Sled Pull Out",
+        "Time": "00:23:55",
+        "Diff": "04:30"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:24:13",
+        "Diff": "00:18"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:28:07",
+        "Diff": "03:54"
+      },
+      {
+        "Split": "80m Burpee Broad Jump In",
+        "Time": "00:28:28",
+        "Diff": "00:21"
+      },
+      {
+        "Split": "80m Burpee Broad Jump Out",
+        "Time": "00:32:16",
+        "Diff": "03:48"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:32:32",
+        "Diff": "00:16"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:36:43",
+        "Diff": "04:11"
+      },
+      {
+        "Split": "1000m Row In",
+        "Time": "00:36:48",
+        "Diff": "00:05"
+      },
+      {
+        "Split": "1000m Row Out",
+        "Time": "00:41:24",
+        "Diff": "04:36"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:41:46",
+        "Diff": "00:22"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:45:50",
+        "Diff": "04:04"
+      },
+      {
+        "Split": "200m Farmers Carry In",
+        "Time": "00:46:15",
+        "Diff": "00:25"
+      },
+      {
+        "Split": "200m Farmers Carry Out",
+        "Time": "00:48:00",
+        "Diff": "01:45"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:48:25",
+        "Diff": "00:25"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:52:25",
+        "Diff": "04:00"
+      },
+      {
+        "Split": "100m Sandbag Lunges In",
+        "Time": "00:52:45",
+        "Diff": "00:20"
+      },
+      {
+        "Split": "100m Sandbag Lunges Out",
+        "Time": "00:56:37",
+        "Diff": "03:52"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:56:59",
+        "Diff": "00:22"
+      },
+      {
+        "Split": "Wall Balls In",
+        "Time": "01:02:05",
+        "Diff": "05:06"
+      },
+      {
+        "Split": "Total",
+        "Time": "01:07:26",
+        "Diff": "05:21"
+      }
+    ]
+  },
+  {
+    "event_id": "H_JFK26_OVERALL",
+    "sex": "W",
+    "idp": "LR3MS4JI5263D6_JFK",
+    "detail_url": "https://results.hyrox.com/season-8/?content=detail&fpid=list&pid=list&idp=LR3MS4JI5263D6_JFK&lang=EN_CAP&event=H_JFK26_OVERALL&pidp=ranking_nav&ranking=time_finish_netto&search%5Bsex%5D=W&search%5Bage_class%5D=%25&search_event=H_JFK26_OVERALL",
+    "rank": 7,
+    "age_group": "25-29",
+    "member": "Winterton, Camille",
+    "total": "01:07:53",
+    "individual_details": [
+      {
+        "title": "Participant",
+        "items": {
+          "Name": "Winterton, Camille",
+          "Bib Number": "154030",
+          "Age Group": "25-29",
+          "Nat": "USA"
+        }
+      },
+      {
+        "title": "Race Details",
+        "items": {
+          "Race": "2026 New York",
+          "Division": "HYROX - Overall"
+        }
+      },
+      {
+        "title": "Judging Decision",
+        "items": {
+          "*Bonus": null,
+          "*Penalty": null,
+          "Disqual Reason": null,
+          "Info": null
+        }
+      },
+      {
+        "title": "Overall Time",
+        "items": {
+          "Rank (M/W)": "7",
+          "Rank (AG)": "3",
+          "Overall Time": "01:07:53"
+        }
+      }
+    ],
+    "workout_summary": [
+      {
+        "Split": "Running 1",
+        "Time": "00:04:38",
+        "Place": null
+      },
+      {
+        "Split": "1000m SkiErg",
+        "Time": "00:04:35",
+        "Place": "43"
+      },
+      {
+        "Split": "Running 2",
+        "Time": "00:04:00",
+        "Place": null
+      },
+      {
+        "Split": "50m Sled Push",
+        "Time": "00:01:57",
+        "Place": "35"
+      },
+      {
+        "Split": "Running 3",
+        "Time": "00:04:04",
+        "Place": null
+      },
+      {
+        "Split": "50m Sled Pull",
+        "Time": "00:03:54",
+        "Place": "36"
+      },
+      {
+        "Split": "Running 4",
+        "Time": "00:04:13",
+        "Place": null
+      },
+      {
+        "Split": "80m Burpee Broad Jump",
+        "Time": "00:03:43",
+        "Place": "7"
+      },
+      {
+        "Split": "Running 5",
+        "Time": "00:04:31",
+        "Place": null
+      },
+      {
+        "Split": "1000m Row",
+        "Time": "00:05:03",
+        "Place": "120"
+      },
+      {
+        "Split": "Running 6",
+        "Time": "00:04:16",
+        "Place": null
+      },
+      {
+        "Split": "200m Farmers Carry",
+        "Time": "00:01:59",
+        "Place": "62"
+      },
+      {
+        "Split": "Running 7",
+        "Time": "00:04:10",
+        "Place": null
+      },
+      {
+        "Split": "100m Sandbag Lunges",
+        "Time": "00:03:39",
+        "Place": "59"
+      },
+      {
+        "Split": "Running 8",
+        "Time": "00:05:14",
+        "Place": null
+      },
+      {
+        "Split": "Wall Balls",
+        "Time": "00:04:13",
+        "Place": "24"
+      },
+      {
+        "Split": "Roxzone Time",
+        "Time": "00:03:52",
+        "Place": null
+      },
+      {
+        "Split": "Run Total",
+        "Time": "00:35:03",
+        "Place": "9"
+      },
+      {
+        "Split": "Best Run Lap",
+        "Time": "00:04:00",
+        "Place": "10"
+      }
+    ],
+    "race_replay": [
+      {
+        "Split": "Rox In",
+        "Time": "00:04:38",
+        "Diff": "04:38"
+      },
+      {
+        "Split": "1000m SkiErg In",
+        "Time": "00:04:43",
+        "Diff": "00:05"
+      },
+      {
+        "Split": "1000m SkiErg Out",
+        "Time": "00:09:17",
+        "Diff": "04:34"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:09:21",
+        "Diff": "00:04"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:13:20",
+        "Diff": "03:59"
+      },
+      {
+        "Split": "50m Sled Push In",
+        "Time": "00:13:40",
+        "Diff": "00:20"
+      },
+      {
+        "Split": "50m Sled Push Out",
+        "Time": "00:15:36",
+        "Diff": "01:56"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:15:54",
+        "Diff": "00:18"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:19:58",
+        "Diff": "04:04"
+      },
+      {
+        "Split": "50m Sled Pull In",
+        "Time": "00:20:13",
+        "Diff": "00:15"
+      },
+      {
+        "Split": "50m Sled Pull Out",
+        "Time": "00:24:06",
+        "Diff": "03:53"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:24:25",
+        "Diff": "00:19"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:28:37",
+        "Diff": "04:12"
+      },
+      {
+        "Split": "80m Burpee Broad Jump In",
+        "Time": "00:28:59",
+        "Diff": "00:22"
+      },
+      {
+        "Split": "80m Burpee Broad Jump Out",
+        "Time": "00:32:41",
+        "Diff": "03:42"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:32:55",
+        "Diff": "00:14"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:37:26",
+        "Diff": "04:31"
+      },
+      {
+        "Split": "1000m Row In",
+        "Time": "00:37:31",
+        "Diff": "00:05"
+      },
+      {
+        "Split": "1000m Row Out",
+        "Time": "00:42:33",
+        "Diff": "05:02"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:42:53",
+        "Diff": "00:20"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:47:09",
+        "Diff": "04:16"
+      },
+      {
+        "Split": "200m Farmers Carry In",
+        "Time": "00:47:26",
+        "Diff": "00:17"
+      },
+      {
+        "Split": "200m Farmers Carry Out",
+        "Time": "00:49:25",
+        "Diff": "01:59"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:49:53",
+        "Diff": "00:28"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:54:03",
+        "Diff": "04:10"
+      },
+      {
+        "Split": "100m Sandbag Lunges In",
+        "Time": "00:54:20",
+        "Diff": "00:17"
+      },
+      {
+        "Split": "100m Sandbag Lunges Out",
+        "Time": "00:57:58",
+        "Diff": "03:38"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:58:27",
+        "Diff": "00:29"
+      },
+      {
+        "Split": "Wall Balls In",
+        "Time": "01:03:40",
+        "Diff": "05:13"
+      },
+      {
+        "Split": "Total",
+        "Time": "01:07:53",
+        "Diff": "04:13"
+      }
+    ]
+  },
+  {
+    "event_id": "H_JFK26_OVERALL",
+    "sex": "W",
+    "idp": "LR3MS4JI523E06_JFK",
+    "detail_url": "https://results.hyrox.com/season-8/?content=detail&fpid=list&pid=list&idp=LR3MS4JI523E06_JFK&lang=EN_CAP&event=H_JFK26_OVERALL&pidp=ranking_nav&ranking=time_finish_netto&search%5Bsex%5D=W&search%5Bage_class%5D=%25&search_event=H_JFK26_OVERALL",
+    "rank": 8,
+    "age_group": "35-39",
+    "member": "Staff, Kat",
+    "total": "01:08:08",
+    "individual_details": [
+      {
+        "title": "Participant",
+        "items": {
+          "Name": "Staff, Kat",
+          "Bib Number": "173001",
+          "Age Group": "35-39",
+          "Nat": "USA"
+        }
+      },
+      {
+        "title": "Race Details",
+        "items": {
+          "Race": "2026 New York",
+          "Division": "HYROX - Overall"
+        }
+      },
+      {
+        "title": "Judging Decision",
+        "items": {
+          "*Bonus": null,
+          "*Penalty": null,
+          "Disqual Reason": null,
+          "Info": null
+        }
+      },
+      {
+        "title": "Overall Time",
+        "items": {
+          "Rank (M/W)": "8",
+          "Rank (AG)": "1",
+          "Overall Time": "01:08:08"
+        }
+      }
+    ],
+    "workout_summary": [
+      {
+        "Split": "Running 1",
+        "Time": "00:04:24",
+        "Place": null
+      },
+      {
+        "Split": "1000m SkiErg",
+        "Time": "00:04:46",
+        "Place": "71"
+      },
+      {
+        "Split": "Running 2",
+        "Time": "00:04:12",
+        "Place": null
+      },
+      {
+        "Split": "50m Sled Push",
+        "Time": "00:02:04",
+        "Place": "53"
+      },
+      {
+        "Split": "Running 3",
+        "Time": "00:04:16",
+        "Place": null
+      },
+      {
+        "Split": "50m Sled Pull",
+        "Time": "00:03:39",
+        "Place": "16"
+      },
+      {
+        "Split": "Running 4",
+        "Time": "00:04:23",
+        "Place": null
+      },
+      {
+        "Split": "80m Burpee Broad Jump",
+        "Time": "00:03:31",
+        "Place": "7"
+      },
+      {
+        "Split": "Running 5",
+        "Time": "00:04:32",
+        "Place": null
+      },
+      {
+        "Split": "1000m Row",
+        "Time": "00:04:52",
+        "Place": "31"
+      },
+      {
+        "Split": "Running 6",
+        "Time": "00:04:22",
+        "Place": null
+      },
+      {
+        "Split": "200m Farmers Carry",
+        "Time": "00:02:00",
+        "Place": "82"
+      },
+      {
+        "Split": "Running 7",
+        "Time": "00:04:24",
+        "Place": null
+      },
+      {
+        "Split": "100m Sandbag Lunges",
+        "Time": "00:03:37",
+        "Place": "30"
+      },
+      {
+        "Split": "Running 8",
+        "Time": "00:05:23",
+        "Place": null
+      },
+      {
+        "Split": "Wall Balls",
+        "Time": "00:04:08",
+        "Place": "22"
+      },
+      {
+        "Split": "Roxzone Time",
+        "Time": "00:03:42",
+        "Place": null
+      },
+      {
+        "Split": "Run Total",
+        "Time": "00:35:53",
+        "Place": "10"
+      },
+      {
+        "Split": "Best Run Lap",
+        "Time": "00:04:12",
+        "Place": "15"
+      }
+    ],
+    "race_replay": [
+      {
+        "Split": "Rox In",
+        "Time": "00:04:24",
+        "Diff": "04:24"
+      },
+      {
+        "Split": "1000m SkiErg In",
+        "Time": "00:04:27",
+        "Diff": "00:03"
+      },
+      {
+        "Split": "1000m SkiErg Out",
+        "Time": "00:09:13",
+        "Diff": "04:46"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:09:17",
+        "Diff": "00:04"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:13:29",
+        "Diff": "04:12"
+      },
+      {
+        "Split": "50m Sled Push In",
+        "Time": "00:13:47",
+        "Diff": "00:18"
+      },
+      {
+        "Split": "50m Sled Push Out",
+        "Time": "00:15:50",
+        "Diff": "02:03"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:16:09",
+        "Diff": "00:19"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:20:24",
+        "Diff": "04:15"
+      },
+      {
+        "Split": "50m Sled Pull In",
+        "Time": "00:20:39",
+        "Diff": "00:15"
+      },
+      {
+        "Split": "50m Sled Pull Out",
+        "Time": "00:24:18",
+        "Diff": "03:39"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:24:36",
+        "Diff": "00:18"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:28:59",
+        "Diff": "04:23"
+      },
+      {
+        "Split": "80m Burpee Broad Jump In",
+        "Time": "00:29:21",
+        "Diff": "00:22"
+      },
+      {
+        "Split": "80m Burpee Broad Jump Out",
+        "Time": "00:32:52",
+        "Diff": "03:31"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:33:03",
+        "Diff": "00:11"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:37:35",
+        "Diff": "04:32"
+      },
+      {
+        "Split": "1000m Row In",
+        "Time": "00:37:40",
+        "Diff": "00:05"
+      },
+      {
+        "Split": "1000m Row Out",
+        "Time": "00:42:31",
+        "Diff": "04:51"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:42:51",
+        "Diff": "00:20"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:47:13",
+        "Diff": "04:22"
+      },
+      {
+        "Split": "200m Farmers Carry In",
+        "Time": "00:47:29",
+        "Diff": "00:16"
+      },
+      {
+        "Split": "200m Farmers Carry Out",
+        "Time": "00:49:29",
+        "Diff": "02:00"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:49:55",
+        "Diff": "00:26"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:54:19",
+        "Diff": "04:24"
+      },
+      {
+        "Split": "100m Sandbag Lunges In",
+        "Time": "00:54:35",
+        "Diff": "00:16"
+      },
+      {
+        "Split": "100m Sandbag Lunges Out",
+        "Time": "00:58:11",
+        "Diff": "03:36"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:58:37",
+        "Diff": "00:26"
+      },
+      {
+        "Split": "Wall Balls In",
+        "Time": "01:04:00",
+        "Diff": "05:23"
+      },
+      {
+        "Split": "Total",
+        "Time": "01:08:08",
+        "Diff": "04:08"
+      }
+    ]
+  },
+  {
+    "event_id": "H_JFK26_OVERALL",
+    "sex": "W",
+    "idp": "LR3MS4JI5292B9_JFK",
+    "detail_url": "https://results.hyrox.com/season-8/?content=detail&fpid=list&pid=list&idp=LR3MS4JI5292B9_JFK&lang=EN_CAP&event=H_JFK26_OVERALL&pidp=ranking_nav&ranking=time_finish_netto&search%5Bsex%5D=W&search%5Bage_class%5D=%25&search_event=H_JFK26_OVERALL",
+    "rank": 9,
+    "age_group": "25-29",
+    "member": "Rahon, Sarah",
+    "total": "01:08:20",
+    "individual_details": [
+      {
+        "title": "Participant",
+        "items": {
+          "Name": "Rahon, Sarah",
+          "Bib Number": "154002",
+          "Age Group": "25-29",
+          "Nat": "USA"
+        }
+      },
+      {
+        "title": "Race Details",
+        "items": {
+          "Race": "2026 New York",
+          "Division": "HYROX - Overall"
+        }
+      },
+      {
+        "title": "Judging Decision",
+        "items": {
+          "*Bonus": null,
+          "*Penalty": null,
+          "Disqual Reason": null,
+          "Info": null
+        }
+      },
+      {
+        "title": "Overall Time",
+        "items": {
+          "Rank (M/W)": "9",
+          "Rank (AG)": "4",
+          "Overall Time": "01:08:20"
+        }
+      }
+    ],
+    "workout_summary": [
+      {
+        "Split": "Running 1",
+        "Time": "00:04:22",
+        "Place": null
+      },
+      {
+        "Split": "1000m SkiErg",
+        "Time": "00:04:32",
+        "Place": "30"
+      },
+      {
+        "Split": "Running 2",
+        "Time": "00:04:03",
+        "Place": null
+      },
+      {
+        "Split": "50m Sled Push",
+        "Time": "00:01:45",
+        "Place": "8"
+      },
+      {
+        "Split": "Running 3",
+        "Time": "00:04:07",
+        "Place": null
+      },
+      {
+        "Split": "50m Sled Pull",
+        "Time": "00:03:46",
+        "Place": "14"
+      },
+      {
+        "Split": "Running 4",
+        "Time": "00:04:10",
+        "Place": null
+      },
+      {
+        "Split": "80m Burpee Broad Jump",
+        "Time": "00:05:13",
+        "Place": "165"
+      },
+      {
+        "Split": "Running 5",
+        "Time": "00:04:18",
+        "Place": null
+      },
+      {
+        "Split": "1000m Row",
+        "Time": "00:04:55",
+        "Place": "66"
+      },
+      {
+        "Split": "Running 6",
+        "Time": "00:04:12",
+        "Place": null
+      },
+      {
+        "Split": "200m Farmers Carry",
+        "Time": "00:01:46",
+        "Place": "16"
+      },
+      {
+        "Split": "Running 7",
+        "Time": "00:04:09",
+        "Place": null
+      },
+      {
+        "Split": "100m Sandbag Lunges",
+        "Time": "00:03:24",
+        "Place": "33"
+      },
+      {
+        "Split": "Running 8",
+        "Time": "00:04:55",
+        "Place": null
+      },
+      {
+        "Split": "Wall Balls",
+        "Time": "00:04:02",
+        "Place": "14"
+      },
+      {
+        "Split": "Roxzone Time",
+        "Time": "00:04:52",
+        "Place": null
+      },
+      {
+        "Split": "Run Total",
+        "Time": "00:34:11",
+        "Place": "5"
+      },
+      {
+        "Split": "Best Run Lap",
+        "Time": "00:04:03",
+        "Place": "14"
+      }
+    ],
+    "race_replay": [
+      {
+        "Split": "Rox In",
+        "Time": "00:04:22",
+        "Diff": "04:22"
+      },
+      {
+        "Split": "1000m SkiErg In",
+        "Time": "00:04:26",
+        "Diff": "00:04"
+      },
+      {
+        "Split": "1000m SkiErg Out",
+        "Time": "00:08:57",
+        "Diff": "04:31"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:09:01",
+        "Diff": "00:04"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:13:03",
+        "Diff": "04:02"
+      },
+      {
+        "Split": "50m Sled Push In",
+        "Time": "00:13:22",
+        "Diff": "00:19"
+      },
+      {
+        "Split": "50m Sled Push Out",
+        "Time": "00:15:06",
+        "Diff": "01:44"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:15:28",
+        "Diff": "00:22"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:19:34",
+        "Diff": "04:06"
+      },
+      {
+        "Split": "50m Sled Pull In",
+        "Time": "00:19:49",
+        "Diff": "00:15"
+      },
+      {
+        "Split": "50m Sled Pull Out",
+        "Time": "00:23:34",
+        "Diff": "03:45"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:23:55",
+        "Diff": "00:21"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:28:05",
+        "Diff": "04:10"
+      },
+      {
+        "Split": "80m Burpee Broad Jump In",
+        "Time": "00:28:40",
+        "Diff": "00:35"
+      },
+      {
+        "Split": "80m Burpee Broad Jump Out",
+        "Time": "00:33:52",
+        "Diff": "05:12"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:34:27",
+        "Diff": "00:35"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:38:45",
+        "Diff": "04:18"
+      },
+      {
+        "Split": "1000m Row In",
+        "Time": "00:38:49",
+        "Diff": "00:04"
+      },
+      {
+        "Split": "1000m Row Out",
+        "Time": "00:43:44",
+        "Diff": "04:55"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:44:13",
+        "Diff": "00:29"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:48:25",
+        "Diff": "04:12"
+      },
+      {
+        "Split": "200m Farmers Carry In",
+        "Time": "00:48:44",
+        "Diff": "00:19"
+      },
+      {
+        "Split": "200m Farmers Carry Out",
+        "Time": "00:50:30",
+        "Diff": "01:46"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:51:08",
+        "Diff": "00:38"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:55:16",
+        "Diff": "04:08"
+      },
+      {
+        "Split": "100m Sandbag Lunges In",
+        "Time": "00:55:38",
+        "Diff": "00:22"
+      },
+      {
+        "Split": "100m Sandbag Lunges Out",
+        "Time": "00:59:02",
+        "Diff": "03:24"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:59:25",
+        "Diff": "00:23"
+      },
+      {
+        "Split": "Wall Balls In",
+        "Time": "01:04:19",
+        "Diff": "04:54"
+      },
+      {
+        "Split": "Total",
+        "Time": "01:08:20",
+        "Diff": "04:01"
+      }
+    ]
+  },
+  {
+    "event_id": "H_JFK26_OVERALL",
+    "sex": "W",
+    "idp": "LR3MS4JI525DA3_JFK",
+    "detail_url": "https://results.hyrox.com/season-8/?content=detail&fpid=list&pid=list&idp=LR3MS4JI525DA3_JFK&lang=EN_CAP&event=H_JFK26_OVERALL&pidp=ranking_nav&ranking=time_finish_netto&search%5Bsex%5D=W&search%5Bage_class%5D=%25&search_event=H_JFK26_OVERALL",
+    "rank": 10,
+    "age_group": "30-34",
+    "member": "Sumner, Angie",
+    "total": "01:08:34",
+    "individual_details": [
+      {
+        "title": "Participant",
+        "items": {
+          "Name": "Sumner, Angie",
+          "Bib Number": "125009",
+          "Age Group": "30-34",
+          "Nat": "USA"
+        }
+      },
+      {
+        "title": "Race Details",
+        "items": {
+          "Race": "2026 New York",
+          "Division": "HYROX - Overall"
+        }
+      },
+      {
+        "title": "Judging Decision",
+        "items": {
+          "*Bonus": null,
+          "*Penalty": null,
+          "Disqual Reason": null,
+          "Info": null
+        }
+      },
+      {
+        "title": "Overall Time",
+        "items": {
+          "Rank (M/W)": "10",
+          "Rank (AG)": "3",
+          "Overall Time": "01:08:34"
+        }
+      }
+    ],
+    "workout_summary": [
+      {
+        "Split": "Running 1",
+        "Time": "00:04:17",
+        "Place": null
+      },
+      {
+        "Split": "1000m SkiErg",
+        "Time": "00:04:48",
+        "Place": "96"
+      },
+      {
+        "Split": "Running 2",
+        "Time": "00:03:56",
+        "Place": null
+      },
+      {
+        "Split": "50m Sled Push",
+        "Time": "00:02:23",
+        "Place": "203"
+      },
+      {
+        "Split": "Running 3",
+        "Time": "00:04:00",
+        "Place": null
+      },
+      {
+        "Split": "50m Sled Pull",
+        "Time": "00:04:04",
+        "Place": "64"
+      },
+      {
+        "Split": "Running 4",
+        "Time": "00:04:08",
+        "Place": null
+      },
+      {
+        "Split": "80m Burpee Broad Jump",
+        "Time": "00:03:59",
+        "Place": "17"
+      },
+      {
+        "Split": "Running 5",
+        "Time": "00:04:12",
+        "Place": null
+      },
+      {
+        "Split": "1000m Row",
+        "Time": "00:04:50",
+        "Place": "22"
+      },
+      {
+        "Split": "Running 6",
+        "Time": "00:04:02",
+        "Place": null
+      },
+      {
+        "Split": "200m Farmers Carry",
+        "Time": "00:01:49",
+        "Place": "22"
+      },
+      {
+        "Split": "Running 7",
+        "Time": "00:04:18",
+        "Place": null
+      },
+      {
+        "Split": "100m Sandbag Lunges",
+        "Time": "00:03:45",
+        "Place": "46"
+      },
+      {
+        "Split": "Running 8",
+        "Time": "00:05:04",
+        "Place": null
+      },
+      {
+        "Split": "Wall Balls",
+        "Time": "00:05:24",
+        "Place": "144"
+      },
+      {
+        "Split": "Roxzone Time",
+        "Time": "00:03:45",
+        "Place": null
+      },
+      {
+        "Split": "Run Total",
+        "Time": "00:33:53",
+        "Place": "4"
+      },
+      {
+        "Split": "Best Run Lap",
+        "Time": "00:03:56",
+        "Place": "8"
+      }
+    ],
+    "race_replay": [
+      {
+        "Split": "Rox In",
+        "Time": "00:04:17",
+        "Diff": "04:17"
+      },
+      {
+        "Split": "1000m SkiErg In",
+        "Time": "00:04:21",
+        "Diff": "00:04"
+      },
+      {
+        "Split": "1000m SkiErg Out",
+        "Time": "00:09:08",
+        "Diff": "04:47"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:09:13",
+        "Diff": "00:05"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:13:08",
+        "Diff": "03:55"
+      },
+      {
+        "Split": "50m Sled Push In",
+        "Time": "00:13:27",
+        "Diff": "00:19"
+      },
+      {
+        "Split": "50m Sled Push Out",
+        "Time": "00:15:49",
+        "Diff": "02:22"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:16:08",
+        "Diff": "00:19"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:20:08",
+        "Diff": "04:00"
+      },
+      {
+        "Split": "50m Sled Pull In",
+        "Time": "00:20:22",
+        "Diff": "00:14"
+      },
+      {
+        "Split": "50m Sled Pull Out",
+        "Time": "00:24:26",
+        "Diff": "04:04"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:24:44",
+        "Diff": "00:18"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:28:51",
+        "Diff": "04:07"
+      },
+      {
+        "Split": "80m Burpee Broad Jump In",
+        "Time": "00:29:13",
+        "Diff": "00:22"
+      },
+      {
+        "Split": "80m Burpee Broad Jump Out",
+        "Time": "00:33:11",
+        "Diff": "03:58"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:33:23",
+        "Diff": "00:12"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:37:35",
+        "Diff": "04:12"
+      },
+      {
+        "Split": "1000m Row In",
+        "Time": "00:37:39",
+        "Diff": "00:04"
+      },
+      {
+        "Split": "1000m Row Out",
+        "Time": "00:42:29",
+        "Diff": "04:50"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:42:48",
+        "Diff": "00:19"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:46:49",
+        "Diff": "04:01"
+      },
+      {
+        "Split": "200m Farmers Carry In",
+        "Time": "00:47:05",
+        "Diff": "00:16"
+      },
+      {
+        "Split": "200m Farmers Carry Out",
+        "Time": "00:48:54",
+        "Diff": "01:49"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:49:22",
+        "Diff": "00:28"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:53:39",
+        "Diff": "04:17"
+      },
+      {
+        "Split": "100m Sandbag Lunges In",
+        "Time": "00:53:58",
+        "Diff": "00:19"
+      },
+      {
+        "Split": "100m Sandbag Lunges Out",
+        "Time": "00:57:42",
+        "Diff": "03:44"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:58:07",
+        "Diff": "00:25"
+      },
+      {
+        "Split": "Wall Balls In",
+        "Time": "01:03:10",
+        "Diff": "05:03"
+      },
+      {
+        "Split": "Total",
+        "Time": "01:08:34",
+        "Diff": "05:24"
+      }
+    ]
+  },
+  {
+    "event_id": "H_JFK26_OVERALL",
+    "sex": "W",
+    "idp": "LR3MS4JI523950_JFK",
+    "detail_url": "https://results.hyrox.com/season-8/?content=detail&fpid=list&pid=list&idp=LR3MS4JI523950_JFK&lang=EN_CAP&event=H_JFK26_OVERALL&pidp=ranking_nav&ranking=time_finish_netto&search%5Bsex%5D=W&search%5Bage_class%5D=%25&search_event=H_JFK26_OVERALL",
+    "rank": 11,
+    "age_group": "30-34",
+    "member": "Corraro, Melissa",
+    "total": "01:08:34",
+    "individual_details": [
+      {
+        "title": "Participant",
+        "items": {
+          "Name": "Corraro, Melissa",
+          "Bib Number": "125006",
+          "Age Group": "30-34",
+          "Nat": "USA"
+        }
+      },
+      {
+        "title": "Race Details",
+        "items": {
+          "Race": "2026 New York",
+          "Division": "HYROX - Overall"
+        }
+      },
+      {
+        "title": "Judging Decision",
+        "items": {
+          "*Bonus": null,
+          "*Penalty": "SLED PULL (15s)",
+          "Disqual Reason": null,
+          "Info": null
+        }
+      },
+      {
+        "title": "Overall Time",
+        "items": {
+          "Rank (M/W)": "11",
+          "Rank (AG)": "4",
+          "Overall Time": "01:08:34"
+        }
+      }
+    ],
+    "workout_summary": [
+      {
+        "Split": "Running 1",
+        "Time": "00:04:08",
+        "Place": null
+      },
+      {
+        "Split": "1000m SkiErg",
+        "Time": "00:04:49",
+        "Place": "113"
+      },
+      {
+        "Split": "Running 2",
+        "Time": "00:03:43",
+        "Place": null
+      },
+      {
+        "Split": "50m Sled Push",
+        "Time": "00:01:48",
+        "Place": "4"
+      },
+      {
+        "Split": "Running 3",
+        "Time": "00:03:54",
+        "Place": null
+      },
+      {
+        "Split": "50m Sled Pull",
+        "Time": "00:04:08",
+        "Place": "75"
+      },
+      {
+        "Split": "Running 4",
+        "Time": "00:04:00",
+        "Place": null
+      },
+      {
+        "Split": "80m Burpee Broad Jump",
+        "Time": "00:05:03",
+        "Place": "142"
+      },
+      {
+        "Split": "Running 5",
+        "Time": "00:04:09",
+        "Place": null
+      },
+      {
+        "Split": "1000m Row",
+        "Time": "00:04:51",
+        "Place": "28"
+      },
+      {
+        "Split": "Running 6",
+        "Time": "00:04:02",
+        "Place": null
+      },
+      {
+        "Split": "200m Farmers Carry",
+        "Time": "00:01:36",
+        "Place": "8"
+      },
+      {
+        "Split": "Running 7",
+        "Time": "00:04:15",
+        "Place": null
+      },
+      {
+        "Split": "100m Sandbag Lunges",
+        "Time": "00:04:05",
+        "Place": "96"
+      },
+      {
+        "Split": "Running 8",
+        "Time": "00:05:04",
+        "Place": null
+      },
+      {
+        "Split": "Wall Balls",
+        "Time": "00:05:10",
+        "Place": "101"
+      },
+      {
+        "Split": "Roxzone Time",
+        "Time": "00:03:57",
+        "Place": null
+      },
+      {
+        "Split": "Run Total",
+        "Time": "00:33:12",
+        "Place": "3"
+      },
+      {
+        "Split": "Best Run Lap",
+        "Time": "00:03:43",
+        "Place": "2"
+      }
+    ],
+    "race_replay": [
+      {
+        "Split": "Rox In",
+        "Time": "00:04:08",
+        "Diff": "04:08"
+      },
+      {
+        "Split": "1000m SkiErg In",
+        "Time": "00:04:11",
+        "Diff": "00:03"
+      },
+      {
+        "Split": "1000m SkiErg Out",
+        "Time": "00:09:00",
+        "Diff": "04:49"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:09:04",
+        "Diff": "00:04"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:12:47",
+        "Diff": "03:43"
+      },
+      {
+        "Split": "50m Sled Push In",
+        "Time": "00:13:08",
+        "Diff": "00:21"
+      },
+      {
+        "Split": "50m Sled Push Out",
+        "Time": "00:14:55",
+        "Diff": "01:47"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:15:12",
+        "Diff": "00:17"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:19:06",
+        "Diff": "03:54"
+      },
+      {
+        "Split": "50m Sled Pull In",
+        "Time": "00:19:21",
+        "Diff": "00:15"
+      },
+      {
+        "Split": "50m Sled Pull Out",
+        "Time": "00:23:28",
+        "Diff": "04:07"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:23:48",
+        "Diff": "00:20"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:27:47",
+        "Diff": "03:59"
+      },
+      {
+        "Split": "80m Burpee Broad Jump In",
+        "Time": "00:28:15",
+        "Diff": "00:28"
+      },
+      {
+        "Split": "80m Burpee Broad Jump Out",
+        "Time": "00:33:18",
+        "Diff": "05:03"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:33:36",
+        "Diff": "00:18"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:37:45",
+        "Diff": "04:09"
+      },
+      {
+        "Split": "1000m Row In",
+        "Time": "00:37:49",
+        "Diff": "00:04"
+      },
+      {
+        "Split": "1000m Row Out",
+        "Time": "00:42:40",
+        "Diff": "04:51"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:43:04",
+        "Diff": "00:24"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:47:05",
+        "Diff": "04:01"
+      },
+      {
+        "Split": "200m Farmers Carry In",
+        "Time": "00:47:17",
+        "Diff": "00:12"
+      },
+      {
+        "Split": "200m Farmers Carry Out",
+        "Time": "00:48:52",
+        "Diff": "01:35"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:49:22",
+        "Diff": "00:30"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:53:37",
+        "Diff": "04:15"
+      },
+      {
+        "Split": "100m Sandbag Lunges In",
+        "Time": "00:53:55",
+        "Diff": "00:18"
+      },
+      {
+        "Split": "100m Sandbag Lunges Out",
+        "Time": "00:58:00",
+        "Diff": "04:05"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:58:22",
+        "Diff": "00:22"
+      },
+      {
+        "Split": "Wall Balls In",
+        "Time": "01:03:25",
+        "Diff": "05:03"
+      },
+      {
+        "Split": "Total",
+        "Time": "01:08:34",
+        "Diff": "05:09"
+      }
+    ]
+  },
+  {
+    "event_id": "H_JFK26_OVERALL",
+    "sex": "W",
+    "idp": "LR3MS4JI525464_JFK",
+    "detail_url": "https://results.hyrox.com/season-8/?content=detail&fpid=list&pid=list&idp=LR3MS4JI525464_JFK&lang=EN_CAP&event=H_JFK26_OVERALL&pidp=ranking_nav&ranking=time_finish_netto&search%5Bsex%5D=W&search%5Bage_class%5D=%25&search_event=H_JFK26_OVERALL",
+    "rank": 12,
+    "age_group": "35-39",
+    "member": "Stoeckle, Lizzy",
+    "total": "01:08:38",
+    "individual_details": [
+      {
+        "title": "Participant",
+        "items": {
+          "Name": "Stoeckle, Lizzy",
+          "Bib Number": "183042",
+          "Age Group": "35-39",
+          "Nat": "USA"
+        }
+      },
+      {
+        "title": "Race Details",
+        "items": {
+          "Race": "2026 New York",
+          "Division": "HYROX - Overall"
+        }
+      },
+      {
+        "title": "Judging Decision",
+        "items": {
+          "*Bonus": null,
+          "*Penalty": null,
+          "Disqual Reason": null,
+          "Info": null
+        }
+      },
+      {
+        "title": "Overall Time",
+        "items": {
+          "Rank (M/W)": "12",
+          "Rank (AG)": "2",
+          "Overall Time": "01:08:38"
+        }
+      }
+    ],
+    "workout_summary": [
+      {
+        "Split": "Running 1",
+        "Time": "00:04:47",
+        "Place": null
+      },
+      {
+        "Split": "1000m SkiErg",
+        "Time": "00:04:39",
+        "Place": "34"
+      },
+      {
+        "Split": "Running 2",
+        "Time": "00:04:18",
+        "Place": null
+      },
+      {
+        "Split": "50m Sled Push",
+        "Time": "00:01:56",
+        "Place": "33"
+      },
+      {
+        "Split": "Running 3",
+        "Time": "00:04:27",
+        "Place": null
+      },
+      {
+        "Split": "50m Sled Pull",
+        "Time": "00:03:53",
+        "Place": "30"
+      },
+      {
+        "Split": "Running 4",
+        "Time": "00:04:22",
+        "Place": null
+      },
+      {
+        "Split": "80m Burpee Broad Jump",
+        "Time": "00:04:18",
+        "Place": "34"
+      },
+      {
+        "Split": "Running 5",
+        "Time": "00:04:25",
+        "Place": null
+      },
+      {
+        "Split": "1000m Row",
+        "Time": "00:04:37",
+        "Place": "7"
+      },
+      {
+        "Split": "Running 6",
+        "Time": "00:04:22",
+        "Place": null
+      },
+      {
+        "Split": "200m Farmers Carry",
+        "Time": "00:01:46",
+        "Place": "10"
+      },
+      {
+        "Split": "Running 7",
+        "Time": "00:04:24",
+        "Place": null
+      },
+      {
+        "Split": "100m Sandbag Lunges",
+        "Time": "00:03:11",
+        "Place": "12"
+      },
+      {
+        "Split": "Running 8",
+        "Time": "00:05:14",
+        "Place": null
+      },
+      {
+        "Split": "Wall Balls",
+        "Time": "00:03:29",
+        "Place": "2"
+      },
+      {
+        "Split": "Roxzone Time",
+        "Time": "00:04:38",
+        "Place": null
+      },
+      {
+        "Split": "Run Total",
+        "Time": "00:36:16",
+        "Place": "12"
+      },
+      {
+        "Split": "Best Run Lap",
+        "Time": "00:04:18",
+        "Place": "28"
+      }
+    ],
+    "race_replay": [
+      {
+        "Split": "Rox In",
+        "Time": "00:04:47",
+        "Diff": "04:47"
+      },
+      {
+        "Split": "1000m SkiErg In",
+        "Time": "00:04:55",
+        "Diff": "00:08"
+      },
+      {
+        "Split": "1000m SkiErg Out",
+        "Time": "00:09:34",
+        "Diff": "04:39"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:09:38",
+        "Diff": "00:04"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:13:56",
+        "Diff": "04:18"
+      },
+      {
+        "Split": "50m Sled Push In",
+        "Time": "00:14:19",
+        "Diff": "00:23"
+      },
+      {
+        "Split": "50m Sled Push Out",
+        "Time": "00:16:14",
+        "Diff": "01:55"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:16:36",
+        "Diff": "00:22"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:21:02",
+        "Diff": "04:26"
+      },
+      {
+        "Split": "50m Sled Pull In",
+        "Time": "00:21:21",
+        "Diff": "00:19"
+      },
+      {
+        "Split": "50m Sled Pull Out",
+        "Time": "00:25:13",
+        "Diff": "03:52"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:25:37",
+        "Diff": "00:24"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:29:58",
+        "Diff": "04:21"
+      },
+      {
+        "Split": "80m Burpee Broad Jump In",
+        "Time": "00:30:24",
+        "Diff": "00:26"
+      },
+      {
+        "Split": "80m Burpee Broad Jump Out",
+        "Time": "00:34:42",
+        "Diff": "04:18"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:34:56",
+        "Diff": "00:14"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:39:21",
+        "Diff": "04:25"
+      },
+      {
+        "Split": "1000m Row In",
+        "Time": "00:39:31",
+        "Diff": "00:10"
+      },
+      {
+        "Split": "1000m Row Out",
+        "Time": "00:44:08",
+        "Diff": "04:37"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:44:33",
+        "Diff": "00:25"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:48:55",
+        "Diff": "04:22"
+      },
+      {
+        "Split": "200m Farmers Carry In",
+        "Time": "00:49:15",
+        "Diff": "00:20"
+      },
+      {
+        "Split": "200m Farmers Carry Out",
+        "Time": "00:51:01",
+        "Diff": "01:46"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:51:33",
+        "Diff": "00:32"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:55:57",
+        "Diff": "04:24"
+      },
+      {
+        "Split": "100m Sandbag Lunges In",
+        "Time": "00:56:18",
+        "Diff": "00:21"
+      },
+      {
+        "Split": "100m Sandbag Lunges Out",
+        "Time": "00:59:28",
+        "Diff": "03:10"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:59:56",
+        "Diff": "00:28"
+      },
+      {
+        "Split": "Wall Balls In",
+        "Time": "01:05:09",
+        "Diff": "05:13"
+      },
+      {
+        "Split": "Total",
+        "Time": "01:08:38",
+        "Diff": "03:29"
+      }
+    ]
+  },
+  {
+    "event_id": "H_JFK26_OVERALL",
+    "sex": "W",
+    "idp": "LR3MS4JI524440_JFK",
+    "detail_url": "https://results.hyrox.com/season-8/?content=detail&fpid=list&pid=list&idp=LR3MS4JI524440_JFK&lang=EN_CAP&event=H_JFK26_OVERALL&pidp=ranking_nav&ranking=time_finish_netto&search%5Bsex%5D=W&search%5Bage_class%5D=%25&search_event=H_JFK26_OVERALL",
+    "rank": 13,
+    "age_group": "35-39",
+    "member": "Krchova, Eva",
+    "total": "01:08:42",
+    "individual_details": [
+      {
+        "title": "Participant",
+        "items": {
+          "Name": "Krchova, Eva",
+          "Bib Number": "123021",
+          "Age Group": "35-39",
+          "Nat": "CZE"
+        }
+      },
+      {
+        "title": "Race Details",
+        "items": {
+          "Race": "2026 New York",
+          "Division": "HYROX - Overall"
+        }
+      },
+      {
+        "title": "Judging Decision",
+        "items": {
+          "*Bonus": null,
+          "*Penalty": null,
+          "Disqual Reason": null,
+          "Info": null
+        }
+      },
+      {
+        "title": "Overall Time",
+        "items": {
+          "Rank (M/W)": "13",
+          "Rank (AG)": "3",
+          "Overall Time": "01:08:42"
+        }
+      }
+    ],
+    "workout_summary": [
+      {
+        "Split": "Running 1",
+        "Time": "00:03:57",
+        "Place": null
+      },
+      {
+        "Split": "1000m SkiErg",
+        "Time": "00:04:27",
+        "Place": "8"
+      },
+      {
+        "Split": "Running 2",
+        "Time": "00:03:43",
+        "Place": null
+      },
+      {
+        "Split": "50m Sled Push",
+        "Time": "00:01:55",
+        "Place": "23"
+      },
+      {
+        "Split": "Running 3",
+        "Time": "00:03:48",
+        "Place": null
+      },
+      {
+        "Split": "50m Sled Pull",
+        "Time": "00:03:37",
+        "Place": "15"
+      },
+      {
+        "Split": "Running 4",
+        "Time": "00:03:53",
+        "Place": null
+      },
+      {
+        "Split": "80m Burpee Broad Jump",
+        "Time": "00:05:40",
+        "Place": "211"
+      },
+      {
+        "Split": "Running 5",
+        "Time": "00:04:03",
+        "Place": null
+      },
+      {
+        "Split": "1000m Row",
+        "Time": "00:04:35",
+        "Place": "4"
+      },
+      {
+        "Split": "Running 6",
+        "Time": "00:03:54",
+        "Place": null
+      },
+      {
+        "Split": "200m Farmers Carry",
+        "Time": "00:01:19",
+        "Place": "2"
+      },
+      {
+        "Split": "Running 7",
+        "Time": "00:04:01",
+        "Place": null
+      },
+      {
+        "Split": "100m Sandbag Lunges",
+        "Time": "00:03:59",
+        "Place": "68"
+      },
+      {
+        "Split": "Running 8",
+        "Time": "00:04:48",
+        "Place": null
+      },
+      {
+        "Split": "Wall Balls",
+        "Time": "00:06:52",
+        "Place": "380"
+      },
+      {
+        "Split": "Roxzone Time",
+        "Time": "00:04:20",
+        "Place": null
+      },
+      {
+        "Split": "Run Total",
+        "Time": "00:32:03",
+        "Place": "1"
+      },
+      {
+        "Split": "Best Run Lap",
+        "Time": "00:03:43",
+        "Place": "2"
+      }
+    ],
+    "race_replay": [
+      {
+        "Split": "Rox In",
+        "Time": "00:03:57",
+        "Diff": "03:57"
+      },
+      {
+        "Split": "1000m SkiErg In",
+        "Time": "00:04:01",
+        "Diff": "00:04"
+      },
+      {
+        "Split": "1000m SkiErg Out",
+        "Time": "00:08:27",
+        "Diff": "04:26"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:08:32",
+        "Diff": "00:05"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:12:14",
+        "Diff": "03:42"
+      },
+      {
+        "Split": "50m Sled Push In",
+        "Time": "00:12:35",
+        "Diff": "00:21"
+      },
+      {
+        "Split": "50m Sled Push Out",
+        "Time": "00:14:29",
+        "Diff": "01:54"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:14:52",
+        "Diff": "00:23"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:18:39",
+        "Diff": "03:47"
+      },
+      {
+        "Split": "50m Sled Pull In",
+        "Time": "00:18:53",
+        "Diff": "00:14"
+      },
+      {
+        "Split": "50m Sled Pull Out",
+        "Time": "00:22:30",
+        "Diff": "03:37"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:22:53",
+        "Diff": "00:23"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:26:46",
+        "Diff": "03:53"
+      },
+      {
+        "Split": "80m Burpee Broad Jump In",
+        "Time": "00:27:12",
+        "Diff": "00:26"
+      },
+      {
+        "Split": "80m Burpee Broad Jump Out",
+        "Time": "00:32:52",
+        "Diff": "05:40"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:33:14",
+        "Diff": "00:22"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:37:16",
+        "Diff": "04:02"
+      },
+      {
+        "Split": "1000m Row In",
+        "Time": "00:37:20",
+        "Diff": "00:04"
+      },
+      {
+        "Split": "1000m Row Out",
+        "Time": "00:41:54",
+        "Diff": "04:34"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:42:17",
+        "Diff": "00:23"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:46:11",
+        "Diff": "03:54"
+      },
+      {
+        "Split": "200m Farmers Carry In",
+        "Time": "00:46:28",
+        "Diff": "00:17"
+      },
+      {
+        "Split": "200m Farmers Carry Out",
+        "Time": "00:47:46",
+        "Diff": "01:18"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:48:15",
+        "Diff": "00:29"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:52:16",
+        "Diff": "04:01"
+      },
+      {
+        "Split": "100m Sandbag Lunges In",
+        "Time": "00:52:37",
+        "Diff": "00:21"
+      },
+      {
+        "Split": "100m Sandbag Lunges Out",
+        "Time": "00:56:35",
+        "Diff": "03:58"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:57:03",
+        "Diff": "00:28"
+      },
+      {
+        "Split": "Wall Balls In",
+        "Time": "01:01:50",
+        "Diff": "04:47"
+      },
+      {
+        "Split": "Total",
+        "Time": "01:08:42",
+        "Diff": "06:52"
+      }
+    ]
+  },
+  {
+    "event_id": "H_JFK26_OVERALL",
+    "sex": "W",
+    "idp": "LR3MS4JI5246CD_JFK",
+    "detail_url": "https://results.hyrox.com/season-8/?content=detail&fpid=list&pid=list&idp=LR3MS4JI5246CD_JFK&lang=EN_CAP&event=H_JFK26_OVERALL&pidp=ranking_nav&ranking=time_finish_netto&search%5Bsex%5D=W&search%5Bage_class%5D=%25&search_event=H_JFK26_OVERALL",
+    "rank": 14,
+    "age_group": "35-39",
+    "member": "Brown, Megan",
+    "total": "01:08:43",
+    "individual_details": [
+      {
+        "title": "Participant",
+        "items": {
+          "Name": "Brown, Megan",
+          "Bib Number": "154001",
+          "Age Group": "35-39",
+          "Nat": "USA"
+        }
+      },
+      {
+        "title": "Race Details",
+        "items": {
+          "Race": "2026 New York",
+          "Division": "HYROX - Overall"
+        }
+      },
+      {
+        "title": "Judging Decision",
+        "items": {
+          "*Bonus": null,
+          "*Penalty": null,
+          "Disqual Reason": null,
+          "Info": null
+        }
+      },
+      {
+        "title": "Overall Time",
+        "items": {
+          "Rank (M/W)": "14",
+          "Rank (AG)": "4",
+          "Overall Time": "01:08:43"
+        }
+      }
+    ],
+    "workout_summary": [
+      {
+        "Split": "Running 1",
+        "Time": "00:04:39",
+        "Place": null
+      },
+      {
+        "Split": "1000m SkiErg",
+        "Time": "00:04:42",
+        "Place": "53"
+      },
+      {
+        "Split": "Running 2",
+        "Time": "00:04:23",
+        "Place": null
+      },
+      {
+        "Split": "50m Sled Push",
+        "Time": "00:01:47",
+        "Place": "9"
+      },
+      {
+        "Split": "Running 3",
+        "Time": "00:04:30",
+        "Place": null
+      },
+      {
+        "Split": "50m Sled Pull",
+        "Time": "00:03:34",
+        "Place": "10"
+      },
+      {
+        "Split": "Running 4",
+        "Time": "00:04:26",
+        "Place": null
+      },
+      {
+        "Split": "80m Burpee Broad Jump",
+        "Time": "00:03:09",
+        "Place": "3"
+      },
+      {
+        "Split": "Running 5",
+        "Time": "00:04:28",
+        "Place": null
+      },
+      {
+        "Split": "1000m Row",
+        "Time": "00:04:54",
+        "Place": "36"
+      },
+      {
+        "Split": "Running 6",
+        "Time": "00:04:31",
+        "Place": null
+      },
+      {
+        "Split": "200m Farmers Carry",
+        "Time": "00:01:58",
+        "Place": "63"
+      },
+      {
+        "Split": "Running 7",
+        "Time": "00:04:32",
+        "Place": null
+      },
+      {
+        "Split": "100m Sandbag Lunges",
+        "Time": "00:03:43",
+        "Place": "37"
+      },
+      {
+        "Split": "Running 8",
+        "Time": "00:05:24",
+        "Place": null
+      },
+      {
+        "Split": "Wall Balls",
+        "Time": "00:03:51",
+        "Place": "8"
+      },
+      {
+        "Split": "Roxzone Time",
+        "Time": "00:04:19",
+        "Place": null
+      },
+      {
+        "Split": "Run Total",
+        "Time": "00:36:49",
+        "Place": "15"
+      },
+      {
+        "Split": "Best Run Lap",
+        "Time": "00:04:23",
+        "Place": "35"
+      }
+    ],
+    "race_replay": [
+      {
+        "Split": "Rox In",
+        "Time": "00:04:39",
+        "Diff": "04:39"
+      },
+      {
+        "Split": "1000m SkiErg In",
+        "Time": "00:04:44",
+        "Diff": "00:05"
+      },
+      {
+        "Split": "1000m SkiErg Out",
+        "Time": "00:09:26",
+        "Diff": "04:42"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:09:30",
+        "Diff": "00:04"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:13:52",
+        "Diff": "04:22"
+      },
+      {
+        "Split": "50m Sled Push In",
+        "Time": "00:14:12",
+        "Diff": "00:20"
+      },
+      {
+        "Split": "50m Sled Push Out",
+        "Time": "00:15:58",
+        "Diff": "01:46"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:16:20",
+        "Diff": "00:22"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:20:49",
+        "Diff": "04:29"
+      },
+      {
+        "Split": "50m Sled Pull In",
+        "Time": "00:21:05",
+        "Diff": "00:16"
+      },
+      {
+        "Split": "50m Sled Pull Out",
+        "Time": "00:24:39",
+        "Diff": "03:34"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:25:07",
+        "Diff": "00:28"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:29:33",
+        "Diff": "04:26"
+      },
+      {
+        "Split": "80m Burpee Broad Jump In",
+        "Time": "00:30:00",
+        "Diff": "00:27"
+      },
+      {
+        "Split": "80m Burpee Broad Jump Out",
+        "Time": "00:33:08",
+        "Diff": "03:08"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:33:21",
+        "Diff": "00:13"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:37:49",
+        "Diff": "04:28"
+      },
+      {
+        "Split": "1000m Row In",
+        "Time": "00:37:53",
+        "Diff": "00:04"
+      },
+      {
+        "Split": "1000m Row Out",
+        "Time": "00:42:46",
+        "Diff": "04:53"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:43:08",
+        "Diff": "00:22"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:47:38",
+        "Diff": "04:30"
+      },
+      {
+        "Split": "200m Farmers Carry In",
+        "Time": "00:47:59",
+        "Diff": "00:21"
+      },
+      {
+        "Split": "200m Farmers Carry Out",
+        "Time": "00:49:56",
+        "Diff": "01:57"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:50:24",
+        "Diff": "00:28"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:54:55",
+        "Diff": "04:31"
+      },
+      {
+        "Split": "100m Sandbag Lunges In",
+        "Time": "00:55:18",
+        "Diff": "00:23"
+      },
+      {
+        "Split": "100m Sandbag Lunges Out",
+        "Time": "00:59:01",
+        "Diff": "03:43"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:59:28",
+        "Diff": "00:27"
+      },
+      {
+        "Split": "Wall Balls In",
+        "Time": "01:04:52",
+        "Diff": "05:24"
+      },
+      {
+        "Split": "Total",
+        "Time": "01:08:43",
+        "Diff": "03:51"
+      }
+    ]
+  },
+  {
+    "event_id": "H_JFK26_OVERALL",
+    "sex": "W",
+    "idp": "LR3MS4JI523E98_JFK",
+    "detail_url": "https://results.hyrox.com/season-8/?content=detail&fpid=list&pid=list&idp=LR3MS4JI523E98_JFK&lang=EN_CAP&event=H_JFK26_OVERALL&pidp=ranking_nav&ranking=time_finish_netto&search%5Bsex%5D=W&search%5Bage_class%5D=%25&search_event=H_JFK26_OVERALL",
+    "rank": 15,
+    "age_group": "25-29",
+    "member": "Winterton, Rosemary",
+    "total": "01:08:43",
+    "individual_details": [
+      {
+        "title": "Participant",
+        "items": {
+          "Name": "Winterton, Rosemary",
+          "Bib Number": "154032",
+          "Age Group": "25-29",
+          "Nat": "USA"
+        }
+      },
+      {
+        "title": "Race Details",
+        "items": {
+          "Race": "2026 New York",
+          "Division": "HYROX - Overall"
+        }
+      },
+      {
+        "title": "Judging Decision",
+        "items": {
+          "*Bonus": null,
+          "*Penalty": null,
+          "Disqual Reason": null,
+          "Info": null
+        }
+      },
+      {
+        "title": "Overall Time",
+        "items": {
+          "Rank (M/W)": "15",
+          "Rank (AG)": "5",
+          "Overall Time": "01:08:43"
+        }
+      }
+    ],
+    "workout_summary": [
+      {
+        "Split": "Running 1",
+        "Time": "00:04:39",
+        "Place": null
+      },
+      {
+        "Split": "1000m SkiErg",
+        "Time": "00:05:01",
+        "Place": "286"
+      },
+      {
+        "Split": "Running 2",
+        "Time": "00:04:00",
+        "Place": null
+      },
+      {
+        "Split": "50m Sled Push",
+        "Time": "00:01:42",
+        "Place": "7"
+      },
+      {
+        "Split": "Running 3",
+        "Time": "00:04:17",
+        "Place": null
+      },
+      {
+        "Split": "50m Sled Pull",
+        "Time": "00:04:27",
+        "Place": "147"
+      },
+      {
+        "Split": "Running 4",
+        "Time": "00:04:11",
+        "Place": null
+      },
+      {
+        "Split": "80m Burpee Broad Jump",
+        "Time": "00:03:09",
+        "Place": "1"
+      },
+      {
+        "Split": "Running 5",
+        "Time": "00:04:21",
+        "Place": null
+      },
+      {
+        "Split": "1000m Row",
+        "Time": "00:05:14",
+        "Place": "228"
+      },
+      {
+        "Split": "Running 6",
+        "Time": "00:04:10",
+        "Place": null
+      },
+      {
+        "Split": "200m Farmers Carry",
+        "Time": "00:02:09",
+        "Place": "142"
+      },
+      {
+        "Split": "Running 7",
+        "Time": "00:04:09",
+        "Place": null
+      },
+      {
+        "Split": "100m Sandbag Lunges",
+        "Time": "00:02:47",
+        "Place": "12"
+      },
+      {
+        "Split": "Running 8",
+        "Time": "00:05:00",
+        "Place": null
+      },
+      {
+        "Split": "Wall Balls",
+        "Time": "00:04:30",
+        "Place": "42"
+      },
+      {
+        "Split": "Roxzone Time",
+        "Time": "00:05:06",
+        "Place": null
+      },
+      {
+        "Split": "Run Total",
+        "Time": "00:34:42",
+        "Place": "7"
+      },
+      {
+        "Split": "Best Run Lap",
+        "Time": "00:04:00",
+        "Place": "11"
+      }
+    ],
+    "race_replay": [
+      {
+        "Split": "Rox In",
+        "Time": "00:04:39",
+        "Diff": "04:39"
+      },
+      {
+        "Split": "1000m SkiErg In",
+        "Time": "00:04:43",
+        "Diff": "00:04"
+      },
+      {
+        "Split": "1000m SkiErg Out",
+        "Time": "00:09:44",
+        "Diff": "05:01"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:09:49",
+        "Diff": "00:05"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:13:49",
+        "Diff": "04:00"
+      },
+      {
+        "Split": "50m Sled Push In",
+        "Time": "00:14:12",
+        "Diff": "00:23"
+      },
+      {
+        "Split": "50m Sled Push Out",
+        "Time": "00:15:53",
+        "Diff": "01:41"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:16:26",
+        "Diff": "00:33"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:20:42",
+        "Diff": "04:16"
+      },
+      {
+        "Split": "50m Sled Pull In",
+        "Time": "00:20:58",
+        "Diff": "00:16"
+      },
+      {
+        "Split": "50m Sled Pull Out",
+        "Time": "00:25:24",
+        "Diff": "04:26"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:25:43",
+        "Diff": "00:19"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:29:53",
+        "Diff": "04:10"
+      },
+      {
+        "Split": "80m Burpee Broad Jump In",
+        "Time": "00:30:24",
+        "Diff": "00:31"
+      },
+      {
+        "Split": "80m Burpee Broad Jump Out",
+        "Time": "00:33:33",
+        "Diff": "03:09"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:34:02",
+        "Diff": "00:29"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:38:23",
+        "Diff": "04:21"
+      },
+      {
+        "Split": "1000m Row In",
+        "Time": "00:38:28",
+        "Diff": "00:05"
+      },
+      {
+        "Split": "1000m Row Out",
+        "Time": "00:43:42",
+        "Diff": "05:14"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:44:01",
+        "Diff": "00:19"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:48:10",
+        "Diff": "04:09"
+      },
+      {
+        "Split": "200m Farmers Carry In",
+        "Time": "00:48:31",
+        "Diff": "00:21"
+      },
+      {
+        "Split": "200m Farmers Carry Out",
+        "Time": "00:50:40",
+        "Diff": "02:09"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:51:19",
+        "Diff": "00:39"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:55:27",
+        "Diff": "04:08"
+      },
+      {
+        "Split": "100m Sandbag Lunges In",
+        "Time": "00:55:49",
+        "Diff": "00:22"
+      },
+      {
+        "Split": "100m Sandbag Lunges Out",
+        "Time": "00:58:35",
+        "Diff": "02:46"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:59:14",
+        "Diff": "00:39"
+      },
+      {
+        "Split": "Wall Balls In",
+        "Time": "01:04:13",
+        "Diff": "04:59"
+      },
+      {
+        "Split": "Total",
+        "Time": "01:08:43",
+        "Diff": "04:30"
+      }
+    ]
+  },
+  {
+    "event_id": "H_JFK26_OVERALL",
+    "sex": "W",
+    "idp": "LR3MS4JI524436_JFK",
+    "detail_url": "https://results.hyrox.com/season-8/?content=detail&fpid=list&pid=list&idp=LR3MS4JI524436_JFK&lang=EN_CAP&event=H_JFK26_OVERALL&pidp=ranking_nav&ranking=time_finish_netto&search%5Bsex%5D=W&search%5Bage_class%5D=%25&search_event=H_JFK26_OVERALL",
+    "rank": 16,
+    "age_group": "25-29",
+    "member": "Evans, Marlee",
+    "total": "01:08:54",
+    "individual_details": [
+      {
+        "title": "Participant",
+        "items": {
+          "Name": "Evans, Marlee",
+          "Bib Number": "174016",
+          "Age Group": "25-29",
+          "Nat": "USA"
+        }
+      },
+      {
+        "title": "Race Details",
+        "items": {
+          "Race": "2026 New York",
+          "Division": "HYROX - Overall"
+        }
+      },
+      {
+        "title": "Judging Decision",
+        "items": {
+          "*Bonus": null,
+          "*Penalty": null,
+          "Disqual Reason": null,
+          "Info": null
+        }
+      },
+      {
+        "title": "Overall Time",
+        "items": {
+          "Rank (M/W)": "16",
+          "Rank (AG)": "6",
+          "Overall Time": "01:08:54"
+        }
+      }
+    ],
+    "workout_summary": [
+      {
+        "Split": "Running 1",
+        "Time": "00:04:11",
+        "Place": null
+      },
+      {
+        "Split": "1000m SkiErg",
+        "Time": "00:04:18",
+        "Place": "3"
+      },
+      {
+        "Split": "Running 2",
+        "Time": "00:03:57",
+        "Place": null
+      },
+      {
+        "Split": "50m Sled Push",
+        "Time": "00:02:07",
+        "Place": "80"
+      },
+      {
+        "Split": "Running 3",
+        "Time": "00:04:02",
+        "Place": null
+      },
+      {
+        "Split": "50m Sled Pull",
+        "Time": "00:03:59",
+        "Place": "51"
+      },
+      {
+        "Split": "Running 4",
+        "Time": "00:04:05",
+        "Place": null
+      },
+      {
+        "Split": "80m Burpee Broad Jump",
+        "Time": "00:05:28",
+        "Place": "215"
+      },
+      {
+        "Split": "Running 5",
+        "Time": "00:04:14",
+        "Place": null
+      },
+      {
+        "Split": "1000m Row",
+        "Time": "00:04:36",
+        "Place": "5"
+      },
+      {
+        "Split": "Running 6",
+        "Time": "00:04:08",
+        "Place": null
+      },
+      {
+        "Split": "200m Farmers Carry",
+        "Time": "00:01:39",
+        "Place": "5"
+      },
+      {
+        "Split": "Running 7",
+        "Time": "00:04:10",
+        "Place": null
+      },
+      {
+        "Split": "100m Sandbag Lunges",
+        "Time": "00:03:31",
+        "Place": "46"
+      },
+      {
+        "Split": "Running 8",
+        "Time": "00:05:00",
+        "Place": null
+      },
+      {
+        "Split": "Wall Balls",
+        "Time": "00:05:08",
+        "Place": "121"
+      },
+      {
+        "Split": "Roxzone Time",
+        "Time": "00:04:30",
+        "Place": null
+      },
+      {
+        "Split": "Run Total",
+        "Time": "00:33:43",
+        "Place": "3"
+      },
+      {
+        "Split": "Best Run Lap",
+        "Time": "00:03:57",
+        "Place": "9"
+      }
+    ],
+    "race_replay": [
+      {
+        "Split": "Rox In",
+        "Time": "00:04:11",
+        "Diff": "04:11"
+      },
+      {
+        "Split": "1000m SkiErg In",
+        "Time": "00:04:15",
+        "Diff": "00:04"
+      },
+      {
+        "Split": "1000m SkiErg Out",
+        "Time": "00:08:33",
+        "Diff": "04:18"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:08:37",
+        "Diff": "00:04"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:12:34",
+        "Diff": "03:57"
+      },
+      {
+        "Split": "50m Sled Push In",
+        "Time": "00:13:00",
+        "Diff": "00:26"
+      },
+      {
+        "Split": "50m Sled Push Out",
+        "Time": "00:15:07",
+        "Diff": "02:07"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:15:25",
+        "Diff": "00:18"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:19:26",
+        "Diff": "04:01"
+      },
+      {
+        "Split": "50m Sled Pull In",
+        "Time": "00:19:41",
+        "Diff": "00:15"
+      },
+      {
+        "Split": "50m Sled Pull Out",
+        "Time": "00:23:40",
+        "Diff": "03:59"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:23:57",
+        "Diff": "00:17"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:28:02",
+        "Diff": "04:05"
+      },
+      {
+        "Split": "80m Burpee Broad Jump In",
+        "Time": "00:28:32",
+        "Diff": "00:30"
+      },
+      {
+        "Split": "80m Burpee Broad Jump Out",
+        "Time": "00:33:59",
+        "Diff": "05:27"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:34:11",
+        "Diff": "00:12"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:38:24",
+        "Diff": "04:13"
+      },
+      {
+        "Split": "1000m Row In",
+        "Time": "00:38:28",
+        "Diff": "00:04"
+      },
+      {
+        "Split": "1000m Row Out",
+        "Time": "00:43:03",
+        "Diff": "04:35"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:43:33",
+        "Diff": "00:30"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:47:40",
+        "Diff": "04:07"
+      },
+      {
+        "Split": "200m Farmers Carry In",
+        "Time": "00:48:03",
+        "Diff": "00:23"
+      },
+      {
+        "Split": "200m Farmers Carry Out",
+        "Time": "00:49:42",
+        "Diff": "01:39"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:50:18",
+        "Diff": "00:36"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:54:28",
+        "Diff": "04:10"
+      },
+      {
+        "Split": "100m Sandbag Lunges In",
+        "Time": "00:54:51",
+        "Diff": "00:23"
+      },
+      {
+        "Split": "100m Sandbag Lunges Out",
+        "Time": "00:58:21",
+        "Diff": "03:30"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:58:47",
+        "Diff": "00:26"
+      },
+      {
+        "Split": "Wall Balls In",
+        "Time": "01:03:47",
+        "Diff": "05:00"
+      },
+      {
+        "Split": "Total",
+        "Time": "01:08:54",
+        "Diff": "05:07"
+      }
+    ]
+  },
+  {
+    "event_id": "H_JFK26_OVERALL",
+    "sex": "W",
+    "idp": "LR3MS4JI5226CF_JFK",
+    "detail_url": "https://results.hyrox.com/season-8/?content=detail&fpid=list&pid=list&idp=LR3MS4JI5226CF_JFK&lang=EN_CAP&event=H_JFK26_OVERALL&pidp=ranking_nav&ranking=time_finish_netto&search%5Bsex%5D=W&search%5Bage_class%5D=%25&search_event=H_JFK26_OVERALL",
+    "rank": 17,
+    "age_group": "16-24",
+    "member": "Abuzaina, Jenna",
+    "total": "01:08:57",
+    "individual_details": [
+      {
+        "title": "Participant",
+        "items": {
+          "Name": "Abuzaina, Jenna",
+          "Bib Number": "141043",
+          "Age Group": "16-24",
+          "Nat": "USA"
+        }
+      },
+      {
+        "title": "Race Details",
+        "items": {
+          "Race": "2026 New York",
+          "Division": "HYROX - Overall"
+        }
+      },
+      {
+        "title": "Judging Decision",
+        "items": {
+          "*Bonus": null,
+          "*Penalty": null,
+          "Disqual Reason": null,
+          "Info": null
+        }
+      },
+      {
+        "title": "Overall Time",
+        "items": {
+          "Rank (M/W)": "17",
+          "Rank (AG)": "3",
+          "Overall Time": "01:08:57"
+        }
+      }
+    ],
+    "workout_summary": [
+      {
+        "Split": "Running 1",
+        "Time": "00:04:17",
+        "Place": null
+      },
+      {
+        "Split": "1000m SkiErg",
+        "Time": "00:04:28",
+        "Place": "6"
+      },
+      {
+        "Split": "Running 2",
+        "Time": "00:04:09",
+        "Place": null
+      },
+      {
+        "Split": "50m Sled Push",
+        "Time": "00:02:08",
+        "Place": "39"
+      },
+      {
+        "Split": "Running 3",
+        "Time": "00:04:14",
+        "Place": null
+      },
+      {
+        "Split": "50m Sled Pull",
+        "Time": "00:04:20",
+        "Place": "53"
+      },
+      {
+        "Split": "Running 4",
+        "Time": "00:04:21",
+        "Place": null
+      },
+      {
+        "Split": "80m Burpee Broad Jump",
+        "Time": "00:03:07",
+        "Place": "1"
+      },
+      {
+        "Split": "Running 5",
+        "Time": "00:04:44",
+        "Place": null
+      },
+      {
+        "Split": "1000m Row",
+        "Time": "00:04:50",
+        "Place": "16"
+      },
+      {
+        "Split": "Running 6",
+        "Time": "00:04:32",
+        "Place": null
+      },
+      {
+        "Split": "200m Farmers Carry",
+        "Time": "00:02:12",
+        "Place": "78"
+      },
+      {
+        "Split": "Running 7",
+        "Time": "00:04:30",
+        "Place": null
+      },
+      {
+        "Split": "100m Sandbag Lunges",
+        "Time": "00:02:50",
+        "Place": "3"
+      },
+      {
+        "Split": "Running 8",
+        "Time": "00:05:29",
+        "Place": null
+      },
+      {
+        "Split": "Wall Balls",
+        "Time": "00:03:48",
+        "Place": "3"
+      },
+      {
+        "Split": "Roxzone Time",
+        "Time": "00:05:06",
+        "Place": null
+      },
+      {
+        "Split": "Run Total",
+        "Time": "00:36:12",
+        "Place": "6"
+      },
+      {
+        "Split": "Best Run Lap",
+        "Time": "00:04:09",
+        "Place": "11"
+      }
+    ],
+    "race_replay": [
+      {
+        "Split": "Rox In",
+        "Time": "00:04:17",
+        "Diff": "04:17"
+      },
+      {
+        "Split": "1000m SkiErg In",
+        "Time": "00:04:21",
+        "Diff": "00:04"
+      },
+      {
+        "Split": "1000m SkiErg Out",
+        "Time": "00:08:48",
+        "Diff": "04:27"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:08:52",
+        "Diff": "00:04"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:13:01",
+        "Diff": "04:09"
+      },
+      {
+        "Split": "50m Sled Push In",
+        "Time": "00:13:19",
+        "Diff": "00:18"
+      },
+      {
+        "Split": "50m Sled Push Out",
+        "Time": "00:15:26",
+        "Diff": "02:07"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:15:52",
+        "Diff": "00:26"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:20:06",
+        "Diff": "04:14"
+      },
+      {
+        "Split": "50m Sled Pull In",
+        "Time": "00:20:26",
+        "Diff": "00:20"
+      },
+      {
+        "Split": "50m Sled Pull Out",
+        "Time": "00:24:46",
+        "Diff": "04:20"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:25:10",
+        "Diff": "00:24"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:29:31",
+        "Diff": "04:21"
+      },
+      {
+        "Split": "80m Burpee Broad Jump In",
+        "Time": "00:29:58",
+        "Diff": "00:27"
+      },
+      {
+        "Split": "80m Burpee Broad Jump Out",
+        "Time": "00:33:04",
+        "Diff": "03:06"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:33:27",
+        "Diff": "00:23"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:38:10",
+        "Diff": "04:43"
+      },
+      {
+        "Split": "1000m Row In",
+        "Time": "00:38:40",
+        "Diff": "00:30"
+      },
+      {
+        "Split": "1000m Row Out",
+        "Time": "00:43:30",
+        "Diff": "04:50"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:43:56",
+        "Diff": "00:26"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:48:27",
+        "Diff": "04:31"
+      },
+      {
+        "Split": "200m Farmers Carry In",
+        "Time": "00:48:52",
+        "Diff": "00:25"
+      },
+      {
+        "Split": "200m Farmers Carry Out",
+        "Time": "00:51:04",
+        "Diff": "02:12"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:51:37",
+        "Diff": "00:33"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:56:06",
+        "Diff": "04:29"
+      },
+      {
+        "Split": "100m Sandbag Lunges In",
+        "Time": "00:56:25",
+        "Diff": "00:19"
+      },
+      {
+        "Split": "100m Sandbag Lunges Out",
+        "Time": "00:59:14",
+        "Diff": "02:49"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:59:40",
+        "Diff": "00:26"
+      },
+      {
+        "Split": "Wall Balls In",
+        "Time": "01:05:09",
+        "Diff": "05:29"
+      },
+      {
+        "Split": "Total",
+        "Time": "01:08:57",
+        "Diff": "03:48"
+      }
+    ]
+  },
+  {
+    "event_id": "H_JFK26_OVERALL",
+    "sex": "W",
+    "idp": "LR3MS4JI5262F4_JFK",
+    "detail_url": "https://results.hyrox.com/season-8/?content=detail&fpid=list&pid=list&idp=LR3MS4JI5262F4_JFK&lang=EN_CAP&event=H_JFK26_OVERALL&pidp=ranking_nav&ranking=time_finish_netto&search%5Bsex%5D=W&search%5Bage_class%5D=%25&search_event=H_JFK26_OVERALL",
+    "rank": 18,
+    "age_group": "35-39",
+    "member": "Jornlin, Carly",
+    "total": "01:09:16",
+    "individual_details": [
+      {
+        "title": "Participant",
+        "items": {
+          "Name": "Jornlin, Carly",
+          "Bib Number": "173041",
+          "Age Group": "35-39",
+          "Nat": "USA"
+        }
+      },
+      {
+        "title": "Race Details",
+        "items": {
+          "Race": "2026 New York",
+          "Division": "HYROX - Overall"
+        }
+      },
+      {
+        "title": "Judging Decision",
+        "items": {
+          "*Bonus": null,
+          "*Penalty": null,
+          "Disqual Reason": null,
+          "Info": null
+        }
+      },
+      {
+        "title": "Overall Time",
+        "items": {
+          "Rank (M/W)": "18",
+          "Rank (AG)": "5",
+          "Overall Time": "01:09:16"
+        }
+      }
+    ],
+    "workout_summary": [
+      {
+        "Split": "Running 1",
+        "Time": "00:04:26",
+        "Place": null
+      },
+      {
+        "Split": "1000m SkiErg",
+        "Time": "00:05:08",
+        "Place": "297"
+      },
+      {
+        "Split": "Running 2",
+        "Time": "00:04:17",
+        "Place": null
+      },
+      {
+        "Split": "50m Sled Push",
+        "Time": "00:01:45",
+        "Place": "8"
+      },
+      {
+        "Split": "Running 3",
+        "Time": "00:04:28",
+        "Place": null
+      },
+      {
+        "Split": "50m Sled Pull",
+        "Time": "00:04:06",
+        "Place": "48"
+      },
+      {
+        "Split": "Running 4",
+        "Time": "00:04:21",
+        "Place": null
+      },
+      {
+        "Split": "80m Burpee Broad Jump",
+        "Time": "00:04:04",
+        "Place": "22"
+      },
+      {
+        "Split": "Running 5",
+        "Time": "00:04:29",
+        "Place": null
+      },
+      {
+        "Split": "1000m Row",
+        "Time": "00:04:54",
+        "Place": "39"
+      },
+      {
+        "Split": "Running 6",
+        "Time": "00:04:26",
+        "Place": null
+      },
+      {
+        "Split": "200m Farmers Carry",
+        "Time": "00:01:47",
+        "Place": "12"
+      },
+      {
+        "Split": "Running 7",
+        "Time": "00:04:25",
+        "Place": null
+      },
+      {
+        "Split": "100m Sandbag Lunges",
+        "Time": "00:03:05",
+        "Place": "7"
+      },
+      {
+        "Split": "Running 8",
+        "Time": "00:05:27",
+        "Place": null
+      },
+      {
+        "Split": "Wall Balls",
+        "Time": "00:04:00",
+        "Place": "16"
+      },
+      {
+        "Split": "Roxzone Time",
+        "Time": "00:04:15",
+        "Place": null
+      },
+      {
+        "Split": "Run Total",
+        "Time": "00:36:16",
+        "Place": "13"
+      },
+      {
+        "Split": "Best Run Lap",
+        "Time": "00:04:17",
+        "Place": "26"
+      }
+    ],
+    "race_replay": [
+      {
+        "Split": "Rox In",
+        "Time": "00:04:26",
+        "Diff": "04:26"
+      },
+      {
+        "Split": "1000m SkiErg In",
+        "Time": "00:04:30",
+        "Diff": "00:04"
+      },
+      {
+        "Split": "1000m SkiErg Out",
+        "Time": "00:09:38",
+        "Diff": "05:08"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:09:44",
+        "Diff": "00:06"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:14:00",
+        "Diff": "04:16"
+      },
+      {
+        "Split": "50m Sled Push In",
+        "Time": "00:14:20",
+        "Diff": "00:20"
+      },
+      {
+        "Split": "50m Sled Push Out",
+        "Time": "00:16:04",
+        "Diff": "01:44"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:16:29",
+        "Diff": "00:25"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:20:56",
+        "Diff": "04:27"
+      },
+      {
+        "Split": "50m Sled Pull In",
+        "Time": "00:21:11",
+        "Diff": "00:15"
+      },
+      {
+        "Split": "50m Sled Pull Out",
+        "Time": "00:25:16",
+        "Diff": "04:05"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:25:39",
+        "Diff": "00:23"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:29:59",
+        "Diff": "04:20"
+      },
+      {
+        "Split": "80m Burpee Broad Jump In",
+        "Time": "00:30:26",
+        "Diff": "00:27"
+      },
+      {
+        "Split": "80m Burpee Broad Jump Out",
+        "Time": "00:34:30",
+        "Diff": "04:04"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:34:43",
+        "Diff": "00:13"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:39:12",
+        "Diff": "04:29"
+      },
+      {
+        "Split": "1000m Row In",
+        "Time": "00:39:17",
+        "Diff": "00:05"
+      },
+      {
+        "Split": "1000m Row Out",
+        "Time": "00:44:11",
+        "Diff": "04:54"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:44:38",
+        "Diff": "00:27"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:49:03",
+        "Diff": "04:25"
+      },
+      {
+        "Split": "200m Farmers Carry In",
+        "Time": "00:49:21",
+        "Diff": "00:18"
+      },
+      {
+        "Split": "200m Farmers Carry Out",
+        "Time": "00:51:08",
+        "Diff": "01:47"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:51:36",
+        "Diff": "00:28"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:56:01",
+        "Diff": "04:25"
+      },
+      {
+        "Split": "100m Sandbag Lunges In",
+        "Time": "00:56:17",
+        "Diff": "00:16"
+      },
+      {
+        "Split": "100m Sandbag Lunges Out",
+        "Time": "00:59:22",
+        "Diff": "03:05"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:59:50",
+        "Diff": "00:28"
+      },
+      {
+        "Split": "Wall Balls In",
+        "Time": "01:05:17",
+        "Diff": "05:27"
+      },
+      {
+        "Split": "Total",
+        "Time": "01:09:16",
+        "Diff": "03:59"
+      }
+    ]
+  },
+  {
+    "event_id": "H_JFK26_OVERALL",
+    "sex": "W",
+    "idp": "LR3MS4JI5289FC_JFK",
+    "detail_url": "https://results.hyrox.com/season-8/?content=detail&fpid=list&pid=list&idp=LR3MS4JI5289FC_JFK&lang=EN_CAP&event=H_JFK26_OVERALL&pidp=ranking_nav&ranking=time_finish_netto&search%5Bsex%5D=W&search%5Bage_class%5D=%25&search_event=H_JFK26_OVERALL",
+    "rank": 19,
+    "age_group": "35-39",
+    "member": "Flores, Kory",
+    "total": "01:09:17",
+    "individual_details": [
+      {
+        "title": "Participant",
+        "items": {
+          "Name": "Flores, Kory",
+          "Bib Number": "132045",
+          "Age Group": "35-39",
+          "Nat": "USA"
+        }
+      },
+      {
+        "title": "Race Details",
+        "items": {
+          "Race": "2026 New York",
+          "Division": "HYROX - Overall"
+        }
+      },
+      {
+        "title": "Judging Decision",
+        "items": {
+          "*Bonus": null,
+          "*Penalty": null,
+          "Disqual Reason": null,
+          "Info": null
+        }
+      },
+      {
+        "title": "Overall Time",
+        "items": {
+          "Rank (M/W)": "19",
+          "Rank (AG)": "6",
+          "Overall Time": "01:09:17"
+        }
+      }
+    ],
+    "workout_summary": [
+      {
+        "Split": "Running 1",
+        "Time": "00:04:32",
+        "Place": null
+      },
+      {
+        "Split": "1000m SkiErg",
+        "Time": "00:04:35",
+        "Place": "22"
+      },
+      {
+        "Split": "Running 2",
+        "Time": "00:04:04",
+        "Place": null
+      },
+      {
+        "Split": "50m Sled Push",
+        "Time": "00:01:51",
+        "Place": "15"
+      },
+      {
+        "Split": "Running 3",
+        "Time": "00:04:17",
+        "Place": null
+      },
+      {
+        "Split": "50m Sled Pull",
+        "Time": "00:03:36",
+        "Place": "14"
+      },
+      {
+        "Split": "Running 4",
+        "Time": "00:04:19",
+        "Place": null
+      },
+      {
+        "Split": "80m Burpee Broad Jump",
+        "Time": "00:05:01",
+        "Place": "105"
+      },
+      {
+        "Split": "Running 5",
+        "Time": "00:04:15",
+        "Place": null
+      },
+      {
+        "Split": "1000m Row",
+        "Time": "00:04:47",
+        "Place": "20"
+      },
+      {
+        "Split": "Running 6",
+        "Time": "00:04:27",
+        "Place": null
+      },
+      {
+        "Split": "200m Farmers Carry",
+        "Time": "00:01:58",
+        "Place": "62"
+      },
+      {
+        "Split": "Running 7",
+        "Time": "00:04:29",
+        "Place": null
+      },
+      {
+        "Split": "100m Sandbag Lunges",
+        "Time": "00:03:17",
+        "Place": "15"
+      },
+      {
+        "Split": "Running 8",
+        "Time": "00:05:30",
+        "Place": null
+      },
+      {
+        "Split": "Wall Balls",
+        "Time": "00:04:47",
+        "Place": "63"
+      },
+      {
+        "Split": "Roxzone Time",
+        "Time": "00:03:39",
+        "Place": null
+      },
+      {
+        "Split": "Run Total",
+        "Time": "00:35:50",
+        "Place": "9"
+      },
+      {
+        "Split": "Best Run Lap",
+        "Time": "00:04:04",
+        "Place": "7"
+      }
+    ],
+    "race_replay": [
+      {
+        "Split": "Rox In",
+        "Time": "00:04:32",
+        "Diff": "04:32"
+      },
+      {
+        "Split": "1000m SkiErg In",
+        "Time": "00:04:36",
+        "Diff": "00:04"
+      },
+      {
+        "Split": "1000m SkiErg Out",
+        "Time": "00:09:10",
+        "Diff": "04:34"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:09:14",
+        "Diff": "00:04"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:13:17",
+        "Diff": "04:03"
+      },
+      {
+        "Split": "50m Sled Push In",
+        "Time": "00:13:35",
+        "Diff": "00:18"
+      },
+      {
+        "Split": "50m Sled Push Out",
+        "Time": "00:15:26",
+        "Diff": "01:51"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:15:43",
+        "Diff": "00:17"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:19:59",
+        "Diff": "04:16"
+      },
+      {
+        "Split": "50m Sled Pull In",
+        "Time": "00:20:14",
+        "Diff": "00:15"
+      },
+      {
+        "Split": "50m Sled Pull Out",
+        "Time": "00:23:49",
+        "Diff": "03:35"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:24:07",
+        "Diff": "00:18"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:28:25",
+        "Diff": "04:18"
+      },
+      {
+        "Split": "80m Burpee Broad Jump In",
+        "Time": "00:28:48",
+        "Diff": "00:23"
+      },
+      {
+        "Split": "80m Burpee Broad Jump Out",
+        "Time": "00:33:49",
+        "Diff": "05:01"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:33:59",
+        "Diff": "00:10"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:38:13",
+        "Diff": "04:14"
+      },
+      {
+        "Split": "1000m Row In",
+        "Time": "00:38:17",
+        "Diff": "00:04"
+      },
+      {
+        "Split": "1000m Row Out",
+        "Time": "00:43:04",
+        "Diff": "04:47"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:43:24",
+        "Diff": "00:20"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:47:51",
+        "Diff": "04:27"
+      },
+      {
+        "Split": "200m Farmers Carry In",
+        "Time": "00:48:11",
+        "Diff": "00:20"
+      },
+      {
+        "Split": "200m Farmers Carry Out",
+        "Time": "00:50:09",
+        "Diff": "01:58"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:50:34",
+        "Diff": "00:25"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:55:03",
+        "Diff": "04:29"
+      },
+      {
+        "Split": "100m Sandbag Lunges In",
+        "Time": "00:55:23",
+        "Diff": "00:20"
+      },
+      {
+        "Split": "100m Sandbag Lunges Out",
+        "Time": "00:58:39",
+        "Diff": "03:16"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:59:01",
+        "Diff": "00:22"
+      },
+      {
+        "Split": "Wall Balls In",
+        "Time": "01:04:31",
+        "Diff": "05:30"
+      },
+      {
+        "Split": "Total",
+        "Time": "01:09:17",
+        "Diff": "04:46"
+      }
+    ]
+  },
+  {
+    "event_id": "H_JFK26_OVERALL",
+    "sex": "W",
+    "idp": "LR3MS4JI5245C5_JFK",
+    "detail_url": "https://results.hyrox.com/season-8/?content=detail&fpid=list&pid=list&idp=LR3MS4JI5245C5_JFK&lang=EN_CAP&event=H_JFK26_OVERALL&pidp=ranking_nav&ranking=time_finish_netto&search%5Bsex%5D=W&search%5Bage_class%5D=%25&search_event=H_JFK26_OVERALL",
+    "rank": 20,
+    "age_group": "16-24",
+    "member": "Hofeling, Carissa",
+    "total": "01:09:20",
+    "individual_details": [
+      {
+        "title": "Participant",
+        "items": {
+          "Name": "Hofeling, Carissa",
+          "Bib Number": "145013",
+          "Age Group": "16-24",
+          "Nat": "USA"
+        }
+      },
+      {
+        "title": "Race Details",
+        "items": {
+          "Race": "2026 New York",
+          "Division": "HYROX - Overall"
+        }
+      },
+      {
+        "title": "Judging Decision",
+        "items": {
+          "*Bonus": null,
+          "*Penalty": null,
+          "Disqual Reason": null,
+          "Info": null
+        }
+      },
+      {
+        "title": "Overall Time",
+        "items": {
+          "Rank (M/W)": "20",
+          "Rank (AG)": "4",
+          "Overall Time": "01:09:20"
+        }
+      }
+    ],
+    "workout_summary": [
+      {
+        "Split": "Running 1",
+        "Time": "00:04:36",
+        "Place": null
+      },
+      {
+        "Split": "1000m SkiErg",
+        "Time": "00:04:50",
+        "Place": "63"
+      },
+      {
+        "Split": "Running 2",
+        "Time": "00:04:12",
+        "Place": null
+      },
+      {
+        "Split": "50m Sled Push",
+        "Time": "00:01:58",
+        "Place": "13"
+      },
+      {
+        "Split": "Running 3",
+        "Time": "00:04:28",
+        "Place": null
+      },
+      {
+        "Split": "50m Sled Pull",
+        "Time": "00:03:48",
+        "Place": "6"
+      },
+      {
+        "Split": "Running 4",
+        "Time": "00:04:29",
+        "Place": null
+      },
+      {
+        "Split": "80m Burpee Broad Jump",
+        "Time": "00:03:51",
+        "Place": "10"
+      },
+      {
+        "Split": "Running 5",
+        "Time": "00:04:45",
+        "Place": null
+      },
+      {
+        "Split": "1000m Row",
+        "Time": "00:04:56",
+        "Place": "25"
+      },
+      {
+        "Split": "Running 6",
+        "Time": "00:04:42",
+        "Place": null
+      },
+      {
+        "Split": "200m Farmers Carry",
+        "Time": "00:01:45",
+        "Place": "10"
+      },
+      {
+        "Split": "Running 7",
+        "Time": "00:04:38",
+        "Place": null
+      },
+      {
+        "Split": "100m Sandbag Lunges",
+        "Time": "00:02:44",
+        "Place": "2"
+      },
+      {
+        "Split": "Running 8",
+        "Time": "00:05:22",
+        "Place": null
+      },
+      {
+        "Split": "Wall Balls",
+        "Time": "00:03:53",
+        "Place": "4"
+      },
+      {
+        "Split": "Roxzone Time",
+        "Time": "00:04:31",
+        "Place": null
+      },
+      {
+        "Split": "Run Total",
+        "Time": "00:37:08",
+        "Place": "11"
+      },
+      {
+        "Split": "Best Run Lap",
+        "Time": "00:04:12",
+        "Place": "12"
+      }
+    ],
+    "race_replay": [
+      {
+        "Split": "Rox In",
+        "Time": "00:04:36",
+        "Diff": "04:36"
+      },
+      {
+        "Split": "1000m SkiErg In",
+        "Time": "00:04:40",
+        "Diff": "00:04"
+      },
+      {
+        "Split": "1000m SkiErg Out",
+        "Time": "00:09:30",
+        "Diff": "04:50"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:09:34",
+        "Diff": "00:04"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:13:45",
+        "Diff": "04:11"
+      },
+      {
+        "Split": "50m Sled Push In",
+        "Time": "00:14:05",
+        "Diff": "00:20"
+      },
+      {
+        "Split": "50m Sled Push Out",
+        "Time": "00:16:02",
+        "Diff": "01:57"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:16:25",
+        "Diff": "00:23"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:20:52",
+        "Diff": "04:27"
+      },
+      {
+        "Split": "50m Sled Pull In",
+        "Time": "00:21:07",
+        "Diff": "00:15"
+      },
+      {
+        "Split": "50m Sled Pull Out",
+        "Time": "00:24:55",
+        "Diff": "03:48"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:25:17",
+        "Diff": "00:22"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:29:46",
+        "Diff": "04:29"
+      },
+      {
+        "Split": "80m Burpee Broad Jump In",
+        "Time": "00:30:16",
+        "Diff": "00:30"
+      },
+      {
+        "Split": "80m Burpee Broad Jump Out",
+        "Time": "00:34:07",
+        "Diff": "03:51"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:34:20",
+        "Diff": "00:13"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:39:04",
+        "Diff": "04:44"
+      },
+      {
+        "Split": "1000m Row In",
+        "Time": "00:39:08",
+        "Diff": "00:04"
+      },
+      {
+        "Split": "1000m Row Out",
+        "Time": "00:44:03",
+        "Diff": "04:55"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:44:33",
+        "Diff": "00:30"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:49:14",
+        "Diff": "04:41"
+      },
+      {
+        "Split": "200m Farmers Carry In",
+        "Time": "00:49:36",
+        "Diff": "00:22"
+      },
+      {
+        "Split": "200m Farmers Carry Out",
+        "Time": "00:51:21",
+        "Diff": "01:45"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:52:00",
+        "Diff": "00:39"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:56:38",
+        "Diff": "04:38"
+      },
+      {
+        "Split": "100m Sandbag Lunges In",
+        "Time": "00:56:58",
+        "Diff": "00:20"
+      },
+      {
+        "Split": "100m Sandbag Lunges Out",
+        "Time": "00:59:42",
+        "Diff": "02:44"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "01:00:06",
+        "Diff": "00:24"
+      },
+      {
+        "Split": "Wall Balls In",
+        "Time": "01:05:27",
+        "Diff": "05:21"
+      },
+      {
+        "Split": "Total",
+        "Time": "01:09:20",
+        "Diff": "03:53"
+      }
+    ]
+  },
+  {
+    "event_id": "H_JFK26_OVERALL",
+    "sex": "W",
+    "idp": "LR3MS4JI523428_JFK",
+    "detail_url": "https://results.hyrox.com/season-8/?content=detail&fpid=list&pid=list&idp=LR3MS4JI523428_JFK&lang=EN_CAP&event=H_JFK26_OVERALL&pidp=ranking_nav&ranking=time_finish_netto&search%5Bsex%5D=W&search%5Bage_class%5D=%25&search_event=H_JFK26_OVERALL",
+    "rank": 21,
+    "age_group": "40-44",
+    "member": "Chisholm, Melissa",
+    "total": "01:09:30",
+    "individual_details": [
+      {
+        "title": "Participant",
+        "items": {
+          "Name": "Chisholm, Melissa",
+          "Bib Number": "125008",
+          "Age Group": "40-44",
+          "Nat": "USA"
+        }
+      },
+      {
+        "title": "Race Details",
+        "items": {
+          "Race": "2026 New York",
+          "Division": "HYROX - Overall"
+        }
+      },
+      {
+        "title": "Judging Decision",
+        "items": {
+          "*Bonus": null,
+          "*Penalty": null,
+          "Disqual Reason": null,
+          "Info": null
+        }
+      },
+      {
+        "title": "Overall Time",
+        "items": {
+          "Rank (M/W)": "21",
+          "Rank (AG)": "1",
+          "Overall Time": "01:09:30"
+        }
+      }
+    ],
+    "workout_summary": [
+      {
+        "Split": "Running 1",
+        "Time": "00:04:17",
+        "Place": null
+      },
+      {
+        "Split": "1000m SkiErg",
+        "Time": "00:04:58",
+        "Place": "95"
+      },
+      {
+        "Split": "Running 2",
+        "Time": "00:03:50",
+        "Place": null
+      },
+      {
+        "Split": "50m Sled Push",
+        "Time": "00:01:56",
+        "Place": "10"
+      },
+      {
+        "Split": "Running 3",
+        "Time": "00:04:10",
+        "Place": null
+      },
+      {
+        "Split": "50m Sled Pull",
+        "Time": "00:04:08",
+        "Place": "27"
+      },
+      {
+        "Split": "Running 4",
+        "Time": "00:04:17",
+        "Place": null
+      },
+      {
+        "Split": "80m Burpee Broad Jump",
+        "Time": "00:05:08",
+        "Place": "69"
+      },
+      {
+        "Split": "Running 5",
+        "Time": "00:04:22",
+        "Place": null
+      },
+      {
+        "Split": "1000m Row",
+        "Time": "00:05:02",
+        "Place": "41"
+      },
+      {
+        "Split": "Running 6",
+        "Time": "00:04:27",
+        "Place": null
+      },
+      {
+        "Split": "200m Farmers Carry",
+        "Time": "00:01:50",
+        "Place": "16"
+      },
+      {
+        "Split": "Running 7",
+        "Time": "00:04:23",
+        "Place": null
+      },
+      {
+        "Split": "100m Sandbag Lunges",
+        "Time": "00:03:35",
+        "Place": "13"
+      },
+      {
+        "Split": "Running 8",
+        "Time": "00:05:28",
+        "Place": null
+      },
+      {
+        "Split": "Wall Balls",
+        "Time": "00:04:12",
+        "Place": "6"
+      },
+      {
+        "Split": "Roxzone Time",
+        "Time": "00:03:36",
+        "Place": null
+      },
+      {
+        "Split": "Run Total",
+        "Time": "00:35:10",
+        "Place": "1"
+      },
+      {
+        "Split": "Best Run Lap",
+        "Time": "00:03:50",
+        "Place": "4"
+      }
+    ],
+    "race_replay": [
+      {
+        "Split": "Rox In",
+        "Time": "00:04:17",
+        "Diff": "04:17"
+      },
+      {
+        "Split": "1000m SkiErg In",
+        "Time": "00:04:20",
+        "Diff": "00:03"
+      },
+      {
+        "Split": "1000m SkiErg Out",
+        "Time": "00:09:17",
+        "Diff": "04:57"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:09:21",
+        "Diff": "00:04"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:13:10",
+        "Diff": "03:49"
+      },
+      {
+        "Split": "50m Sled Push In",
+        "Time": "00:13:26",
+        "Diff": "00:16"
+      },
+      {
+        "Split": "50m Sled Push Out",
+        "Time": "00:15:22",
+        "Diff": "01:56"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:15:42",
+        "Diff": "00:20"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:19:51",
+        "Diff": "04:09"
+      },
+      {
+        "Split": "50m Sled Pull In",
+        "Time": "00:20:06",
+        "Diff": "00:15"
+      },
+      {
+        "Split": "50m Sled Pull Out",
+        "Time": "00:24:13",
+        "Diff": "04:07"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:24:31",
+        "Diff": "00:18"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:28:48",
+        "Diff": "04:17"
+      },
+      {
+        "Split": "80m Burpee Broad Jump In",
+        "Time": "00:29:09",
+        "Diff": "00:21"
+      },
+      {
+        "Split": "80m Burpee Broad Jump Out",
+        "Time": "00:34:17",
+        "Diff": "05:08"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:34:31",
+        "Diff": "00:14"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:38:53",
+        "Diff": "04:22"
+      },
+      {
+        "Split": "1000m Row In",
+        "Time": "00:38:58",
+        "Diff": "00:05"
+      },
+      {
+        "Split": "1000m Row Out",
+        "Time": "00:43:59",
+        "Diff": "05:01"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:44:18",
+        "Diff": "00:19"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:48:44",
+        "Diff": "04:26"
+      },
+      {
+        "Split": "200m Farmers Carry In",
+        "Time": "00:49:02",
+        "Diff": "00:18"
+      },
+      {
+        "Split": "200m Farmers Carry Out",
+        "Time": "00:50:51",
+        "Diff": "01:49"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:51:17",
+        "Diff": "00:26"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:55:39",
+        "Diff": "04:22"
+      },
+      {
+        "Split": "100m Sandbag Lunges In",
+        "Time": "00:55:55",
+        "Diff": "00:16"
+      },
+      {
+        "Split": "100m Sandbag Lunges Out",
+        "Time": "00:59:29",
+        "Diff": "03:34"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:59:51",
+        "Diff": "00:22"
+      },
+      {
+        "Split": "Wall Balls In",
+        "Time": "01:05:18",
+        "Diff": "05:27"
+      },
+      {
+        "Split": "Total",
+        "Time": "01:09:30",
+        "Diff": "04:12"
+      }
+    ]
+  },
+  {
+    "event_id": "H_JFK26_OVERALL",
+    "sex": "W",
+    "idp": "LR3MS4JI5280A1_JFK",
+    "detail_url": "https://results.hyrox.com/season-8/?content=detail&fpid=list&pid=list&idp=LR3MS4JI5280A1_JFK&lang=EN_CAP&event=H_JFK26_OVERALL&pidp=ranking_nav&ranking=time_finish_netto&search%5Bsex%5D=W&search%5Bage_class%5D=%25&search_event=H_JFK26_OVERALL",
+    "rank": 22,
+    "age_group": "40-44",
+    "member": "St. Jacques, Emily",
+    "total": "01:09:34",
+    "individual_details": [
+      {
+        "title": "Participant",
+        "items": {
+          "Name": "St. Jacques, Emily",
+          "Bib Number": "154027",
+          "Age Group": "40-44",
+          "Nat": "USA"
+        }
+      },
+      {
+        "title": "Race Details",
+        "items": {
+          "Race": "2026 New York",
+          "Division": "HYROX - Overall"
+        }
+      },
+      {
+        "title": "Judging Decision",
+        "items": {
+          "*Bonus": null,
+          "*Penalty": null,
+          "Disqual Reason": null,
+          "Info": null
+        }
+      },
+      {
+        "title": "Overall Time",
+        "items": {
+          "Rank (M/W)": "22",
+          "Rank (AG)": "2",
+          "Overall Time": "01:09:34"
+        }
+      }
+    ],
+    "workout_summary": [
+      {
+        "Split": "Running 1",
+        "Time": "00:04:42",
+        "Place": null
+      },
+      {
+        "Split": "1000m SkiErg",
+        "Time": "00:04:44",
+        "Place": "29"
+      },
+      {
+        "Split": "Running 2",
+        "Time": "00:04:19",
+        "Place": null
+      },
+      {
+        "Split": "50m Sled Push",
+        "Time": "00:01:51",
+        "Place": "7"
+      },
+      {
+        "Split": "Running 3",
+        "Time": "00:04:35",
+        "Place": null
+      },
+      {
+        "Split": "50m Sled Pull",
+        "Time": "00:03:52",
+        "Place": "11"
+      },
+      {
+        "Split": "Running 4",
+        "Time": "00:04:28",
+        "Place": null
+      },
+      {
+        "Split": "80m Burpee Broad Jump",
+        "Time": "00:03:56",
+        "Place": "9"
+      },
+      {
+        "Split": "Running 5",
+        "Time": "00:04:37",
+        "Place": null
+      },
+      {
+        "Split": "1000m Row",
+        "Time": "00:04:56",
+        "Place": "23"
+      },
+      {
+        "Split": "Running 6",
+        "Time": "00:04:32",
+        "Place": null
+      },
+      {
+        "Split": "200m Farmers Carry",
+        "Time": "00:01:42",
+        "Place": "8"
+      },
+      {
+        "Split": "Running 7",
+        "Time": "00:04:27",
+        "Place": null
+      },
+      {
+        "Split": "100m Sandbag Lunges",
+        "Time": "00:03:23",
+        "Place": "11"
+      },
+      {
+        "Split": "Running 8",
+        "Time": "00:05:25",
+        "Place": null
+      },
+      {
+        "Split": "Wall Balls",
+        "Time": "00:03:28",
+        "Place": "1"
+      },
+      {
+        "Split": "Roxzone Time",
+        "Time": "00:04:45",
+        "Place": null
+      },
+      {
+        "Split": "Run Total",
+        "Time": "00:37:01",
+        "Place": "6"
+      },
+      {
+        "Split": "Best Run Lap",
+        "Time": "00:04:19",
+        "Place": "12"
+      }
+    ],
+    "race_replay": [
+      {
+        "Split": "Rox In",
+        "Time": "00:04:42",
+        "Diff": "04:42"
+      },
+      {
+        "Split": "1000m SkiErg In",
+        "Time": "00:04:47",
+        "Diff": "00:05"
+      },
+      {
+        "Split": "1000m SkiErg Out",
+        "Time": "00:09:30",
+        "Diff": "04:43"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:09:35",
+        "Diff": "00:05"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:13:54",
+        "Diff": "04:19"
+      },
+      {
+        "Split": "50m Sled Push In",
+        "Time": "00:14:14",
+        "Diff": "00:20"
+      },
+      {
+        "Split": "50m Sled Push Out",
+        "Time": "00:16:05",
+        "Diff": "01:51"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:16:30",
+        "Diff": "00:25"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:21:04",
+        "Diff": "04:34"
+      },
+      {
+        "Split": "50m Sled Pull In",
+        "Time": "00:21:20",
+        "Diff": "00:16"
+      },
+      {
+        "Split": "50m Sled Pull Out",
+        "Time": "00:25:11",
+        "Diff": "03:51"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:25:43",
+        "Diff": "00:32"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:30:10",
+        "Diff": "04:27"
+      },
+      {
+        "Split": "80m Burpee Broad Jump In",
+        "Time": "00:30:32",
+        "Diff": "00:22"
+      },
+      {
+        "Split": "80m Burpee Broad Jump Out",
+        "Time": "00:34:28",
+        "Diff": "03:56"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:34:58",
+        "Diff": "00:30"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:39:35",
+        "Diff": "04:37"
+      },
+      {
+        "Split": "1000m Row In",
+        "Time": "00:39:40",
+        "Diff": "00:05"
+      },
+      {
+        "Split": "1000m Row Out",
+        "Time": "00:44:35",
+        "Diff": "04:55"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:44:59",
+        "Diff": "00:24"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:49:30",
+        "Diff": "04:31"
+      },
+      {
+        "Split": "200m Farmers Carry In",
+        "Time": "00:49:49",
+        "Diff": "00:19"
+      },
+      {
+        "Split": "200m Farmers Carry Out",
+        "Time": "00:51:31",
+        "Diff": "01:42"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:52:01",
+        "Diff": "00:30"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:56:27",
+        "Diff": "04:26"
+      },
+      {
+        "Split": "100m Sandbag Lunges In",
+        "Time": "00:56:48",
+        "Diff": "00:21"
+      },
+      {
+        "Split": "100m Sandbag Lunges Out",
+        "Time": "01:00:11",
+        "Diff": "03:23"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "01:00:42",
+        "Diff": "00:31"
+      },
+      {
+        "Split": "Wall Balls In",
+        "Time": "01:06:06",
+        "Diff": "05:24"
+      },
+      {
+        "Split": "Total",
+        "Time": "01:09:34",
+        "Diff": "03:28"
+      }
+    ]
+  },
+  {
+    "event_id": "H_JFK26_OVERALL",
+    "sex": "W",
+    "idp": "LR3MS4JI523F2E_JFK",
+    "detail_url": "https://results.hyrox.com/season-8/?content=detail&fpid=list&pid=list&idp=LR3MS4JI523F2E_JFK&lang=EN_CAP&event=H_JFK26_OVERALL&pidp=ranking_nav&ranking=time_finish_netto&search%5Bsex%5D=W&search%5Bage_class%5D=%25&search_event=H_JFK26_OVERALL",
+    "rank": 23,
+    "age_group": "35-39",
+    "member": "ludemann, Casie",
+    "total": "01:09:48",
+    "individual_details": [
+      {
+        "title": "Participant",
+        "items": {
+          "Name": "ludemann, Casie",
+          "Bib Number": "145007",
+          "Age Group": "35-39",
+          "Nat": "USA"
+        }
+      },
+      {
+        "title": "Race Details",
+        "items": {
+          "Race": "2026 New York",
+          "Division": "HYROX - Overall"
+        }
+      },
+      {
+        "title": "Judging Decision",
+        "items": {
+          "*Bonus": null,
+          "*Penalty": null,
+          "Disqual Reason": null,
+          "Info": null
+        }
+      },
+      {
+        "title": "Overall Time",
+        "items": {
+          "Rank (M/W)": "23",
+          "Rank (AG)": "7",
+          "Overall Time": "01:09:48"
+        }
+      }
+    ],
+    "workout_summary": [
+      {
+        "Split": "Running 1",
+        "Time": "00:04:26",
+        "Place": null
+      },
+      {
+        "Split": "1000m SkiErg",
+        "Time": "00:04:33",
+        "Place": "17"
+      },
+      {
+        "Split": "Running 2",
+        "Time": "00:04:11",
+        "Place": null
+      },
+      {
+        "Split": "50m Sled Push",
+        "Time": "00:02:12",
+        "Place": "86"
+      },
+      {
+        "Split": "Running 3",
+        "Time": "00:04:28",
+        "Place": null
+      },
+      {
+        "Split": "50m Sled Pull",
+        "Time": "00:03:52",
+        "Place": "26"
+      },
+      {
+        "Split": "Running 4",
+        "Time": "00:04:28",
+        "Place": null
+      },
+      {
+        "Split": "80m Burpee Broad Jump",
+        "Time": "00:04:16",
+        "Place": "32"
+      },
+      {
+        "Split": "Running 5",
+        "Time": "00:04:35",
+        "Place": null
+      },
+      {
+        "Split": "1000m Row",
+        "Time": "00:04:42",
+        "Place": "10"
+      },
+      {
+        "Split": "Running 6",
+        "Time": "00:04:35",
+        "Place": null
+      },
+      {
+        "Split": "200m Farmers Carry",
+        "Time": "00:01:43",
+        "Place": "7"
+      },
+      {
+        "Split": "Running 7",
+        "Time": "00:04:36",
+        "Place": null
+      },
+      {
+        "Split": "100m Sandbag Lunges",
+        "Time": "00:03:28",
+        "Place": "21"
+      },
+      {
+        "Split": "Running 8",
+        "Time": "00:05:39",
+        "Place": null
+      },
+      {
+        "Split": "Wall Balls",
+        "Time": "00:03:40",
+        "Place": "4"
+      },
+      {
+        "Split": "Roxzone Time",
+        "Time": "00:04:31",
+        "Place": null
+      },
+      {
+        "Split": "Run Total",
+        "Time": "00:36:56",
+        "Place": "16"
+      },
+      {
+        "Split": "Best Run Lap",
+        "Time": "00:04:11",
+        "Place": "13"
+      }
+    ],
+    "race_replay": [
+      {
+        "Split": "Rox In",
+        "Time": "00:04:26",
+        "Diff": "04:26"
+      },
+      {
+        "Split": "1000m SkiErg In",
+        "Time": "00:04:31",
+        "Diff": "00:05"
+      },
+      {
+        "Split": "1000m SkiErg Out",
+        "Time": "00:09:03",
+        "Diff": "04:32"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:09:07",
+        "Diff": "00:04"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:13:17",
+        "Diff": "04:10"
+      },
+      {
+        "Split": "50m Sled Push In",
+        "Time": "00:13:39",
+        "Diff": "00:22"
+      },
+      {
+        "Split": "50m Sled Push Out",
+        "Time": "00:15:50",
+        "Diff": "02:11"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:16:12",
+        "Diff": "00:22"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:20:40",
+        "Diff": "04:28"
+      },
+      {
+        "Split": "50m Sled Pull In",
+        "Time": "00:20:56",
+        "Diff": "00:16"
+      },
+      {
+        "Split": "50m Sled Pull Out",
+        "Time": "00:24:47",
+        "Diff": "03:51"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:25:07",
+        "Diff": "00:20"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:29:35",
+        "Diff": "04:28"
+      },
+      {
+        "Split": "80m Burpee Broad Jump In",
+        "Time": "00:30:00",
+        "Diff": "00:25"
+      },
+      {
+        "Split": "80m Burpee Broad Jump Out",
+        "Time": "00:34:15",
+        "Diff": "04:15"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:34:28",
+        "Diff": "00:13"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:39:03",
+        "Diff": "04:35"
+      },
+      {
+        "Split": "1000m Row In",
+        "Time": "00:39:07",
+        "Diff": "00:04"
+      },
+      {
+        "Split": "1000m Row Out",
+        "Time": "00:43:49",
+        "Diff": "04:42"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:44:18",
+        "Diff": "00:29"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:48:53",
+        "Diff": "04:35"
+      },
+      {
+        "Split": "200m Farmers Carry In",
+        "Time": "00:49:16",
+        "Diff": "00:23"
+      },
+      {
+        "Split": "200m Farmers Carry Out",
+        "Time": "00:50:58",
+        "Diff": "01:42"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:51:31",
+        "Diff": "00:33"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:56:07",
+        "Diff": "04:36"
+      },
+      {
+        "Split": "100m Sandbag Lunges In",
+        "Time": "00:56:26",
+        "Diff": "00:19"
+      },
+      {
+        "Split": "100m Sandbag Lunges Out",
+        "Time": "00:59:54",
+        "Diff": "03:28"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "01:00:29",
+        "Diff": "00:35"
+      },
+      {
+        "Split": "Wall Balls In",
+        "Time": "01:06:08",
+        "Diff": "05:39"
+      },
+      {
+        "Split": "Total",
+        "Time": "01:09:48",
+        "Diff": "03:40"
+      }
+    ]
+  },
+  {
+    "event_id": "H_JFK26_OVERALL",
+    "sex": "W",
+    "idp": "LR3MS4JI527425_JFK",
+    "detail_url": "https://results.hyrox.com/season-8/?content=detail&fpid=list&pid=list&idp=LR3MS4JI527425_JFK&lang=EN_CAP&event=H_JFK26_OVERALL&pidp=ranking_nav&ranking=time_finish_netto&search%5Bsex%5D=W&search%5Bage_class%5D=%25&search_event=H_JFK26_OVERALL",
+    "rank": 24,
+    "age_group": "25-29",
+    "member": "Murray, Corey",
+    "total": "01:09:52",
+    "individual_details": [
+      {
+        "title": "Participant",
+        "items": {
+          "Name": "Murray, Corey",
+          "Bib Number": "164036",
+          "Age Group": "25-29",
+          "Nat": "USA"
+        }
+      },
+      {
+        "title": "Race Details",
+        "items": {
+          "Race": "2026 New York",
+          "Division": "HYROX - Overall"
+        }
+      },
+      {
+        "title": "Judging Decision",
+        "items": {
+          "*Bonus": null,
+          "*Penalty": null,
+          "Disqual Reason": null,
+          "Info": null
+        }
+      },
+      {
+        "title": "Overall Time",
+        "items": {
+          "Rank (M/W)": "24",
+          "Rank (AG)": "7",
+          "Overall Time": "01:09:52"
+        }
+      }
+    ],
+    "workout_summary": [
+      {
+        "Split": "Running 1",
+        "Time": "00:04:16",
+        "Place": null
+      },
+      {
+        "Split": "1000m SkiErg",
+        "Time": "00:04:33",
+        "Place": "33"
+      },
+      {
+        "Split": "Running 2",
+        "Time": "00:03:52",
+        "Place": null
+      },
+      {
+        "Split": "50m Sled Push",
+        "Time": "00:02:32",
+        "Place": "311"
+      },
+      {
+        "Split": "Running 3",
+        "Time": "00:04:16",
+        "Place": null
+      },
+      {
+        "Split": "50m Sled Pull",
+        "Time": "00:04:37",
+        "Place": "194"
+      },
+      {
+        "Split": "Running 4",
+        "Time": "00:04:14",
+        "Place": null
+      },
+      {
+        "Split": "80m Burpee Broad Jump",
+        "Time": "00:04:21",
+        "Place": "54"
+      },
+      {
+        "Split": "Running 5",
+        "Time": "00:04:21",
+        "Place": null
+      },
+      {
+        "Split": "1000m Row",
+        "Time": "00:05:06",
+        "Place": "146"
+      },
+      {
+        "Split": "Running 6",
+        "Time": "00:04:14",
+        "Place": null
+      },
+      {
+        "Split": "200m Farmers Carry",
+        "Time": "00:02:27",
+        "Place": "356"
+      },
+      {
+        "Split": "Running 7",
+        "Time": "00:04:17",
+        "Place": null
+      },
+      {
+        "Split": "100m Sandbag Lunges",
+        "Time": "00:03:38",
+        "Place": "55"
+      },
+      {
+        "Split": "Running 8",
+        "Time": "00:05:24",
+        "Place": null
+      },
+      {
+        "Split": "Wall Balls",
+        "Time": "00:03:39",
+        "Place": "1"
+      },
+      {
+        "Split": "Roxzone Time",
+        "Time": "00:04:13",
+        "Place": null
+      },
+      {
+        "Split": "Run Total",
+        "Time": "00:34:51",
+        "Place": "8"
+      },
+      {
+        "Split": "Best Run Lap",
+        "Time": "00:03:52",
+        "Place": "6"
+      }
+    ],
+    "race_replay": [
+      {
+        "Split": "Rox In",
+        "Time": "00:04:16",
+        "Diff": "04:16"
+      },
+      {
+        "Split": "1000m SkiErg In",
+        "Time": "00:04:20",
+        "Diff": "00:04"
+      },
+      {
+        "Split": "1000m SkiErg Out",
+        "Time": "00:08:53",
+        "Diff": "04:33"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:08:56",
+        "Diff": "00:03"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:12:48",
+        "Diff": "03:52"
+      },
+      {
+        "Split": "50m Sled Push In",
+        "Time": "00:13:12",
+        "Diff": "00:24"
+      },
+      {
+        "Split": "50m Sled Push Out",
+        "Time": "00:15:43",
+        "Diff": "02:31"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:16:03",
+        "Diff": "00:20"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:20:19",
+        "Diff": "04:16"
+      },
+      {
+        "Split": "50m Sled Pull In",
+        "Time": "00:20:35",
+        "Diff": "00:16"
+      },
+      {
+        "Split": "50m Sled Pull Out",
+        "Time": "00:25:12",
+        "Diff": "04:37"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:25:31",
+        "Diff": "00:19"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:29:45",
+        "Diff": "04:14"
+      },
+      {
+        "Split": "80m Burpee Broad Jump In",
+        "Time": "00:30:10",
+        "Diff": "00:25"
+      },
+      {
+        "Split": "80m Burpee Broad Jump Out",
+        "Time": "00:34:31",
+        "Diff": "04:21"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:34:42",
+        "Diff": "00:11"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:39:03",
+        "Diff": "04:21"
+      },
+      {
+        "Split": "1000m Row In",
+        "Time": "00:39:07",
+        "Diff": "00:04"
+      },
+      {
+        "Split": "1000m Row Out",
+        "Time": "00:44:13",
+        "Diff": "05:06"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:44:37",
+        "Diff": "00:24"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:48:51",
+        "Diff": "04:14"
+      },
+      {
+        "Split": "200m Farmers Carry In",
+        "Time": "00:49:13",
+        "Diff": "00:22"
+      },
+      {
+        "Split": "200m Farmers Carry Out",
+        "Time": "00:51:40",
+        "Diff": "02:27"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:52:09",
+        "Diff": "00:29"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:56:25",
+        "Diff": "04:16"
+      },
+      {
+        "Split": "100m Sandbag Lunges In",
+        "Time": "00:56:47",
+        "Diff": "00:22"
+      },
+      {
+        "Split": "100m Sandbag Lunges Out",
+        "Time": "01:00:24",
+        "Diff": "03:37"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "01:00:51",
+        "Diff": "00:27"
+      },
+      {
+        "Split": "Wall Balls In",
+        "Time": "01:06:14",
+        "Diff": "05:23"
+      },
+      {
+        "Split": "Total",
+        "Time": "01:09:52",
+        "Diff": "03:38"
+      }
+    ]
+  },
+  {
+    "event_id": "H_JFK26_OVERALL",
+    "sex": "W",
+    "idp": "LR3MS4JI527892_JFK",
+    "detail_url": "https://results.hyrox.com/season-8/?content=detail&fpid=list&pid=list&idp=LR3MS4JI527892_JFK&lang=EN_CAP&event=H_JFK26_OVERALL&pidp=ranking_nav&ranking=time_finish_netto&search%5Bsex%5D=W&search%5Bage_class%5D=%25&search_event=H_JFK26_OVERALL",
+    "rank": 25,
+    "age_group": "35-39",
+    "member": "Giannuzzi, Kelly",
+    "total": "01:10:00",
+    "individual_details": [
+      {
+        "title": "Participant",
+        "items": {
+          "Name": "Giannuzzi, Kelly",
+          "Bib Number": "145001",
+          "Age Group": "35-39",
+          "Nat": "USA"
+        }
+      },
+      {
+        "title": "Race Details",
+        "items": {
+          "Race": "2026 New York",
+          "Division": "HYROX - Overall"
+        }
+      },
+      {
+        "title": "Judging Decision",
+        "items": {
+          "*Bonus": null,
+          "*Penalty": null,
+          "Disqual Reason": null,
+          "Info": null
+        }
+      },
+      {
+        "title": "Overall Time",
+        "items": {
+          "Rank (M/W)": "25",
+          "Rank (AG)": "8",
+          "Overall Time": "01:10:00"
+        }
+      }
+    ],
+    "workout_summary": [
+      {
+        "Split": "Running 1",
+        "Time": "00:04:37",
+        "Place": null
+      },
+      {
+        "Split": "1000m SkiErg",
+        "Time": "00:04:48",
+        "Place": "88"
+      },
+      {
+        "Split": "Running 2",
+        "Time": "00:04:12",
+        "Place": null
+      },
+      {
+        "Split": "50m Sled Push",
+        "Time": "00:02:39",
+        "Place": "330"
+      },
+      {
+        "Split": "Running 3",
+        "Time": "00:04:19",
+        "Place": null
+      },
+      {
+        "Split": "50m Sled Pull",
+        "Time": "00:04:37",
+        "Place": "132"
+      },
+      {
+        "Split": "Running 4",
+        "Time": "00:04:17",
+        "Place": null
+      },
+      {
+        "Split": "80m Burpee Broad Jump",
+        "Time": "00:03:43",
+        "Place": "12"
+      },
+      {
+        "Split": "Running 5",
+        "Time": "00:04:18",
+        "Place": null
+      },
+      {
+        "Split": "1000m Row",
+        "Time": "00:04:42",
+        "Place": "11"
+      },
+      {
+        "Split": "Running 6",
+        "Time": "00:04:17",
+        "Place": null
+      },
+      {
+        "Split": "200m Farmers Carry",
+        "Time": "00:02:21",
+        "Place": "263"
+      },
+      {
+        "Split": "Running 7",
+        "Time": "00:04:22",
+        "Place": null
+      },
+      {
+        "Split": "100m Sandbag Lunges",
+        "Time": "00:03:18",
+        "Place": "17"
+      },
+      {
+        "Split": "Running 8",
+        "Time": "00:05:23",
+        "Place": null
+      },
+      {
+        "Split": "Wall Balls",
+        "Time": "00:03:52",
+        "Place": "10"
+      },
+      {
+        "Split": "Roxzone Time",
+        "Time": "00:04:22",
+        "Place": null
+      },
+      {
+        "Split": "Run Total",
+        "Time": "00:35:42",
+        "Place": "8"
+      },
+      {
+        "Split": "Best Run Lap",
+        "Time": "00:04:12",
+        "Place": "14"
+      }
+    ],
+    "race_replay": [
+      {
+        "Split": "Rox In",
+        "Time": "00:04:37",
+        "Diff": "04:37"
+      },
+      {
+        "Split": "1000m SkiErg In",
+        "Time": "00:04:41",
+        "Diff": "00:04"
+      },
+      {
+        "Split": "1000m SkiErg Out",
+        "Time": "00:09:29",
+        "Diff": "04:48"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:09:33",
+        "Diff": "00:04"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:13:44",
+        "Diff": "04:11"
+      },
+      {
+        "Split": "50m Sled Push In",
+        "Time": "00:14:03",
+        "Diff": "00:19"
+      },
+      {
+        "Split": "50m Sled Push Out",
+        "Time": "00:16:42",
+        "Diff": "02:39"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:17:02",
+        "Diff": "00:20"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:21:20",
+        "Diff": "04:18"
+      },
+      {
+        "Split": "50m Sled Pull In",
+        "Time": "00:21:36",
+        "Diff": "00:16"
+      },
+      {
+        "Split": "50m Sled Pull Out",
+        "Time": "00:26:12",
+        "Diff": "04:36"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:26:33",
+        "Diff": "00:21"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:30:49",
+        "Diff": "04:16"
+      },
+      {
+        "Split": "80m Burpee Broad Jump In",
+        "Time": "00:31:31",
+        "Diff": "00:42"
+      },
+      {
+        "Split": "80m Burpee Broad Jump Out",
+        "Time": "00:35:13",
+        "Diff": "03:42"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:35:30",
+        "Diff": "00:17"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:39:47",
+        "Diff": "04:17"
+      },
+      {
+        "Split": "1000m Row In",
+        "Time": "00:39:52",
+        "Diff": "00:05"
+      },
+      {
+        "Split": "1000m Row Out",
+        "Time": "00:44:34",
+        "Diff": "04:42"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:44:59",
+        "Diff": "00:25"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:49:16",
+        "Diff": "04:17"
+      },
+      {
+        "Split": "200m Farmers Carry In",
+        "Time": "00:49:34",
+        "Diff": "00:18"
+      },
+      {
+        "Split": "200m Farmers Carry Out",
+        "Time": "00:51:54",
+        "Diff": "02:20"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "00:52:20",
+        "Diff": "00:26"
+      },
+      {
+        "Split": "Rox In",
+        "Time": "00:56:42",
+        "Diff": "04:22"
+      },
+      {
+        "Split": "100m Sandbag Lunges In",
+        "Time": "00:57:02",
+        "Diff": "00:20"
+      },
+      {
+        "Split": "100m Sandbag Lunges Out",
+        "Time": "01:00:20",
+        "Diff": "03:18"
+      },
+      {
+        "Split": "Rox Out",
+        "Time": "01:00:46",
+        "Diff": "00:26"
+      },
+      {
+        "Split": "Wall Balls In",
+        "Time": "01:06:09",
+        "Diff": "05:23"
+      },
+      {
+        "Split": "Total",
+        "Time": "01:10:00",
+        "Diff": "03:51"
+      }
+    ]
+  }
+]

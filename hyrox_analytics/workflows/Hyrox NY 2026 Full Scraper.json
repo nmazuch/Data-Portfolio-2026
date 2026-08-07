@@ -1,0 +1,508 @@
+{
+  "name": "Hyrox NY 2026 Full Scraper",
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "449072e4-ee2c-4db0-8be8-1d0dc30806eb",
+      "name": "Start",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        -2480,
+        -48
+      ]
+    },
+    {
+      "parameters": {
+        "url": "https://results.hyrox.com/season-8/index.php",
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            {
+              "name": "pid",
+              "value": "list"
+            },
+            {
+              "name": "pidp",
+              "value": "ranking_nav"
+            },
+            {
+              "name": "search[sex]",
+              "value": "={{ $json.sex }}"
+            },
+            {
+              "name": "search[age_class]",
+              "value": "={{ $json.age_class }}"
+            },
+            {
+              "name": "page",
+              "value": "={{ $json.page }}"
+            },
+            {
+              "name": "event",
+              "value": "={{ $json.event_id }}"
+            },
+            {
+              "name": "ranking",
+              "value": "time_finish_netto"
+            }
+          ]
+        },
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.3"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "e938c593-5093-4124-bb42-c8a36f4979d8",
+      "name": "Fetch Single Page",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.4,
+      "position": [
+        -1616,
+        -48
+      ]
+    },
+    {
+      "parameters": {
+        "url": "={{ $json.detail_url }}",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.3"
+            }
+          ]
+        },
+        "options": {
+          "batching": {
+            "batch": {
+              "batchSize": 1,
+              "batchInterval": 2000
+            }
+          }
+        }
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.4,
+      "position": [
+        -720,
+        -48
+      ],
+      "id": "1c0141d4-0909-4e50-aaed-3549e6bc3dac",
+      "name": "Fetch Single Details",
+      "retryOnFail": true,
+      "waitBetweenTries": 3000
+    },
+    {
+      "parameters": {
+        "amount": "={{ Math.random() * 4 + 1 }}"
+      },
+      "id": "c24aaa5e-7bfc-4176-af5e-b6c8401e9617",
+      "name": "Random Wait",
+      "type": "n8n-nodes-base.wait",
+      "typeVersion": 1.1,
+      "position": [
+        -944,
+        -48
+      ],
+      "webhookId": "180d8850-b100-4c24-9e93-d3a7ecf6a2e8"
+    },
+    {
+      "parameters": {
+        "content": "## Parsowanie Strony z Wynikiem\n\nUżywamy Code Node, dla którego kod stworzył nam Claude Code, po to żeby przetłumaczyć HTML ze strony Hyrox na format JSON.\n\nUżyliśmy AI raz zamiast używać AI do każdej strony z wynikami\n\n",
+        "width": 480
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        -272,
+        -352
+      ],
+      "typeVersion": 1,
+      "id": "e346d823-4136-4c26-b766-514e78233d3c",
+      "name": "Sticky Note"
+    },
+    {
+      "parameters": {
+        "content": "## JSON z rezultatem na Kwerendy\n\nPonownie Code Node ale tym razem użyty do tego żeby przetransformować JSON na postać kwerendy bazodanowej.\n\nKod do tego Node'a również został stworzony przez Claude Code.",
+        "height": 192,
+        "width": 384
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        -48,
+        -352
+      ],
+      "typeVersion": 1,
+      "id": "451fde25-b643-4e98-8af3-f4df98673147",
+      "name": "Sticky Note1"
+    },
+    {
+      "parameters": {
+        "jsCode": "const output = [];\n\n// Zabezpieczenie: pętla przechodząca przez WSZYSTKIE elementy (np. 25 zawodników)\nfor (const inputItem of $input.all()) {\n  const item = inputItem.json;\n\n  function esc(v) {\n    if (v === null || v === undefined) return 'NULL';\n    return \"'\" + String(v).replace(/'/g, \"''\") + \"'\";\n  }\n  function escInt(v) {\n    if (v === null || v === undefined || v === '') return 'NULL';\n    const n = parseInt(String(v).trim(), 10);\n    return Number.isFinite(n) ? String(n) : 'NULL';\n  }\n  function escInterval(v) {\n    if (!v) return 'NULL';\n    const s = /^\\d{1,2}:\\d{2}$/.test(v) ? '00:' + v : v;\n    return `INTERVAL ${esc(s)}`;\n  }\n  function escTime(v) {\n    if (!v) return 'NULL';\n    return `TIME ${esc(v)}`;\n  }\n\n  function parseMember(s) {\n    const m = String(s).match(/^(.*?)\\s*\\(([A-Z]{2,3})\\)\\s*$/);\n    if (m) return { name: m[1].trim(), country: m[2] };\n    return { name: String(s).trim(), country: null };\n  }\n\n  function countryEq(c) {\n    return c ? `= ${esc(c)}` : `IS NULL`;\n  }\n\n  const event_id = item.event_id || null;\n  const idp = item.idp;\n  \n  // Jeśli z jakiegoś powodu brakuje ID, pomijamy tego jednego zawodnika zamiast wywalać całą paczkę\n  if (!event_id || !idp) {\n    continue; \n  }\n\n  const season = item.season || null;\n  const sex = item.sex || null;\n  const detail_url = item.detail_url || null;\n  const details = Array.isArray(item.individual_details) ? item.individual_details : [];\n  const workout = Array.isArray(item.workout_summary) ? item.workout_summary : [];\n  const replay = Array.isArray(item.race_replay) ? item.race_replay : [];\n\n  const sectionItems = (title) => {\n    const s = details.find((d) => d.title === title);\n    return s && s.items ? s.items : {};\n  };\n\n  const raceDetails = sectionItems('Race Details');\n  const team = { ...sectionItems('Doubles Team'), ...sectionItems('Individual'), ...sectionItems('Participant') };\n  const membersRaw = sectionItems('Members');\n  const participant = sectionItems('Participant');\n  const judging = sectionItems('Judging Decision');\n  const overall = sectionItems('Overall Time');\n\n  const effectiveMembersRaw = Object.keys(membersRaw).length > 0\n    ? membersRaw\n    : (participant['Name'] ? { 'Member 1': participant['Name'] + (participant['Nat'] ? ' (' + participant['Nat'] + ')' : '') } : {});\n  const memberKeys = Object.keys(effectiveMembersRaw);\n  const seen = new Set();\n  const members = [];\n  \n  for (const k of memberKeys) {\n    const raw = effectiveMembersRaw[k];\n    if (!raw) continue;\n    const parsed = parseMember(raw);\n    const key = `${parsed.name}|${parsed.country || ''}`;\n    if (seen.has(key)) continue;\n    seen.add(key);\n    members.push(parsed);\n  }\n\n  const stmts = [];\n  const RES_ID_SUBQ = `(SELECT result_id FROM results WHERE event_id = ${esc(event_id)} AND idp = ${esc(idp)})`;\n\n  stmts.push(`\nINSERT INTO events (event_id, season, race_name, division)\nVALUES (${esc(event_id)}, ${esc(season)}, ${esc(raceDetails['Race'])}, ${esc(raceDetails['Division'])})\nON CONFLICT (event_id) DO UPDATE\n  SET season    = COALESCE(EXCLUDED.season, events.season),\n      race_name = COALESCE(EXCLUDED.race_name, events.race_name),\n      division  = COALESCE(EXCLUDED.division, events.division);\n  `.trim());\n\n  for (const a of members) {\n    if (a.country) {\n      stmts.push(`\nINSERT INTO athletes (name, country)\nVALUES (${esc(a.name)}, ${esc(a.country)})\nON CONFLICT (name, country) DO NOTHING;\n      `.trim());\n    } else {\n      stmts.push(`\nINSERT INTO athletes (name, country)\nSELECT ${esc(a.name)}, NULL\nWHERE NOT EXISTS (\n  SELECT 1 FROM athletes WHERE name = ${esc(a.name)} AND country IS NULL\n);\n      `.trim());\n    }\n  }\n\n  stmts.push(`\nINSERT INTO results (\n  event_id, idp, bib_number, age_group, sex,\n  rank_overall, rank_age_group, overall_time,\n  bonus, penalty, disqual_reason, info, detail_url\n) VALUES (\n  ${esc(event_id)}, ${esc(idp)}, ${esc(team['Bib Number'])}, ${esc(team['Age Group'])}, ${esc(sex)},\n  ${escInt(overall['Rank (M/W)'])}, ${escInt(overall['Rank (AG)'])}, ${escInterval(overall['Overall Time'])},\n  ${esc(judging['*Bonus'])}, ${esc(judging['*Penalty'])}, ${esc(judging['Disqual Reason'])}, ${esc(judging['Info'])},\n  ${esc(detail_url)}\n)\nON CONFLICT (event_id, idp) DO UPDATE SET\n  bib_number     = EXCLUDED.bib_number,\n  age_group      = EXCLUDED.age_group,\n  sex            = EXCLUDED.sex,\n  rank_overall   = EXCLUDED.rank_overall,\n  rank_age_group = EXCLUDED.rank_age_group,\n  overall_time   = EXCLUDED.overall_time,\n  bonus          = EXCLUDED.bonus,\n  penalty        = EXCLUDED.penalty,\n  disqual_reason = EXCLUDED.disqual_reason,\n  info           = EXCLUDED.info,\n  detail_url     = EXCLUDED.detail_url;\n  `.trim());\n\n  stmts.push(`DELETE FROM result_members      WHERE result_id = ${RES_ID_SUBQ};`);\n  stmts.push(`DELETE FROM workout_splits      WHERE result_id = ${RES_ID_SUBQ};`);\n  stmts.push(`DELETE FROM race_replay_splits  WHERE result_id = ${RES_ID_SUBQ};`);\n\n  members.forEach((a, i) => {\n    stmts.push(`\nINSERT INTO result_members (result_id, member_position, athlete_id)\nSELECT r.result_id, ${i + 1}, a.athlete_id\nFROM results r, athletes a\nWHERE r.event_id = ${esc(event_id)} AND r.idp = ${esc(idp)}\n  AND a.name = ${esc(a.name)} AND a.country ${countryEq(a.country)};\n    `.trim());\n  });\n\n  workout.forEach((s, i) => {\n    stmts.push(`\nINSERT INTO workout_splits (result_id, position, split_name, split_time, place)\nSELECT result_id, ${i + 1}, ${esc(s.Split)}, ${escInterval(s.Time)}, ${escInt(s.Place)}\nFROM results WHERE event_id = ${esc(event_id)} AND idp = ${esc(idp)};\n    `.trim());\n  });\n\n  replay.forEach((s, i) => {\n    stmts.push(`\nINSERT INTO race_replay_splits (result_id, position, split_name, time_of_day, elapsed_time, diff)\nSELECT result_id, ${i + 1}, ${esc(s.Split)}, ${escTime(s['Time Of Day'])}, ${escInterval(s.Time)}, ${escInterval(s.Diff)}\nFROM results WHERE event_id = ${esc(event_id)} AND idp = ${esc(idp)};\n    `.trim());\n  });\n\n  const query = ['BEGIN;', ...stmts, 'COMMIT;'].join('\\n\\n');\n  \n  // Wrzucamy zapytanie dla tego konkretnego zawodnika do tablicy wyjściowej\n  output.push({ json: { query } });\n}\n\n// Zwracamy całą paczkę (np. 25 zapytań)\nreturn output;"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -272,
+        -48
+      ],
+      "id": "a4a13fe1-5325-4db0-a9ab-2a5280d3fa1d",
+      "name": "Data to Query"
+    },
+    {
+      "parameters": {
+        "jsCode": "// n8n Code node — extract HYROX results from HTML in json.data\n// Mode: \"Run Once for All Items\"\n\n// Base URL for relative detail links. Adjust if you scrape a different season.\nconst BASE_URL = 'https://results.hyrox.com/season-8/';\n\nfunction stripTags(s) {\n  return s.replace(/<[^>]+>/g, '').replace(/\\s+/g, ' ').trim();\n}\n\nfunction decodeEntities(s) {\n  return s\n    .replace(/&amp;/g, '&')\n    .replace(/&lt;/g, '<')\n    .replace(/&gt;/g, '>')\n    .replace(/&quot;/g, '\"')\n    .replace(/&#39;/g, \"'\")\n    .replace(/&nbsp;/g, ' ');\n}\n\n// HYROX duplicates each doubles-team name (\"Dan, Dan, Naush, Naush\").\n// Collapse repeats while preserving order.\nfunction dedupeNames(s) {\n  const parts = s.split(',').map(p => p.trim()).filter(Boolean);\n  const out = [];\n  for (const p of parts) if (!out.includes(p)) out.push(p);\n  return out.join(', ');\n}\n\nfunction buildDetailUrl(href) {\n  if (!href) return null;\n  const decoded = decodeEntities(href);\n  // href is relative (starts with \"?...\"). Prepend base; if it's already\n  // absolute for any reason, return it untouched.\n  if (/^https?:\\/\\//i.test(decoded)) return decoded;\n  return BASE_URL.replace(/\\/+$/, '/') + decoded.replace(/^\\/+/, '');\n}\nfunction getQueryParam(url, key) {\n  const m = url.match(new RegExp('[?&]' + key + '=([^&#]*)'));\n  return m ? decodeURIComponent(m[1]) : null;\n}\n\nfunction parseHyroxResults(html, meta) {\n  const liRegex = /<li class=\"([^\"]*list-group-item[^\"]*)\"[^>]*>([\\s\\S]*?)<\\/li>/g;\n  const labelRegex = /<div class=\"[^\"]*list-label[^\"]*\"[^>]*>[\\s\\S]*?<\\/div>/;\n\n  const rows = [];\n  const seen = new Set();\n  let m;\n\n  while ((m = liRegex.exec(html)) !== null) {\n    const cls = m[1];\n    const content = m[2];\n\n    // Skip the header row\n    if (cls.includes('list-group-header')) continue;\n\n    const rankM      = content.match(/<div class=\"[^\"]*place-primary[^\"]*\"[^>]*>([^<]+)<\\/div>/);\n    const ageRankM   = content.match(/<div class=\"[^\"]*place-secondary[^\"]*\"[^>]*>([^<]+)<\\/div>/);\n    const linkM      = content.match(/<h4[^>]*type-(?:fullname|relay_member)[^>]*>\\s*<a[^>]*\\shref=\"([^\"]*)\"[^>]*>([\\s\\S]*?)<\\/a>/);\n    const ageBlockM  = content.match(/<div class=\"[^\"]*type-age_class[^\"]*\"[^>]*>([\\s\\S]*?)<\\/div>\\s*<\\/div>/);\n    const timeBlockM = content.match(/<div class=\"[^\"]*type-time[^\"]*\"[^>]*>([\\s\\S]*?)<\\/div>\\s*<\\/div>/);\n    const idpM       = content.match(/idp=([A-Z0-9]+)/);\n\n    if (!rankM || !linkM) continue;\n\n    // Each row renders twice (once with .list-active for responsive styling).\n    // Dedupe by the detail-link id.\n    const dedupKey = idpM ? idpM[1] : linkM[2];\n    if (seen.has(dedupKey)) continue;\n    seen.add(dedupKey);\n\n    // The age/time cells contain a hidden mobile label\n    // (<div class=\"list-label\">Age Group</div>) — strip before reading.\n    const ageGroup = ageBlockM\n      ? stripTags(ageBlockM[1].replace(labelRegex, ''))\n      : null;\n    const total = timeBlockM\n      ? stripTags(timeBlockM[1].replace(labelRegex, ''))\n      : null;\n\n    const detail_url = buildDetailUrl(linkM[1]);\n    rows.push({\n      event_id: meta.event_id,\n      sex: meta.sex,\n      age_class: meta.age_class,\n      page: meta.page,\n      rank: parseInt(rankM[1].trim(), 10),\n      rank_age_group: ageRankM ? parseInt(ageRankM[1].trim(), 10) : null,\n      member: dedupeNames(decodeEntities(stripTags(linkM[2]))),\n      age_group: ageGroup,\n      total,\n      detail_url: detail_url,\n      idp: getQueryParam(detail_url, 'idp'),\n    });\n  }\n\n  return rows;\n}\n\nconst output = [];\nfor (const item of $input.all()) {\n  const html = item.json.data;\n  if (typeof html !== 'string' || !html) continue;\n  const lp = $('Loop Pages').item.json; const meta = { event_id: lp.event_id, sex: lp.sex, age_class: lp.age_class, page: lp.page };\n  for (const row of parseHyroxResults(html, meta)) {\n    output.push({ json: row });\n  }\n}\n\n// Jesli brak wynikow, zwroc sentinel zeby pipeline nie zamarl\nif (output.length === 0) {\n  return [{ json: { skip: true } }];\n}\nreturn output;"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -1392,
+        -48
+      ],
+      "id": "bada6756-7ab7-470b-aa79-0036f284ae2a",
+      "name": "Parse List"
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForEachItem",
+        "jsCode": "// n8n Code node — extract Individual's Details, Workout Summary,\n// and Race Replay from a HYROX detail page. HTML in json.data.\n// Mode: \"Run Once for Each Item\"\n\nfunction stripTags(s) {\n  return s.replace(/<[^>]+>/g, '').replace(/\\s+/g, ' ').trim();\n}\n\nfunction decodeEntities(s) {\n  return s\n    .replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>')\n    .replace(/&quot;/g, '\"').replace(/&#39;/g, \"'\").replace(/&nbsp;/g, ' ')\n    .replace(/&ndash;/g, '-').replace(/&mdash;/g, '-');\n}\n\nfunction clean(s) {\n  return decodeEntities(stripTags(s));\n}\n\nfunction nullIfBlank(v) {\n  // HYROX uses \"-\" (&ndash;) for missing values.\n  if (v === undefined || v === null) return null;\n  if (v === '-' || v === '') return null;\n  return v;\n}\n\n// Slice the HTML starting at a <div id=\"...\"> for enough scope\n// to capture its first <table>...</table> (or the whole box).\nfunction extractById(html, id, span = 30000) {\n  const re = new RegExp(`<div[^>]*id=\"${id}\"[^>]*>`);\n  const m = re.exec(html);\n  return m ? html.slice(m.index, m.index + span) : null;\n}\n\nfunction extractFirstTable(scope) {\n  if (!scope) return null;\n  const m = scope.match(/<table[^>]*>([\\s\\S]*?)<\\/table>/);\n  return m ? m[1] : null;\n}\n\n// Parse a table: build header list from <thead>, then map each <tbody>\n// row to { header: cellValue }. \"-\" / empty becomes null.\nfunction parseTable(tableHtml) {\n  if (!tableHtml) return [];\n\n  const theadM = tableHtml.match(/<thead[^>]*>([\\s\\S]*?)<\\/thead>/);\n  const headerScope = theadM ? theadM[1] : tableHtml;\n  const headers = [];\n  const thRe = /<th[^>]*>([\\s\\S]*?)<\\/th>/g;\n  let hm;\n  while ((hm = thRe.exec(headerScope)) !== null) headers.push(clean(hm[1]));\n\n  const tbodyM = tableHtml.match(/<tbody[^>]*>([\\s\\S]*?)<\\/tbody>/);\n  const bodyScope = tbodyM\n    ? tbodyM[1]\n    : tableHtml.replace(/<thead[\\s\\S]*?<\\/thead>/, '');\n\n  const rows = [];\n  const rowRe = /<tr[^>]*>([\\s\\S]*?)<\\/tr>/g;\n  let rm;\n  while ((rm = rowRe.exec(bodyScope)) !== null) {\n    const cellRe = /<(?:th|td)[^>]*>([\\s\\S]*?)<\\/(?:th|td)>/g;\n    const cells = [];\n    let cm;\n    while ((cm = cellRe.exec(rm[1])) !== null) cells.push(clean(cm[1]));\n    if (!cells.length) continue;\n\n    const obj = {};\n    headers.forEach((h, i) => {\n      obj[h] = nullIfBlank(cells[i]);\n    });\n    rows.push(obj);\n  }\n  return rows;\n}\n\n// Parse a key/value table: each row is <th class=\"desc\">key</th><td>value</td>.\n// Returns an object { key: value-or-null }.\nfunction parseKeyValueTable(tableHtml) {\n  if (!tableHtml) return {};\n  const tbodyM = tableHtml.match(/<tbody[^>]*>([\\s\\S]*?)<\\/tbody>/);\n  const scope = tbodyM ? tbodyM[1] : tableHtml;\n\n  const out = {};\n  const rowRe = /<tr[^>]*>([\\s\\S]*?)<\\/tr>/g;\n  let rm;\n  while ((rm = rowRe.exec(scope)) !== null) {\n    const row = rm[1];\n    const keyM = row.match(/<th[^>]*class=\"[^\"]*desc[^\"]*\"[^>]*>([\\s\\S]*?)<\\/th>/);\n    const valM = row.match(/<td[^>]*>([\\s\\S]*?)<\\/td>/);\n    if (!keyM) continue;\n    const key = clean(keyM[1]);\n    if (!key) continue;\n    out[key] = nullIfBlank(valM ? clean(valM[1]) : null);\n  }\n  return out;\n}\n\n// Walk every <div id=\"detail-box-...\"> on the left channel and emit\n// { title, items } objects. Skips the Features (PDF buttons) box.\nfunction parseIndividualDetails(html) {\n  const SKIP_IDS = new Set(['detail-box-features']);\n  const leftM = html.match(\n    /<div[^>]*class=\"[^\"]*detail-channel[^\"]*channel-left[^\"]*\"[^>]*>([\\s\\S]*?)<\\/div><!-- detail-channel -->/\n  );\n  const scope = leftM ? leftM[1] : html;\n\n  const boxes = [];\n  const boxRe = /<div[^>]*id=\"(detail-box-[^\"]+)\"[^>]*>([\\s\\S]*?)<\\/div>\\s*(?=<div[^>]*id=\"detail-box-|<\\/div><!-- untabbed-boxes)/g;\n  let bm;\n  while ((bm = boxRe.exec(scope)) !== null) {\n    const id = bm[1];\n    if (SKIP_IDS.has(id)) continue;\n    const inner = bm[2];\n    const titleM = inner.match(/<h3[^>]*>([\\s\\S]*?)<\\/h3>/);\n    const tableM = inner.match(/<table[^>]*>([\\s\\S]*?)<\\/table>/);\n    if (!titleM || !tableM) continue;\n    const title = clean(titleM[1]);\n    const items = parseKeyValueTable(tableM[1]);\n    if (Object.keys(items).length) boxes.push({ title, items });\n  }\n  return boxes;\n}\n\nconst html = $input.item.json.data;\nif (typeof html !== 'string' || !html) {\n  return { json: $input.item.json };\n}\n\nconst individual_details = parseIndividualDetails(html);\nconst workout_summary = parseTable(\n  extractFirstTable(extractById(html, 'detail-box-other'))\n);\nconst race_replay = parseTable(\n  extractFirstTable(extractById(html, 'detail-box-splits'))\n);\n\n// Pass through everything from the input except the raw HTML.\nconst { data } = $input.item.json;\n// Fetch Single Details nadpisuje caly json na {data: html}\n// Odczytujemy meta-dane bezposrednio z Keep Fields ktory jest w tym samym item context\nconst kf = $('Keep Fields').item.json;\nreturn {\n  json: {\n    event_id:   kf.event_id,\n    sex:        kf.sex,\n    idp:        kf.idp,\n    detail_url: kf.detail_url,\n    rank:       kf.rank,\n    age_group:  kf.age_group,\n    member:     kf.member,\n    total:      kf.total,\n    individual_details,\n    workout_summary,\n    race_replay,\n  },\n};\n"
+      },
+      "id": "2b978ec2-1e86-4d88-a925-d14e58ff1507",
+      "name": "Parse Result",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -496,
+        -48
+      ]
+    },
+    {
+      "parameters": {
+        "content": "## Zapis do bazy\n\nSchemat bazy danych utworzył dla nas Claude Code. \n\nPoprosiłem go o schemat, przesyłając dane z `Parse Result`",
+        "height": 144,
+        "width": 384
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        192,
+        -352
+      ],
+      "typeVersion": 1,
+      "id": "5427a7cb-1577-4f9d-a6e8-3f3ed4f6d00b",
+      "name": "Sticky Note2"
+    },
+    {
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "{{ $json.query }}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.6,
+      "position": [
+        -48,
+        -48
+      ],
+      "id": "0745d398-0ffe-46bc-a0ed-96c08632eec0",
+      "name": "Save Result to DB",
+      "credentials": {
+        "postgres": {
+          "id": "KmlSIh2WyCKBmPyw",
+          "name": "Postgres account 2"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "\n// ============================================================\n// EDYTUJ TE DWA POLA przed każdym uruchomieniem:\n// event_id: 'H_JFK26_OVERALL'    -> HYROX Men/Women\n//           'HPRO_JFK26_OVERALL' -> HYROX PRO Men/Women\n// sex:      'M' -> Men, 'W' -> Women\n// ============================================================\nconst event_id = 'H_JFK26_OVERALL';\nconst sex      = 'W';\n\n// Generuje strony 1-250 (puste strony są pomijane automatycznie)\nconst MAX_PAGES = 250;\nconst combos = [];\nfor (let page = 1; page <= MAX_PAGES; page++) {\n  combos.push({\n    json: { event_id, sex, age_class: '%', page: String(page) }\n  });\n}\nreturn combos;\n"
+      },
+      "id": "af8cd91f-07b1-4667-87ea-9a3d17267ccf",
+      "name": "Generate Combinations",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -2304,
+        -48
+      ]
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "id": "4628be57-57a2-421d-83d1-7c5a6eb94b78",
+      "name": "Loop Pages",
+      "type": "n8n-nodes-base.splitInBatches",
+      "typeVersion": 3,
+      "position": [
+        -2096,
+        -64
+      ]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "c1",
+              "leftValue": "={{ $json.skip }}",
+              "rightValue": true,
+              "operator": {
+                "type": "boolean",
+                "operation": "equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "id": "5a1623da-6c84-4300-ae48-9f981556a9ad",
+      "name": "Has Results?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        -976,
+        256
+      ]
+    },
+    {
+      "parameters": {
+        "content": "## Generowanie Kombinacji\n\nGeneruje **4 kombinacje**: 2 eventy × 2 płcie\n\n- HYROX Overall: \n- HYROX PRO Overall: \n- Płcie: M, W\n- age_class=% → wszyscy zawodnicy naraz\n\nℹ️ Rank per kategoria wiekową i tak jest w danych każdego zawodnika — nie trzeba pobierać osobno per age group.",
+        "height": 256,
+        "width": 480,
+        "color": 4
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        -2064,
+        -352
+      ],
+      "typeVersion": 1,
+      "id": "77733160-eb75-4117-8a74-f903aa8b7b73",
+      "name": "Sticky Note New"
+    },
+    {
+      "parameters": {
+        "jsCode": "\n// Przepisuje kluczowe pola z Parse List do kazdego itemu\n// tak zeby przetrwaly przez Fetch Single Details (HTTP Request)\nreturn $input.all().map(item => ({\n  json: {\n    event_id:   item.json.event_id,\n    sex:        item.json.sex,\n    idp:        item.json.idp,\n    detail_url: item.json.detail_url,\n    rank:       item.json.rank,\n    age_group:  item.json.age_group,\n    member:     item.json.member,\n    total:      item.json.total,\n  }\n}));\n"
+      },
+      "id": "e0090df3-4613-4da4-92a8-d98127eef113",
+      "name": "Keep Fields",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -1200,
+        -352
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "return [{ json: $('Loop Pages').item.json }];"
+      },
+      "id": "380e2545-b0b9-4e41-82db-267c69816609",
+      "name": "Collapse",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        192,
+        -48
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "// Zwraca oryginalny item strony do Loop Pages\n// Gwarantuje ze Loop Pages zawsze dostaje poprawny format danych\nreturn [{ json: $('Loop Pages').item.json }];"
+      },
+      "id": "65c5aa09-029b-4d1a-8812-68df9f440beb",
+      "name": "Next Page",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        384,
+        352
+      ]
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Start": {
+      "main": [
+        [
+          {
+            "node": "Generate Combinations",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Generate Combinations": {
+      "main": [
+        [
+          {
+            "node": "Loop Pages",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Loop Pages": {
+      "main": [
+        [],
+        [
+          {
+            "node": "Fetch Single Page",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Fetch Single Page": {
+      "main": [
+        [
+          {
+            "node": "Parse List",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Parse List": {
+      "main": [
+        [
+          {
+            "node": "Has Results?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Keep Fields": {
+      "main": [
+        [
+          {
+            "node": "Random Wait",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Random Wait": {
+      "main": [
+        [
+          {
+            "node": "Fetch Single Details",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Fetch Single Details": {
+      "main": [
+        [
+          {
+            "node": "Parse Result",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Parse Result": {
+      "main": [
+        [
+          {
+            "node": "Data to Query",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Data to Query": {
+      "main": [
+        [
+          {
+            "node": "Save Result to DB",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Save Result to DB": {
+      "main": [
+        [
+          {
+            "node": "Collapse",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Collapse": {
+      "main": [
+        [
+          {
+            "node": "Next Page",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Has Results?": {
+      "main": [
+        [],
+        [
+          {
+            "node": "Keep Fields",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Next Page": {
+      "main": [
+        [
+          {
+            "node": "Loop Pages",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate"
+  },
+  "versionId": "b19a90ac-7e6a-432d-9120-f0dce7df60b4",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "f356c6f6b9a294ff4f42429ed6b985fb6d2bc364987534ef08d8128d7e677c3f"
+  },
+  "id": "lQ8rC68O3nd6u4Yo",
+  "tags": []
+}

@@ -1,4 +1,4 @@
-# Natalia Mazuch — Data & Analytics Portfolio
+# Natalia Mazuch - Data & Analytics Portfolio
 
 Welcome to my data and analytics portfolio.
 

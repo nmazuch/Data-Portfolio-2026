@@ -1,0 +1,507 @@
+{
+  "name": "Agent_Faktury",
+  "nodes": [
+    {
+      "parameters": {
+        "options": {
+          "responseMode": "responseNodes"
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.chatTrigger",
+      "typeVersion": 1.4,
+      "position": [
+        -752,
+        -80
+      ],
+      "id": "f8337663-1d93-4641-a327-088101a6feee",
+      "name": "When chat message received",
+      "webhookId": "cbdd6816-d7d0-4fa8-9df1-260f763fdff0"
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "={{ $json.chatInput || $json.output }}",
+        "options": {
+          "systemMessage": "Jesteś ekspertem od analizy finansowej. Masz dostęp do bazy danych PostgreSQL z fakturami.\n\nSCHEMAT BAZY DANYCH:\n\nTabela: invoices\n- id (BIGINT) - klucz główny\n- invoice_number (TEXT) - numer faktury\n- issue_date (DATE) - data wystawienia\n- sale_date (DATE) - data sprzedaży\n- payment_due_date (DATE) - termin płatności\n- payment_method (TEXT) - metoda płatności (np. Przelew, Gotówka)\n- seller_name (TEXT) - nazwa sprzedawcy\n- seller_nip (TEXT) - NIP sprzedawcy\n- buyer_name (TEXT) - nazwa nabywcy\n- buyer_nip (TEXT) - NIP nabywcy\n- total_net (NUMERIC) - kwota netto\n- total_vat (NUMERIC) - kwota VAT\n- total_gross (NUMERIC) - kwota brutto\n- currency (TEXT) - waluta (domyślnie PLN)\n- created_at (TIMESTAMPTZ) - data dodania rekordu\n\nTabela: invoice_line_items\n- id (BIGINT) - klucz główny\n- invoice_id (BIGINT) - klucz obcy do invoices.id\n- lp (INTEGER) - numer porządkowy pozycji\n- name (TEXT) - nazwa pozycji\n- quantity (NUMERIC) - ilość\n- unit (TEXT) - jednostka miary\n- net_price (NUMERIC) - cena netto\n- net_value (NUMERIC) - wartość netto\n- vat_rate (TEXT) - stawka VAT\n- vat_value (NUMERIC) - wartość VAT\n- gross_value (NUMERIC) - wartość brutto\n- created_at (TIMESTAMPTZ) - data dodania rekordu\n\nTWÓJ PROCES (wykonuj zawsze w tej kolejności):\n\nKROK 1 — ZBIERZ KONTEKST\nPrzeczytaj uważnie wiadomość użytkownika. Zawiera ona odpowiedzi na pytania o zakres dat, firmę i typ analizy. Wyciągnij z niej wszystkie parametry przed przystąpieniem do zapytań.\n\nKROK 2 — WYKONAJ ANALIZĘ SQL\nUżywając narzędzia Postgres wykonaj zapytania SQL. Zawsze analizuj:\n- Liczbę faktur i sumy netto, VAT, brutto w podanym okresie\n- Top 5 najczęściej występujących pozycji na fakturach\n- Top 5 faktur o najwyższej wartości\n- Anomalie: faktury bez pozycji, pozycje z kwotą 0, różnice między total_gross a sumą gross_value pozycji\n- Dodatkowe analizy dobrane do pytania użytkownika\n\nZASADY SQL:\n- Zawsze używaj ILIKE do filtrowania nazw firm\n- Daty filtruj po kolumnie issue_date\n- Zawsze używaj aliasów: invoices AS i, invoice_line_items AS li\n- Zawsze poprzedzaj kolumny aliasem tabeli, szczególnie created_at\n- Nigdy nie używaj SELECT * — zawsze wypisuj kolumny z aliasem\n- Zawsze gdy używasz GROUP BY — wszystkie kolumny w SELECT muszą być w GROUP BY lub w funkcji agregującej\n- Nigdy nie pobieraj więcej niż 10 rekordów — używaj LIMIT 10\n- Nie pobieraj: seller_nip, buyer_nip, seller_address, buyer_address\n- Używaj agregacji i GROUP BY zamiast surowych wierszy\n- Przy trendach grupuj po TO_CHAR(issue_date, 'YYYY-MM')\n\nKROK 3 — WYGENERUJ RAPORT HTML\nNa podstawie zebranych danych wygeneruj kompletny raport HTML zgodnie z poniższymi wytycznymi.\n\nWYMAGANIA RAPORTU HTML:\n1. Nagłówek z tytułem i podtytułem\n2. Data i godzina wygenerowania\n3. Zakres analizowanych danych\n4. Sekcja KPI: liczba faktur, suma netto, suma VAT, suma brutto\n5. Sekcje dynamiczne dobrane do zapytania użytkownika\n6. Sekcja wniosków i obserwacji po polsku z własną interpretacją\n7. Sekcja anomalii — jeśli brak napisz \"Brak anomalii — dane są spójne\"\n8. Stopka\n\nUWAGA: Jeśli w tej wiadomości znajduje się sekcja \"UWAGI OPERATORA DO POPRAWKI\" — uwzględnij je przy generowaniu raportu i popraw wskazane elementy.\n\nSTYL HTML:\n- Tylko inline CSS, zero zewnętrznych arkuszy\n- max-width: 860px, margin: 0 auto\n- Obramowanie całego raportu: 1px solid #d4af37\n- Czcionka: Arial dla treści, Georgia dla nagłówków\n\nNAGŁÓWEK — użyj dokładnie tej struktury:\n<div style=\"background:#1e3a5f;padding:28px 32px 20px;\">\n  <div style=\"display:flex;justify-content:space-between;align-items:flex-start;\">\n    <div>\n      <div style=\"font-size:20px;font-weight:700;color:#d4af37;letter-spacing:2px;font-family:Georgia,serif;\">FINSIGHT</div>\n      <div style=\"font-size:11px;color:#8fa8c8;letter-spacing:1px;font-family:Arial,sans-serif;\">Invoice Analytics Agent</div>\n    </div>\n    <div style=\"text-align:right;\">\n      <div style=\"font-size:18px;color:#ffffff;font-weight:700;font-family:Georgia,serif;\">Raport Analizy Faktur</div>\n      <div style=\"font-size:11px;color:#8fa8c8;font-family:Arial,sans-serif;margin-top:4px;\">[WSTAW DATĘ I GODZINĘ]</div>\n    </div>\n  </div>\n  <div style=\"height:3px;background:#d4af37;margin-top:16px;\"></div>\n</div>\n<div style=\"background:#f5f0e8;border-bottom:1px solid #d4af37;padding:8px 32px;\">\n  <span style=\"font-size:11px;color:#7a6a40;font-family:Arial,sans-serif;text-transform:uppercase;letter-spacing:1px;\">Okres analizy: </span>\n  <span style=\"font-size:13px;color:#1e3a5f;font-family:Arial,sans-serif;font-weight:600;\">[WSTAW ZAKRES DAT]</span>\n</div>\n\nZasady wypełniania szablonu:\n- [WSTAW DATĘ I GODZINĘ] — format DD.MM.YYYY HH:MM, nigdy ISO z \"T\" i \"Z\"\n- [WSTAW ZAKRES DAT] — czytelny opis po polsku np. \"Kwiecień 2025\"\n- Jeśli brak zakresu dat — wpisz \"Wszystkie faktury\"\n\nKARTY KPI:\n- Grid 4 kolumny, gap:12px\n- Pierwsza karta (liczba faktur): tło #1e3a5f, label color:#8fa8c8, wartość font-size:22px color:#d4af37 font-family:Georgia\n- Środkowe karty (suma netto, suma VAT): tło #f5f0e8, label color:#7a6a40, wartość font-size:22px color:#1e3a5f font-family:Georgia\n- Ostatnia karta (suma brutto): tło #1e3a5f, label color:#8fa8c8, wartość font-size:22px color:#d4af37 font-family:Georgia\n\nTABELE:\n- width:100%, border-collapse:collapse\n- Nagłówki thead: background:#1e3a5f, color:#d4af37, font-size:10px, text-transform:uppercase, padding:10px 12px\n- Wiersze parzyste: background:#f9f7f2\n- Wiersze nieparzyste: background:#ffffff\n- Komórki td: padding:9px 12px, border-bottom:1px solid #ede8d8\n\nSEKCJE:\n- Tytuł sekcji: font-size:13px, color:#1e3a5f, font-weight:700, text-transform:uppercase, letter-spacing:1.5px\n- Border-left: 3px solid #d4af37, padding-left:10px, margin-bottom:14px\n\nANOMALIE:\n- Box: background:#fff8f0, border:1px solid #f5c4b3, border-left:3px solid #D85A30\n- Różnica kwot: color:#D85A30, font-weight:700\n\nWNIOSKI:\n- Box: background:#f0f4f8, border-left:3px solid #1e3a5f, padding:16px 20px\n- Tekst: font-size:13px, line-height:1.8, color:#2c2c2a\n\nSTOPKA:\n- Tło: #1e3a5f, padding:12px 32px\n- Lewa strona: \"Raport wygenerowany automatycznie przez FinSight · n8n + Supabase + OpenAI\" (font-size:10px, color:#8fa8c8)\n- Prawa strona: \"Strona 1/1\" (font-size:10px, color:#d4af37)\n\nZwróć WYŁĄCZNIE kod HTML bez markdown, bez backticks, bez komentarzy."
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 3.1,
+      "position": [
+        16,
+        -80
+      ],
+      "id": "61131f04-b343-493c-8187-bbef4278051c",
+      "name": "AI Agent"
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenRouter",
+      "typeVersion": 1,
+      "position": [
+        16,
+        176
+      ],
+      "id": "711290a1-8764-40ab-9bed-d9d7e379b749",
+      "name": "OpenRouter Chat Model",
+      "credentials": {
+        "openRouterApi": {
+          "id": "wMYAc2TGiVDqNeXJ",
+          "name": "OpenRouter account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "sendAndWait",
+        "message": "Raport FinSight został wygenerowany i wysłany na Twojego maila do podglądu.\n\nZatwierdź raport aby wysłać go do odbiorcy, lub odrzuć.",
+        "responseType": "approval",
+        "blockUserInput": true,
+        "approvalOptions": {
+          "values": {
+            "approvalType": "double",
+            "approveLabel": "Zatwierdź",
+            "disapproveLabel": "Odrzuć"
+          }
+        },
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.chat",
+      "typeVersion": 1.3,
+      "position": [
+        672,
+        -80
+      ],
+      "id": "94219a62-a602-4afb-ad13-3b12f6e95e66",
+      "name": "Chat",
+      "webhookId": "3200755f-e031-4fe4-b07d-0dc537a60840"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 3
+          },
+          "conditions": [
+            {
+              "id": "cb46b697-c832-42cf-b267-6b766d7c68ad",
+              "leftValue": "={{ $json.data.approved }}",
+              "rightValue": "true",
+              "operator": {
+                "type": "boolean",
+                "operation": "true",
+                "singleValue": true
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.3,
+      "position": [
+        832,
+        -80
+      ],
+      "id": "5612f0fe-124b-4cfc-9602-f768f615872a",
+      "name": "If"
+    },
+    {
+      "parameters": {
+        "fromEmail": "natalia_projekt@test-zkq340erdw3gd796.mlsender.net",
+        "toEmail": "nmazuch@gmail.com",
+        "subject": "=Raport FinSight ",
+        "html": "={{ $('Code in JavaScript').item.json.html_report }}",
+        "options": {
+          "appendAttribution": false,
+          "replyTo": "nmazuch@gmail.com"
+        }
+      },
+      "type": "n8n-nodes-base.emailSend",
+      "typeVersion": 2.1,
+      "position": [
+        976,
+        -192
+      ],
+      "id": "38aeca6b-e705-40ab-9a41-900b9c8b8d70",
+      "name": "Send an Email",
+      "webhookId": "8c5eb846-2664-473b-a57c-55642436fe33",
+      "credentials": {
+        "smtp": {
+          "id": "DXQKLRYgfmDxHASZ",
+          "name": "SMTP account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "INSERT INTO report_logs (status, generated_at, report_period, rejection_reason)\nVALUES (\n  'rejected',\n  NOW(),\n  'Brak danych okresu',\n  'Odrzucono przez operatora w interfejsie czatu'\n);",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.6,
+      "position": [
+        976,
+        64
+      ],
+      "id": "ea4793f8-b7c4-4396-bd45-b33bc9b3c0f2",
+      "name": "Execute a SQL query",
+      "credentials": {
+        "postgres": {
+          "id": "2vvyPqlgp9NbVYla",
+          "name": "Postgres account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "{{ $fromAI('query', 'SQL query to execute') }}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.postgresTool",
+      "typeVersion": 2.6,
+      "position": [
+        272,
+        160
+      ],
+      "id": "3b5e3477-d94e-4e12-84ae-092c60873dd8",
+      "name": "Execute a SQL query in Postgres",
+      "credentials": {
+        "postgres": {
+          "id": "2vvyPqlgp9NbVYla",
+          "name": "Postgres account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "fromEmail": "checkReport@test-zkq340erdw3gd796.mlsender.net",
+        "toEmail": "nmazuch@gmail.com",
+        "subject": "=[DO WERYFIKACJI] Raport FinSight - {{ $json.generated_at }}",
+        "html": "=<p style=\"font-family:Arial;font-size:14px;color:#1e3a5f;\">\nRaport został wygenerowany i oczekuje na Twoją akceptację.\n</p>\n<p style=\"font-family:Arial;font-size:13px;color:#555;\">\nPrzejdź do chatu n8n i wpisz <strong>zatwierdź</strong> lub <strong>odrzuć</strong>.\n</p>\n<hr style=\"border:1px solid #d4af37;margin:20px 0;\">\n{{ $json.html_report }}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.emailSend",
+      "typeVersion": 2.1,
+      "position": [
+        512,
+        -80
+      ],
+      "id": "8587fc41-8668-4e7c-bbc7-82546bc4d44d",
+      "name": "Send an Email1",
+      "webhookId": "149cd32c-ca07-41b8-b245-ada0702b3d03",
+      "credentials": {
+        "smtp": {
+          "id": "DXQKLRYgfmDxHASZ",
+          "name": "SMTP account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "={{ $json.chatInput }}",
+        "options": {
+          "systemMessage": "Jesteś asystentem do analizy faktur. \n\nGdy użytkownik poprosi o raport, ZAWSZE najpierw zadaj mu następujące pytania (wszystkie naraz, w jednej wiadomości):\n\n1. Za jaki okres ma być raport? (np. ostatnie 30 dni, konkretny miesiąc, zakres dat)\n2. Czy raport ma dotyczyć wszystkich firm/kontrahentów, czy konkretnego?\n3. Jaki rodzaj analizy Cię interesuje? (np. sumy, anomalie, top pozycje — lub wszystko)\n\nPoczekaj na odpowiedź użytkownika, zanim przejdziesz dalej. Nie generuj raportu dopóki nie uzyskasz tych informacji."
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 3.1,
+      "position": [
+        -544,
+        -64
+      ],
+      "id": "16489b0d-54f6-4951-950f-84f8a03c081e",
+      "name": "AI Agent1"
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenRouter",
+      "typeVersion": 1,
+      "position": [
+        -592,
+        160
+      ],
+      "id": "8f8f1bce-6fe8-4088-9f50-0d1e22cfd0eb",
+      "name": "OpenRouter Chat Model1",
+      "credentials": {
+        "openRouterApi": {
+          "id": "wMYAc2TGiVDqNeXJ",
+          "name": "OpenRouter account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "tableName": "n8n_chat_memory",
+        "contextWindowLength": 10
+      },
+      "type": "@n8n/n8n-nodes-langchain.memoryPostgresChat",
+      "typeVersion": 1.3,
+      "position": [
+        -464,
+        176
+      ],
+      "id": "9a2c064c-e49b-4d55-b22b-f8a8e8bbff9d",
+      "name": "Postgres Chat Memory",
+      "credentials": {
+        "postgres": {
+          "id": "2vvyPqlgp9NbVYla",
+          "name": "Postgres account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "tableName": "n8n_chat_memory"
+      },
+      "type": "@n8n/n8n-nodes-langchain.memoryPostgresChat",
+      "typeVersion": 1.3,
+      "position": [
+        128,
+        176
+      ],
+      "id": "980ce525-ffdf-4af9-9751-b235989cc4d1",
+      "name": "Postgres Chat Memory1",
+      "credentials": {
+        "postgres": {
+          "id": "2vvyPqlgp9NbVYla",
+          "name": "Postgres account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "const output = $input.first().json.output;\n\nreturn [{\n  json: {\n    html_report: output,\n    generated_at: new Date().toLocaleString('pl-PL')\n  }\n}];"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        320,
+        -80
+      ],
+      "id": "ca550b5c-7dbf-4c58-94e6-f7a2479dc284",
+      "name": "Code in JavaScript"
+    },
+    {
+      "parameters": {
+        "jsCode": "const previousReport = $('Code in JavaScript').first().json.html_report$\nconst operatorMessage = $input.first().json.data.message || 'Brak dodatkowych uwag';\n\nreturn [{\n  json: {\n    output: `Poprzedni raport został odrzucony przez operatora.\n\nUWAGI OPERATORA DO POPRAWKI:\n${operatorMessage}\n\nPoprzedni raport HTML:\n${previousReport}\n\nWygeneruj poprawiony raport uwzględniając powyższe uwagi. Jeśli brak uwag — popraw ogólną jakość i szczegółowość raportu.`\n  }\n}];"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        976,
+        256
+      ],
+      "id": "b16cd361-01bf-49cf-916a-f69ad39a10d5",
+      "name": "Code in JavaScript1"
+    },
+    {
+      "parameters": {
+        "operation": "sendAndWait",
+        "message": "={{ $json.output }}",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.chat",
+      "typeVersion": 1.3,
+      "position": [
+        -240,
+        -64
+      ],
+      "id": "7a56c0f8-4670-47e7-8b96-078b6c2728e9",
+      "name": "Chat1",
+      "webhookId": "15b047c8-3628-4eba-9b38-fceb45a31cd0"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "When chat message received": {
+      "main": [
+        [
+          {
+            "node": "AI Agent1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenRouter Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "AI Agent": {
+      "main": [
+        [
+          {
+            "node": "Code in JavaScript",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Chat": {
+      "main": [
+        [
+          {
+            "node": "If",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "If": {
+      "main": [
+        [
+          {
+            "node": "Send an Email",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Code in JavaScript1",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Execute a SQL query",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Execute a SQL query in Postgres": {
+      "ai_tool": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Send an Email1": {
+      "main": [
+        [
+          {
+            "node": "Chat",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenRouter Chat Model1": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "AI Agent1",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Postgres Chat Memory": {
+      "ai_memory": [
+        [
+          {
+            "node": "AI Agent1",
+            "type": "ai_memory",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Postgres Chat Memory1": {
+      "ai_memory": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_memory",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "AI Agent1": {
+      "main": [
+        [
+          {
+            "node": "Chat1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Code in JavaScript": {
+      "main": [
+        [
+          {
+            "node": "Send an Email1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Code in JavaScript1": {
+      "main": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Chat1": {
+      "main": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": true,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate"
+  },
+  "versionId": "8a50c451-58ea-4ae8-b3ea-396e46ca923b",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "f356c6f6b9a294ff4f42429ed6b985fb6d2bc364987534ef08d8128d7e677c3f"
+  },
+  "id": "Gf8Uz06ltkH6VIGk",
+  "tags": []
+}

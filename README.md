@@ -8,7 +8,6 @@ Here I share selected projects covering data analysis, business intelligence, SQ
 
 - 🚀 HYROX Analytics — end-to-end data analysis project
 - 🍷 Wine Quality Analytics — Power BI dashboard
-- 📚 Bookstore Business Analytics — SQL, Docker & Metabase
 - 🤖 AI Invoice Reporting Agent — AI & process automation
 - 🏙️ City Cost of Living Analysis — Python & statistics
 - 🚨 Public Safety Dashboard — Excel analytics
@@ -19,8 +18,6 @@ Here I share selected projects covering data analysis, business intelligence, SQ
 - SQL
 - Python
 - Power BI
-- Microsoft Fabric
-- Metabase
 - Docker
 - n8n
 - Supabase

@@ -12,6 +12,7 @@ Here I share selected projects covering data analysis, business intelligence, SQ
 - 🤖 AI Invoice Reporting Agent — AI & process automation
 - 🏙️ City Cost of Living Analysis — Python & statistics
 - 🚨 Public Safety Dashboard — Excel analytics
+- Sleep & Tech Analysis — Python & Power BI
 
 ## Skills & Technologies
 
